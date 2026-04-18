@@ -3,7 +3,7 @@
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) [![License](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](LICENSE.txt)
 
-**🔬 A curated list of representative papers, benchmarks, models, and open-source resources for Computational Pathology, spanning WSI learning, pathology foundation models, multimodal pathology, spatial omics, and pathology agents.**
+**🔬 A Curated List of Awesome Works in Computational Pathology, Aiming to Serve as a One-stop Resource for Researchers, Practitioners, and Enthusiasts Interested in Computational Pathology..**
 
 </div>
 
