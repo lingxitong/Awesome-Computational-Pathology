@@ -1,11 +1,28 @@
 # Awesome-Computational-Pathology
 <div align="center">
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) [![License](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](LICENSE.txt)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![Computational Pathology](https://img.shields.io/badge/Topic-Computational%20Pathology-8A2BE2.svg)](#)
+[![License](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](LICENSE.txt)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-**🔬 A Curated List of Awesome Works in Computational Pathology, Aiming to Serve as a One-stop Resource for Researchers, Practitioners, and Enthusiasts Interested in Computational Pathology..**
+**📜 A Curated List of Amazing Works in Computational Pathology, spanning whole-slide learning, pathology foundation models, multimodal pathology, spatial omics, vision-language models, and clinical applications.**  
+*Focused on papers, benchmarks, datasets, and open-source repositories for modern computational pathology.*
 
 </div>
+
+---
+
+## 🚩 News & Updates
+_Major updates and repository announcements are shown below._
+
+🚧 **[Ongoing] Repository Refocus** — This list is being rebuilt around **computational pathology**, with the original awesome-list visual style preserved.
+
+🗂️ **[Ongoing] Curated by Topic** — Papers are organized by **datasets, MIL, patch-level FMs, slide-level FMs, multi-omics, pathology VLMs, and clinical applications**.
+
+💡 **[Ongoing] Contributions Welcome** — If you would like to add missing papers, repos, or benchmarks, feel free to open a PR.
+
+⭐ **[Ongoing] Please Star This Project** — If this list helps your research, consider starring the repository and citing it in your own awesome lists.
 
 ---
 
@@ -31,533 +48,453 @@
 
 ## Aim of the Project
 
-Computational pathology has rapidly evolved from handcrafted feature engineering and patch-based classification to whole-slide learning, pathology foundation models, multimodal vision-language systems, and clinically oriented pathology agents.
+Computational pathology has rapidly evolved from handcrafted image analysis pipelines to **whole-slide learning**, **foundation models**, **multimodal pathology-language systems**, and **morphology-to-omics prediction**.  
+At the same time, the literature has become fragmented across pathology, machine learning, computer vision, spatial biology, and multimodal AI.
 
 This repository aims to:
 
-- 🔍 **Organize** representative papers and codebases across the major subareas of computational pathology.
-- 🗺️ **Provide** a clean roadmap from classical WSI pipelines to recent pathology foundation models and multimodal systems.
-- 🧱 **Bridge** patch-level modeling, slide-level representation learning, nuclei/cell analysis, pathology-language modeling, and omics integration.
-- 📚 **Serve** as a practical starting point for students, researchers, and engineers entering the field.
-- 🚀 **Track** open-source resources that are actually useful for reproduction, benchmarking, and downstream development.
-
-This list is intentionally **curated rather than exhaustive**. The goal is not to collect every paper, but to keep the structure readable and useful.
+- 🔍 **Organize** representative papers, datasets, toolkits, and repositories in computational pathology
+- 🗺️ **Provide** a clean map of the field from classical WSI learning to modern foundation models
+- 🤝 **Bridge** communities working on digital pathology, multimodal medicine, spatial biology, and medical AI
+- 📚 **Serve** as a compact reading list for new researchers and a practical reference for experienced practitioners
+- 🚀 **Track** open-source progress in pathology AI, especially around benchmarks and reproducibility
 
 ---
 
 ## Definition of Computational Pathology
 
-Computational pathology studies how to extract quantitative, reproducible, and clinically meaningful information from pathology images, especially whole-slide images (WSIs), using computer vision, machine learning, multimodal learning, and increasingly foundation models.
+Computational pathology refers to the use of **algorithmic, statistical, and machine learning methods** to analyze digitized pathology data, especially whole-slide images (WSIs), region-of-interest (ROI) images, cell/nuclei annotations, reports, and paired molecular measurements.
 
-Typical research objects include:
+Representative entry points include:
 
-- **Patch / ROI-level pathology images**
-- **Whole-slide images (WSIs)**
-- **Cell / nuclei morphology and spatial organization**
-- **Pathology reports and pathology-language supervision**
-- **Genomics, transcriptomics, and spatial omics paired with histology**
+- [⭐️] **Computational Pathology: Challenges and Promises for Tissue Analysis**.  
+  [![Nature Medicine](https://img.shields.io/badge/Nature%20Medicine-Paper-1f77b4.svg)](https://www.nature.com/articles/s41591-019-0462-y)
 
-Typical downstream tasks include:
+- [⭐️] **Computational Pathology: A Survey Review and The Way Forward**.  
+  [![arXiv](https://img.shields.io/badge/arXiv-2304.05482-b31b1b.svg)](https://arxiv.org/abs/2304.05482)
 
-- Slide-level classification and subtyping
-- Tumor detection and grading
-- Biomarker and mutation prediction
-- Survival / prognosis modeling
-- Nuclei / cell / tissue segmentation
-- Report generation and pathology VQA
-- Histology-omics alignment and gene expression prediction
+- [⭐️] **A Survey on Computational Pathology Foundation Models: Datasets, Adaptation Strategies, and Evaluation Tasks**.  
+  [![arXiv](https://img.shields.io/badge/arXiv-2501.15724-b31b1b.svg)](https://arxiv.org/abs/2501.15724)
+
+- **A Survey of Pathology Foundation Models: Progress and Future Directions**.  
+  [![IJCAI 2025](https://img.shields.io/badge/IJCAI-2025-6A5ACD.svg)](https://www.ijcai.org/proceedings/2025/1193.pdf)
+
+- **Pathology Feature Extractors and Foundation Models** — a living index of pathology encoders and FMs.  
+  [![Website](https://img.shields.io/badge/Website-Link-blue.svg)](https://github.com/georg-wolflein/pathology-foundation-models)
 
 ---
 
 ## Surveys, Reviews, and Perspectives
 
-### Selected surveys
+### 1. General Computational Pathology
+- [⭐️] **Computational Pathology: Challenges and Promises for Tissue Analysis**.  
+  [![Nature Medicine](https://img.shields.io/badge/Nature%20Medicine-Paper-1f77b4.svg)](https://www.nature.com/articles/s41591-019-0462-y)
 
-- **A Survey on Computational Pathology Foundation Models**  
-  - **Summary:** A focused survey on pathology foundation models, including datasets, pretraining paradigms, adaptation strategies, and evaluation settings.  
-  - **Paper:** https://arxiv.org/abs/2501.15724  
-  - **Code / Project:** https://github.com/georg-wolflein/pathology-foundation-models
+- [⭐️] **Computational Pathology: A Survey Review and The Way Forward**.  
+  [![arXiv](https://img.shields.io/badge/arXiv-2304.05482-b31b1b.svg)](https://arxiv.org/abs/2304.05482)
 
-- **A Survey of Pathology Foundation Model: Progress and Perspectives**  
-  - **Summary:** A more taxonomy-oriented survey discussing patch encoders, slide encoders, multimodal models, and future directions.  
-  - **Paper:** https://www.ijcai.org/proceedings/2025/1193.pdf  
-  - **Code / Project:** https://github.com/georg-wolflein/pathology-foundation-models
+- **A Guide to Artificial Intelligence for Cancer Researchers**.  
+  [![Nature Reviews Cancer](https://img.shields.io/badge/Nature%20Reviews-Paper-8c564b.svg)](https://www.nature.com/articles/s41568-024-00757-5)
 
-- **Pathology Feature Extractors and Foundation Models**  
-  - **Summary:** A living list of pathology feature extractors and foundation models, useful as a practical companion resource.  
-  - **Paper / Project:** https://github.com/georg-wolflein/pathology-foundation-models
+### 2. Foundation Models in Pathology
+- [⭐️] **A Survey on Computational Pathology Foundation Models**.  
+  [![arXiv](https://img.shields.io/badge/arXiv-2501.15724-b31b1b.svg)](https://arxiv.org/abs/2501.15724)
 
-- **Awesome Digital and Computational Pathology**  
-  - **Summary:** A broad open-source collection spanning datasets, segmentation, WSI analysis, multimodal pathology, and tooling.  
-  - **Project:** https://github.com/open-pathology/awesome-pathology
+- [⭐️] **A Survey of Pathology Foundation Models: Progress and Future Directions**.  
+  [![IJCAI 2025](https://img.shields.io/badge/IJCAI-2025-6A5ACD.svg)](https://www.ijcai.org/proceedings/2025/1193.pdf)
 
-- **Awesome Computational Pathology Papers**  
-  - **Summary:** A fast-moving collection of recent computational pathology papers, especially useful for tracking 2024–2025 model releases.  
-  - **Project:** https://github.com/DearCaat/Awesome-Computational-Pathology-Papers
+- **A Survey on Foundation and Vision-Language Models in Computational Pathology**.  
+  [![arXiv](https://img.shields.io/badge/arXiv-2408.14496-b31b1b.svg)](https://arxiv.org/abs/2408.14496)
+
+- **Pathology Feature Extractors and Foundation Models**.  
+  [![Website](https://img.shields.io/badge/Website-Link-blue.svg)](https://github.com/georg-wolflein/pathology-foundation-models)
+
+### 3. Awesome Lists and Reading Lists
+- **Awesome Digital and Computational Pathology**.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/open-pathology/awesome-pathology)
+
+- **Awesome Computational Pathology Papers**.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/DearCaat/Awesome-Computational-Pathology-Papers)
+
+- **Guide4PathAI**.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/WonderLandxD/Guide4PathAI)
 
 ---
 
 ## Datasets and Benchmarks
 
-### Whole-slide classification and grading
+### 1. Whole-Slide Classification and Grading
+- [⭐️] **CAMELYON16** — lymph node metastasis detection benchmark.  
+  [![Dataset](https://img.shields.io/badge/Dataset-CAMELYON16-orange.svg)](https://camelyon16.grand-challenge.org/Data/)
 
-- **CAMELYON16 / CAMELYON17**  
-  - **Type:** WSI metastasis detection benchmark  
-  - **Summary:** A classic benchmark for lymph node metastasis detection and one of the most influential entry points into weakly supervised WSI learning.  
-  - **Dataset:** https://camelyon16.grand-challenge.org/Data/  
-  - **Related Code:** https://github.com/arjunvekariyagithub/camelyon16-grand-challenge
+- [⭐️] **CAMELYON17** — whole-slide and patient-level metastasis benchmark.  
+  [![Dataset](https://img.shields.io/badge/Dataset-CAMELYON17-orange.svg)](https://camelyon17.grand-challenge.org/)
 
-- **PANDA**  
-  - **Type:** WSI prostate grading benchmark  
-  - **Summary:** A large public WSI dataset for prostate cancer grading collected from Radboud University Medical Center and Karolinska Institute.  
-  - **Dataset Intro:** https://github.com/DIAGNijmegen/panda-challenge/blob/main/notebooks/getting-started-with-the-panda-dataset.ipynb  
-  - **Winning Solution:** https://github.com/kentaroy47/Kaggle-PANDA-1st-place-solution
+- [⭐️] **PANDA** — large-scale prostate cancer grading benchmark.  
+  [![Dataset](https://img.shields.io/badge/Dataset-PANDA-orange.svg)](https://panda.grand-challenge.org/)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/DIAGNijmegen/panda-challenge)
 
-- **TCGA Processing Pipeline for MIL**  
-  - **Type:** WSI data processing and benchmarking support  
-  - **Summary:** Not a dataset release by itself, but one of the most useful public pipelines for turning TCGA slides into reproducible MIL-ready data.  
-  - **Project:** https://github.com/liupei101/Pipeline-Processing-TCGA-Slides-for-MIL
+- **TCGA Processing Pipeline for MIL** — practical WSI preprocessing for weakly supervised learning.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/liupei101/Pipeline-Processing-TCGA-Slides-for-MIL)
 
-### Nuclei / cell-level datasets
+### 2. Nuclei / Cell-Level Datasets
+- [⭐️] **PanNuke** — pan-cancer nuclei instance segmentation and classification.  
+  [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2003.10778)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/TissueImageAnalytics/PanNuke-metrics)
 
-- **PanNuke**  
-  - **Type:** Pan-cancer nuclei instance segmentation and classification  
-  - **Summary:** A widely used nuclei benchmark covering multiple tissue types and nuclei classes.  
-  - **Paper:** https://arxiv.org/abs/2003.10778  
-  - **Metrics / Evaluation:** https://github.com/TissueImageAnalytics/PanNuke-metrics
+- **NuCLS** — nucleus classification, localization, and segmentation dataset.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/PathologyDataScience/NuCLS)
 
-- **NuCLS**  
-  - **Type:** Nucleus classification, localization, and segmentation  
-  - **Summary:** A large breast pathology nuclei dataset with crowd-assisted and expert-refined labels.  
-  - **Paper / Dataset:** https://github.com/PathologyDataScience/NuCLS
+### 3. Histology + Spatial Omics Benchmarks
+- [⭐️] **HEST-1k / HEST-Benchmark** — histology + spatial transcriptomics benchmark.  
+  [![Paper](https://img.shields.io/badge/Paper-NeurIPS%202024-b31b1b.svg)](https://arxiv.org/abs/2406.16192)
+  [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-orange.svg)](https://huggingface.co/datasets/MahmoodLab/hest)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/HEST)
 
-### Histology + spatial omics / multimodal benchmarks
+- **HISTAI** — open-access whole-slide image resource for pathology AI.  
+  [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.12120)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/HistAI/HISTAI)
 
-- **HEST-1k / HEST-Benchmark**  
-  - **Type:** Histology + spatial transcriptomics benchmark  
-  - **Summary:** A major recent benchmark for evaluating pathology foundation models on morphology-to-expression transfer and multimodal learning.  
-  - **Project:** https://github.com/mahmoodlab/HEST  
-  - **Dataset Card:** https://huggingface.co/datasets/MahmoodLab/hest
+- **MindLab-DP/Datasets** — practical collection of digital pathology datasets.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/MindLab-DP/Datasets)
 
-- **HISTAI**  
-  - **Type:** Large-scale open WSI dataset  
-  - **Summary:** A large open-access WSI resource designed to improve openness, reproducibility, and downstream evaluation breadth in computational pathology.  
-  - **Paper:** https://arxiv.org/abs/2505.12120  
-  - **Project:** https://github.com/HistAI/HISTAI
+### 4. Unified Benchmarking Frameworks
+- [⭐️] **UnPuzzle** — unified framework for pathology image analysis.  
+  [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.03152)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/Puzzle-AI/UnPuzzle)
 
-- **UnPuzzle Benchmark**  
-  - **Type:** Unified pathology benchmarking framework  
-  - **Summary:** A framework for benchmarking both ROI and WSI models under a unified experimental pipeline.  
-  - **Paper:** https://arxiv.org/abs/2503.03152  
-  - **Code:** https://github.com/Puzzle-AI/UnPuzzle
+- **Patho-Bench** — standardized benchmark for pathology foundation models.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/Patho-Bench)
 
 ---
 
 ## Multiple Instance Learning
 
-Multiple Instance Learning (MIL) remains the dominant paradigm for weakly supervised WSI classification. A slide is treated as a bag of patch embeddings, and the main modeling question is how to aggregate instance evidence into a slide-level prediction.
+### 1. Foundational MIL Methods
+- [⭐️] **ABMIL** — attention-based deep multiple instance learning.  
+  [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/1802.04712)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/AMLab-Amsterdam/AttentionDeepMIL)
 
-### Foundational MIL methods
+- [⭐️] **CLAM** — clustering-constrained attention MIL for WSI classification.  
+  [![Nature Biomedical Engineering](https://img.shields.io/badge/Nature%20BME-Paper-1f77b4.svg)](https://www.nature.com/articles/s41551-020-00682-w)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/CLAM)
 
-- **Attention-based Deep Multiple Instance Learning (ABMIL)**  
-  - **Summary:** The classical attention-pooling MIL method that influenced much of modern WSI aggregation.  
-  - **Paper:** https://arxiv.org/abs/1802.04712  
-  - **Code:** https://github.com/AMLab-Amsterdam/AttentionDeepMIL
+- [⭐️] **DSMIL** — dual-stream MIL for WSI classification.  
+  [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2011.08939)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/binli123/dsmil-wsi)
 
-- **CLAM**  
-  - **Summary:** One of the most influential WSI MIL frameworks, emphasizing data-efficient weak supervision and attention-based instance selection.  
-  - **Paper:** https://www.nature.com/articles/s41551-020-00682-w  
-  - **Code:** https://github.com/mahmoodlab/CLAM
+- [⭐️] **TransMIL** — correlated MIL with transformers.  
+  [![NeurIPS 2021](https://img.shields.io/badge/NeurIPS-2021-6A5ACD.svg)](https://proceedings.neurips.cc/paper/2021/hash/10c272d06794d3e5785d5e7c5356e9ff-Abstract.html)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/szc19990412/TransMIL)
 
-- **DSMIL**  
-  - **Summary:** A dual-stream MIL method that became a strong and widely reused baseline for slide classification.  
-  - **Paper:** https://arxiv.org/abs/2011.08939  
-  - **Code:** https://github.com/binli123/dsmil-wsi
+- [⭐️] **HIPT** — hierarchical image pyramid transformer for gigapixel pathology.  
+  [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2206.02647)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/HIPT)
 
-- **TransMIL**  
-  - **Summary:** A transformer-based correlated MIL framework that explicitly models inter-instance correlation beyond i.i.d. assumptions.  
-  - **Paper:** https://proceedings.neurips.cc/paper/2021/hash/10c272d06794d3e5785d5e7c5356e9ff-Abstract.html  
-  - **Code:** https://github.com/szc19990412/transmil
+### 2. Recent MIL Extensions and Reproducible Libraries
+- **ACMIL** — attention-challenging MIL.  
+  [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.07125)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/dazhangyu123/ACMIL)
 
-- **HIPT**  
-  - **Summary:** A hierarchical transformer framework connecting patch- and region-scale representations for gigapixel pathology.  
-  - **Paper:** https://arxiv.org/abs/2206.02647  
-  - **Code:** https://github.com/mahmoodlab/HIPT
+- **MIL-Lab / FEATHER** — modern pathology MIL training library and pretrained aggregators.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/MIL-Lab)
 
-### Recent MIL extensions
+- **PathBench-MIL** — benchmarking / AutoML framework for pathology MIL.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/Sbrussee/PathBench-MIL)
 
-- **ACMIL**  
-  - **Summary:** A more recent attention-oriented MIL variant designed for stronger WSI classification under weak supervision.  
-  - **Paper:** https://arxiv.org/abs/2311.07125  
-  - **Code:** https://github.com/dazhangyu123/ACMIL
+- **MIL_BASELINE** — simple pathology MIL baseline template.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/lingxitong/MIL_BASELINE)
 
-- **MIL-Lab / FEATHER**  
-  - **Summary:** A modern open repository for MIL training and pretrained ABMIL-style aggregators on large pathology cohorts.  
-  - **Project:** https://github.com/mahmoodlab/MIL-Lab
-
-- **Awesome MIL for WSI**  
-  - **Summary:** A curated companion list for researchers specifically interested in WSI MIL literature.  
-  - **Project:** https://github.com/peterlipan/Awesome-Multi-instance-Learning-for-Whole-Slide-Images
+- **Awesome Multi-instance Learning for Whole Slide Images**.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/peterlipan/Awesome-Multi-instance-Learning-for-Whole-Slide-Images)
 
 ---
 
 ## Patch-Level Foundation Models
 
-Patch-level pathology foundation models learn transferable histology representations from large-scale image pretraining, usually via self-supervised learning or vision-language alignment.
+### 1. Vision-Only Pathology Foundation Models
+- [⭐️] **UNI** — general-purpose pathology foundation model.  
+  [![Nature Medicine](https://img.shields.io/badge/Nature%20Medicine-Paper-1f77b4.svg)](https://www.nature.com/articles/s41591-024-02857-3)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/UNI)
 
-- **UNI**  
-  - **Type:** General-purpose pathology vision foundation model  
-  - **Summary:** One of the most widely adopted open pathology encoders for downstream patch and WSI pipelines.  
-  - **Paper:** https://www.nature.com/articles/s41591-024-02857-3  
-  - **Code:** https://github.com/mahmoodlab/UNI
+- [⭐️] **Virchow** — million-slide digital pathology foundation model.  
+  [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2309.07778)
 
-- **CONCH**  
-  - **Type:** Vision-language pathology foundation model  
-  - **Summary:** A pathology-specific visual-language foundation model trained with large-scale image-caption pairs, often used as a strong patch encoder.  
-  - **Paper:** https://www.nature.com/articles/s41591-024-02856-4  
-  - **Code:** https://github.com/mahmoodlab/CONCH
+- [⭐️] **Virchow2** — large-scale pathology vision foundation model.  
+  [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2408.00738)
+  [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/paige-ai/Virchow2)
 
-- **Virchow / Virchow2**  
-  - **Type:** Large-scale pathology vision foundation models  
-  - **Summary:** Paige’s Virchow family pushed scale, diversity, and mixed-magnification training for histopathology pretraining.  
-  - **Paper (Virchow2):** https://arxiv.org/abs/2408.00738  
-  - **Weights / Model Card:** https://huggingface.co/paige-ai/Virchow2
+- **H-Optimus-1** — large histology encoder.  
+  [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/bioptimus/H-optimus-1)
 
-- **H-Optimus-1**  
-  - **Type:** Large histology foundation model  
-  - **Summary:** A very large pathology encoder released with an emphasis on high-fidelity embeddings for downstream pathology tasks.  
-  - **Model Card:** https://huggingface.co/bioptimus/H-optimus-1  
-  - **Fine-tuning Example:** https://github.com/aws-samples/ai-digital-pathology
+- **Hibou** — pathology vision transformers and downstream segmentation models.  
+  [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.05074)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/histai/hibou)
 
-- **Hibou**  
-  - **Type:** DINOv2-style pathology vision transformers  
-  - **Summary:** A family of pathology vision transformers trained at scale and used in both patch-level and downstream WSI pipelines.  
-  - **Paper:** https://arxiv.org/abs/2406.05074  
-  - **Code:** https://github.com/histai/hibou
+- **PathoDuet** — foundation models for H&E and IHC slide analysis.  
+  [![Paper](https://img.shields.io/badge/Paper-MedIA-b31b1b.svg)](https://www.sciencedirect.com/science/article/abs/pii/S1361841524002147)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/openmedlab/PathoDuet)
+
+### 2. Vision-Language Pathology Foundation Models
+- [⭐️] **CONCH** — contrastive learning from captions for histopathology.  
+  [![Nature Medicine](https://img.shields.io/badge/Nature%20Medicine-Paper-1f77b4.svg)](https://www.nature.com/articles/s41591-024-02856-4)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/CONCH)
+
+- **MUSK** — multimodal transformer with unified masked modeling for precision oncology.  
+  [![Nature](https://img.shields.io/badge/Nature-Paper-1f77b4.svg)](https://www.nature.com/articles/s41586-024-08437-2)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/lilab-stanford/MUSK)
 
 ---
 
 ## Slide-Level Foundation Models and Slide Encoders
 
-Slide-level models move beyond independent patch encoding and aim to learn **whole-slide** or **patient-level** representation spaces directly.
+### 1. Image-First Slide Encoders
+- [⭐️] **Prov-GigaPath** — tile encoder + slide encoder for whole-slide representation learning.  
+  [![Nature](https://img.shields.io/badge/Nature-Paper-1f77b4.svg)](https://www.nature.com/articles/s41586-024-07441-w)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/prov-gigapath/prov-gigapath)
 
-- **Prov-GigaPath**  
-  - **Type:** Image-first slide foundation model  
-  - **Summary:** A landmark open-weight whole-slide model containing both a tile encoder and a slide encoder.  
-  - **Paper:** https://www.nature.com/articles/s41586-024-07441-w  
-  - **Code:** https://github.com/prov-gigapath/prov-gigapath
+- [⭐️] **CHIEF** — clinically oriented pathology foundation / slide encoder.  
+  [![Nature Medicine](https://img.shields.io/badge/Nature%20Medicine-Paper-1f77b4.svg)](https://www.nature.com/articles/s41591-024-03141-0)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/hms-dbmi/CHIEF)
 
-- **CHIEF**  
-  - **Type:** Clinical-grade pathology foundation model / slide encoder  
-  - **Summary:** A clinically oriented pathology foundation model emphasizing robustness across cancers and rare cancer detection.  
-  - **Paper:** https://www.nature.com/articles/s41591-024-03141-0  
-  - **Code:** https://github.com/hms-dbmi/CHIEF
+### 2. Multimodal Slide Foundation Models
+- [⭐️] **TITAN** — multimodal whole-slide foundation model for pathology.  
+  [![Nature Medicine](https://img.shields.io/badge/Nature%20Medicine-Paper-1f77b4.svg)](https://www.nature.com/articles/s41591-025-03982-3)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/TITAN)
 
-- **TITAN**  
-  - **Type:** Multimodal whole-slide foundation model  
-  - **Summary:** A major recent whole-slide model combining visual SSL and pathology-language supervision for slide representation learning, retrieval, zero-shot use, and report generation.  
-  - **Paper:** https://www.nature.com/articles/s41591-025-03982-3  
-  - **Code:** https://github.com/mahmoodlab/TITAN
-
-- **PRISM / PRISM2**  
-  - **Type:** Multimodal slide-level foundation models  
-  - **Summary:** A multimodal slide embedding framework using pathology images and clinical text for slide-level reasoning and report-style generation.  
-  - **Model Card (PRISM):** https://huggingface.co/paige-ai/Prism  
-  - **Paper (PRISM2):** https://arxiv.org/abs/2506.13063
-
-- **Threads**  
-  - **Type:** Molecularly driven slide foundation model  
-  - **Summary:** A slide-level foundation model pretrained using paired histology, genomics, and transcriptomics.  
-  - **Paper:** https://arxiv.org/abs/2501.16652
-
-- **mSTAR**  
-  - **Type:** Multimodal whole-slide pretraining framework  
-  - **Summary:** A whole-slide pretraining strategy that injects multimodal context into pathology foundation model learning.  
-  - **Paper:** https://arxiv.org/abs/2407.15362  
-  - **Code:** https://github.com/Innse/mSTAR
+- **CPath-Omni** — unified multimodal FM for patch and whole-slide analysis.  
+  [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.12077)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/PathFoundation/CPath-Omni)
 
 ---
 
 ## Computational Pathology with Multi-Omics
 
-This line of work studies how histology can be aligned with transcriptomics, genomics, methylation, or spatial omics, either for representation learning or for direct molecular prediction.
+### 1. Histology + Spatial Transcriptomics
+- [⭐️] **HEST-1k** — paired histology and spatial transcriptomics benchmark.  
+  [![Paper](https://img.shields.io/badge/Paper-NeurIPS%202024-b31b1b.svg)](https://arxiv.org/abs/2406.16192)
+  [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-orange.svg)](https://huggingface.co/datasets/MahmoodLab/hest)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/HEST)
 
-- **HE2RNA**  
-  - **Type:** Histology-to-transcriptomics prediction  
-  - **Summary:** A pioneering method showing that transcriptomic profiles can be predicted from WSIs without dense expert annotation.  
-  - **Paper:** https://www.nature.com/articles/s41467-020-17678-4  
-  - **Code:** https://github.com/owkin/HE2RNA_code
+- **Hist2ST** — gene expression prediction from histology images.  
+  [![Paper](https://img.shields.io/badge/Paper-ACM%20MM-b31b1b.svg)](https://dl.acm.org/doi/10.1145/3503161.3548307)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/biomed-AI/Hist2ST)
 
-- **TANGLE**  
-  - **Type:** Transcriptomics-guided slide representation learning  
-  - **Summary:** A modern method that uses transcriptomic supervision to improve slide-level representation learning.  
-  - **Paper:** https://arxiv.org/abs/2405.11618  
-  - **Code:** https://github.com/mahmoodlab/TANGLE
+- **THItoGene** — integrating histology and spatial transcriptomics for gene prediction.  
+  [![Paper](https://img.shields.io/badge/Paper-bioRxiv-b31b1b.svg)](https://www.biorxiv.org/content/10.1101/2024.01.25.577035v1)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/yrjia1015/THItoGene)
 
-- **PathOmics**  
-  - **Type:** Pathology-genomics multimodal transformer  
-  - **Summary:** A representative multimodal transformer for fusing pathology and genomics for survival prediction.  
-  - **Paper:** https://www.sciencedirect.com/science/article/pii/S1361841523000506  
-  - **Code:** https://github.com/Cassie07/PathOmics
+- **BLEEP** — bimodal embedding for expression prediction.  
+  [![Paper](https://img.shields.io/badge/Paper-Nature%20Methods-b31b1b.svg)](https://www.nature.com/articles/s41592-024-02318-8)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/bowang-lab/BLEEP)
 
-- **HE2Gene**  
-  - **Type:** Image-to-RNA prediction for spatial transcriptomics  
-  - **Summary:** A multi-task learning framework that predicts spot-level gene expression and pathology annotations from H&E images.  
-  - **Paper:** https://academic.oup.com/bioinformatics/article/40/6/btae343/7688334  
-  - **Code:** https://github.com/Microbiods/HE2Gene
+- **MERGE** — hierarchical graph-based GNN for gene expression prediction from WSIs.  
+  [![Paper](https://img.shields.io/badge/Paper-CVPR%202025-b31b1b.svg)](https://arxiv.org/abs/2412.02601)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/ags3927/MERGE)
 
-- **SEAL**  
-  - **Type:** Spatial transcriptomics-driven pathology FM adaptation  
-  - **Summary:** A recent framework for enhancing pathology foundation models using localized spatial-expression supervision.  
-  - **Paper:** https://arxiv.org/abs/2602.14177  
-  - **Code:** https://github.com/mahmoodlab/SEAL
+### 2. Histology + Spatial Proteomics / Cross-Stain Modeling
+- **KRONOS** — foundation model for multiplex spatial proteomic images.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/KRONOS)
 
-- **HEST**  
-  - **Type:** Benchmark and library for histology + spatial transcriptomics  
-  - **Summary:** A key dataset and benchmarking suite for multimodal histology–spatial omics learning.  
-  - **Project:** https://github.com/mahmoodlab/HEST
+- **PathoDuet** — foundation models for H&E and IHC stains.  
+  [![Paper](https://img.shields.io/badge/Paper-MedIA-b31b1b.svg)](https://www.sciencedirect.com/science/article/abs/pii/S1361841524002147)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/openmedlab/PathoDuet)
+
+- **SpatialFusion** — multimodal niche discovery from spatial transcriptomics + histology.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/uhlerlab/spatialfusion)
 
 ---
 
 ## Vision-Language Models and Pathology Agents
 
-Pathology is increasingly moving toward models that jointly reason over **image, slide context, pathology text, and report-style outputs**.
+### 1. Patch- and Slide-Level Pathology VLMs
+- [⭐️] **PathChat** — multimodal generative AI copilot for human pathology.  
+  [![Nature](https://img.shields.io/badge/Nature-Paper-1f77b4.svg)](https://www.nature.com/articles/s41586-024-07618-3)
+  [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.07814)
+  [![Project](https://img.shields.io/badge/Project-AIHealth-blue.svg)](https://github.com/DeepReasoning/aihealth)
 
-- **PathChat**  
-  - **Type:** Multimodal pathology copilot  
-  - **Summary:** A large-scale pathology-specific multimodal assistant trained on visual-language instructions.  
-  - **Paper:** https://www.nature.com/articles/s41586-024-07618-3
+- [⭐️] **SlideChat** — large vision-language assistant for whole-slide pathology understanding.  
+  [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.11761)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/uni-medical/SlideChat)
 
-- **SlideChat**  
-  - **Type:** WSI-level vision-language assistant  
-  - **Summary:** One of the first systems explicitly designed for gigapixel whole-slide conversational understanding.  
-  - **Paper:** https://arxiv.org/abs/2410.11761  
-  - **Code:** https://github.com/uni-medical/SlideChat
+- **CPath-Omni** — unified multimodal FM across patch and WSI scales.  
+  [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.12077)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/PathFoundation/CPath-Omni)
 
-- **HistoGPT**  
-  - **Type:** Pathology report generation model  
-  - **Summary:** A vision-language model for report generation from multiple full-resolution histology slides.  
-  - **Paper:** https://www.nature.com/articles/s41467-025-60014-x  
-  - **Code:** https://github.com/marrlab/HistoGPT
+- **CONCH** — caption-aligned pathology VLM backbone.  
+  [![Nature Medicine](https://img.shields.io/badge/Nature%20Medicine-Paper-1f77b4.svg)](https://www.nature.com/articles/s41591-024-02856-4)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/CONCH)
 
-- **WsiCaption**  
-  - **Type:** WSI report generation  
-  - **Summary:** A multiple-instance generation framework for pathology report generation from gigapixel slides.  
-  - **Paper:** https://arxiv.org/abs/2311.16480  
-  - **Code:** https://github.com/cpystan/Wsi-Caption
+- **MUSK** — precision oncology VLM.  
+  [![Nature](https://img.shields.io/badge/Nature-Paper-1f77b4.svg)](https://www.nature.com/articles/s41586-024-08437-2)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/lilab-stanford/MUSK)
 
-- **CPath-Omni**  
-  - **Type:** Unified multimodal pathology foundation model  
-  - **Summary:** A large multimodal model designed to unify patch- and WSI-level tasks including classification, VQA, captioning, and referring.  
-  - **Paper:** https://openaccess.thecvf.com/content/CVPR2025/html/Sun_CPath-Omni_A_Unified_Multimodal_Foundation_Model_for_Patch_and_Whole_CVPR_2025_paper.html  
-  - **Code:** https://github.com/PathFoundation/CPath-Omni
+### 2. Related Benchmark / Tracking Resources
+- **MLLM4BioMed** — tracking biomedical multimodal LLMs including pathology VLMs.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/ncbi-nlp/MLLM4BioMed)
 
-- **KEEP**  
-  - **Type:** Knowledge-enhanced pathology foundation model  
-  - **Summary:** A model that explicitly injects disease knowledge into pathology vision-language pretraining.  
-  - **Project / Code:** https://github.com/MAGIC-AI4Med/KEEP
+- **CVPR 2025 WSI Papers** — curated list of recent WSI and pathology VLM papers.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/lingxitong/CVPR-2025-WSI-Papers)
 
 ---
 
 ## Clinical Tasks and Applications
 
-This section groups representative tasks rather than attempting to enumerate all disease-specific benchmarks.
+### 1. Diagnosis and Whole-Slide Classification
+- [⭐️] **CLAM** — weakly supervised cancer subtyping and WSI classification.  
+  [![Nature Biomedical Engineering](https://img.shields.io/badge/Nature%20BME-Paper-1f77b4.svg)](https://www.nature.com/articles/s41551-020-00682-w)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/CLAM)
 
-### 1. Tumor detection and slide-level diagnosis
-- **Representative benchmarks:** CAMELYON16 / CAMELYON17  
-- **Representative methods:** CLAM, DSMIL, TransMIL  
-- **Useful repos:**  
-  - https://github.com/mahmoodlab/CLAM  
-  - https://github.com/binli123/dsmil-wsi  
-  - https://github.com/szc19990412/transmil
+- [⭐️] **CHIEF** — pan-cancer slide representations for downstream clinical tasks.  
+  [![Nature Medicine](https://img.shields.io/badge/Nature%20Medicine-Paper-1f77b4.svg)](https://www.nature.com/articles/s41591-024-03141-0)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/hms-dbmi/CHIEF)
 
-### 2. Cancer grading and subtyping
-- **Representative benchmarks:** PANDA, TCGA-derived cohorts  
-- **Representative methods:** HIPT, hierarchical WSI transformers, slide encoders such as CHIEF / Prov-GigaPath / TITAN  
-- **Useful repos:**  
-  - https://github.com/mahmoodlab/HIPT  
-  - https://github.com/computationalpathologygroup/hvit  
-  - https://github.com/prov-gigapath/prov-gigapath
+### 2. Nuclei / Tissue Segmentation and Cell Analysis
+- [⭐️] **HoVer-Net** — simultaneous nuclear instance segmentation and classification.  
+  [![Paper](https://img.shields.io/badge/Paper-MedIA-b31b1b.svg)](https://www.sciencedirect.com/science/article/pii/S1361841519301045)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/vqdang/hover_net)
 
-### 3. Biomarker and mutation prediction
-- **Representative direction:** slide embeddings + downstream linear probing / MIL fine-tuning / multimodal learning  
-- **Representative models:** UNI, CHIEF, TITAN, Threads  
-- **Useful repos:**  
-  - https://github.com/mahmoodlab/UNI  
-  - https://github.com/hms-dbmi/CHIEF  
-  - https://github.com/mahmoodlab/TITAN
+- [⭐️] **CellViT** — ViT-based nuclei instance segmentation.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/TIO-IKIM/CellViT)
 
-### 4. Survival and prognosis modeling
-- **Representative direction:** WSI + genomics / pathology-omics fusion  
-- **Representative methods:** PathOmics, HE2RNA-style molecular prediction, slide foundation model probing  
-- **Useful repos:**  
-  - https://github.com/Cassie07/PathOmics  
-  - https://github.com/owkin/HE2RNA_code
+- **CellViT++ / Inference** — practical cell segmentation and WSI-scale inference stack.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/TIO-IKIM/CellViT-plus-plus)
+  [![Inference](https://img.shields.io/badge/Inference-GitHub-green.svg)](https://github.com/TIO-IKIM/CellViT-Inference)
 
-### 5. Nuclei, cell, and tissue segmentation
-- **Representative datasets:** PanNuke, NuCLS, CoNSeP  
-- **Representative methods:** HoVer-Net, CellViT, NuClick  
-- **Useful repos:**  
-  - https://github.com/vqdang/hover_net  
-  - https://github.com/TIO-IKIM/CellViT  
-  - https://github.com/navidstuv/NuClick
+### 3. Survival, Biomarkers, and Prognosis
+- **VLSA** — interpretable vision-language survival analysis in pathology.  
+  [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.04450)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/liupei101/VLSA)
 
-### 6. Pathology report generation and pathology assistants
-- **Representative methods:** PathChat, HistoGPT, WsiCaption, SlideChat  
-- **Useful repos:**  
-  - https://github.com/marrlab/HistoGPT  
-  - https://github.com/cpystan/Wsi-Caption  
-  - https://github.com/uni-medical/SlideChat
+- **LEAP** — pathology foundation model for urgent treatment prioritization and workflow support.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/hms-dbmi/LEAP)
+
+### 4. Morphology-to-Molecular Prediction
+- **Hist2ST** — spatial gene expression prediction from H&E.  
+  [![Paper](https://img.shields.io/badge/Paper-ACM%20MM-b31b1b.svg)](https://dl.acm.org/doi/10.1145/3503161.3548307)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/biomed-AI/Hist2ST)
+
+- **MERGE** — graph-based morphology-to-expression modeling.  
+  [![Paper](https://img.shields.io/badge/Paper-CVPR%202025-b31b1b.svg)](https://arxiv.org/abs/2412.02601)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/ags3927/MERGE)
 
 ---
 
 ## Evaluation, Metrics, and Reproducibility
 
-### Common evaluation axes
+### 1. Benchmark Libraries
+- [⭐️] **Patho-Bench** — standardized evaluation for pathology foundation models.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/Patho-Bench)
 
-- **Patch-level tasks:** Accuracy, AUC, F1, Cohen’s kappa, mAP
-- **Slide-level tasks:** AUC, balanced accuracy, macro F1, C-index, calibration
-- **Segmentation tasks:** Dice, IoU, PQ, mPQ, AJI
-- **Vision-language tasks:** captioning metrics, VQA accuracy, retrieval metrics, expert evaluation
-- **Multi-omics tasks:** gene-wise correlation, ranking metrics, cross-modal retrieval, OOD generalization
+- [⭐️] **HEST-Benchmark** — standardized morphology-to-expression benchmarking.  
+  [![Paper](https://img.shields.io/badge/Paper-NeurIPS%202024-b31b1b.svg)](https://arxiv.org/abs/2406.16192)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/HEST)
 
-### Reproducibility recommendations
+- **UnPuzzle** — unified pathology pipeline for controlled benchmarking.  
+  [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.03152)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/Puzzle-AI/UnPuzzle)
 
-- Report **WSI-level** rather than patch-level split leakage.
-- Separate **internal**, **external**, and **cross-site** evaluation whenever possible.
-- Control for **scanner**, **stain**, **institution**, and **specimen-type** shifts.
-- Distinguish clearly between:
-  - frozen feature extraction + linear probing
-  - MIL fine-tuning
-  - end-to-end fine-tuning
-  - prompt / adapter / LoRA tuning
-- For pathology FMs, always document:
-  - input tile size and magnification
-  - tiling strategy and tissue filtering
-  - feature dimensionality
-  - aggregator architecture
-  - supervision granularity
+### 2. Robustness / Domain Shift
+- **Histopath-C** — realistic corruption benchmark for histopathology VLMs.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/Mehrdad-Noori/Histopath-C)
 
-### Useful benchmarking projects
-
-- **UnPuzzle**  
-  - **Paper:** https://arxiv.org/abs/2503.03152  
-  - **Code:** https://github.com/Puzzle-AI/UnPuzzle
-
-- **HEST-Benchmark**  
-  - **Project:** https://github.com/mahmoodlab/HEST
-
-- **Pathology foundation model list**  
-  - **Project:** https://github.com/georg-wolflein/pathology-foundation-models
+- **TRIDENT** — large-scale preprocessing + extraction toolkit that also supports reproducible WSI workflows.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/TRIDENT)
 
 ---
 
 ## Interpretability, Explainability, and Trustworthiness
 
-Interpretability in computational pathology is not just a visualization problem; it is also about whether the model’s evidence aligns with histomorphology, biology, and pathology workflow.
+### 1. WSI / Feature Explainability
+- **CLAM Heatmaps** — attention-based slide-level interpretability in weak supervision.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/CLAM)
 
-### Common directions
+- **HistoXGAN** — explainability via histology reconstruction from latent features.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/fmhoward/HistoXGAN)
 
-- **Attention / saliency visualization** for MIL and slide encoders
-- **Patch ranking and prototype analysis** for slide-level evidence discovery
-- **Nuclei / cell-level quantification** for interpretable morphology descriptors
-- **Pathology-language grounding** for report generation and pathology VQA
-- **Cross-modal biological validation** using genomics or spatial transcriptomics
+### 2. Cell- and Tissue-Level Interpretable Analysis
+- **HoVer-Net** — interpretable nuclear detection / classification outputs.  
+  [![Paper](https://img.shields.io/badge/Paper-MedIA-b31b1b.svg)](https://www.sciencedirect.com/science/article/pii/S1361841519301045)
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/vqdang/hover_net)
 
-### Representative resources
+- **CellViT** — explicit cell instance outputs for pathology analysis.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/TIO-IKIM/CellViT)
 
-- **CLAM** — interpretable weakly supervised WSI classification  
-  - **Paper:** https://www.nature.com/articles/s41551-020-00682-w  
-  - **Code:** https://github.com/mahmoodlab/CLAM
+### 3. Trustworthiness / Quality Control
+- **HistoQC** — whole-slide quality control for digital pathology cohorts.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/choosehappy/HistoQC)
 
-- **HE2RNA** — virtual spatialization of gene expression  
-  - **Paper:** https://www.nature.com/articles/s41467-020-17678-4  
-  - **Code:** https://github.com/owkin/HE2RNA_code
-
-- **HoVer-Net** — interpretable nuclei-level segmentation and classification  
-  - **Paper:** https://www.sciencedirect.com/science/article/pii/S1361841519301045  
-  - **Code:** https://github.com/vqdang/hover_net
-
-- **PathChat / HistoGPT / SlideChat** — language-grounded pathology reasoning and report generation  
-  - **Paper (PathChat):** https://www.nature.com/articles/s41586-024-07618-3  
-  - **Paper (HistoGPT):** https://www.nature.com/articles/s41467-025-60014-x  
-  - **Paper (SlideChat):** https://arxiv.org/abs/2410.11761
+- **GrandQC** — pathology quality control resource collected in awesome-pathology.  
+  [![Website](https://img.shields.io/badge/Website-Link-blue.svg)](https://github.com/open-pathology/awesome-pathology)
 
 ---
 
 ## Resources, Toolkits, and Open-Source Projects
 
-### Core slide IO / preprocessing / annotation tools
+### 1. WSI Processing and IO
+- [⭐️] **OpenSlide** — standard library for reading whole-slide images.  
+  [![Website](https://img.shields.io/badge/Website-Link-blue.svg)](https://openslide.org/)
 
-- **OpenSlide**  
-  - **Summary:** The standard library for reading whole-slide images from multiple vendors.  
-  - **Website:** https://openslide.org/  
-  - **Code:** https://github.com/openslide/openslide
+- [⭐️] **TRIDENT** — toolkit for large-scale WSI processing.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/TRIDENT)
 
-- **QuPath**  
-  - **Summary:** One of the most widely used open-source digital pathology tools for visualization, annotation, cell detection, and analysis.  
-  - **Website:** https://qupath.github.io/  
-  - **Code:** https://github.com/qupath/qupath
+- **histolab** — Python library for digital pathology preprocessing.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/histolab/histolab)
 
-- **WholeSlideData**  
-  - **Summary:** A practical toolkit for efficient WSI sampling and training-time patch extraction.  
-  - **Code:** https://github.com/DIAGNijmegen/pathology-whole-slide-data
+- **pathology-whole-slide-data** — WSI data pipelines and efficient batching.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/DIAGNijmegen/pathology-whole-slide-data)
 
-### Python / deep learning toolkits
+- **AtlasPatch** — scalable tissue detection and patch extraction.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/AtlasAnalyticsLab/AtlasPatch)
 
-- **TIAToolbox**  
-  - **Summary:** A mature end-to-end computational pathology toolbox for patch extraction, WSI inference, stain normalization, segmentation, and deployment.  
-  - **Paper:** https://pmc.ncbi.nlm.nih.gov/articles/PMC9509319/  
-  - **Code:** https://github.com/tissueimageanalytics/tiatoolbox
+### 2. End-to-End Pathology Toolkits
+- [⭐️] **TIAToolbox** — end-to-end toolbox for computational pathology.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/TissueImageAnalytics/tiatoolbox)
 
-- **PathML**  
-  - **Summary:** A general-purpose research toolkit for computational pathology pipelines and high-resolution pathology ML workflows.  
-  - **Docs:** https://pathml.readthedocs.io/  
-  - **Code:** https://github.com/Dana-Farber-AIOS/pathml
+- **PathML** — pathology machine learning toolkit with pipelines and examples.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/Dana-Farber-AIOS/pathml)
 
-- **Slideflow**  
-  - **Summary:** A user-friendly deep learning library for digital pathology model development and experimentation.  
-  - **Code:** https://github.com/slideflow/slideflow
+- **Slideflow** — whole-slide deep learning framework.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/slideflow/slideflow)
 
-- **MONAI Pathology Tutorials**  
-  - **Summary:** Pathology examples inside MONAI, including HoVer-Net training and pathology-specific workflows.  
-  - **Project:** https://github.com/Project-MONAI/tutorials
+- **ASAP** — visualization, annotation, and automated slide analysis platform.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/ComputationalPathologyGroup/ASAP)
 
-### Curated project hubs
+### 3. Community Collections
+- **Awesome Digital and Computational Pathology**.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/open-pathology/awesome-pathology)
 
-- **Awesome Pathology**  
-  - **Project:** https://github.com/open-pathology/awesome-pathology
+- **Awesome Computational Pathology Papers**.  
+  [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/DearCaat/Awesome-Computational-Pathology-Papers)
 
-- **Awesome Computational Pathology Papers**  
-  - **Project:** https://github.com/DearCaat/Awesome-Computational-Pathology-Papers
-
-- **Pathology Foundation Models list**  
-  - **Project:** https://github.com/georg-wolflein/pathology-foundation-models
+- **Pathology Feature Extractors and Foundation Models**.  
+  [![Website](https://img.shields.io/badge/Website-Link-blue.svg)](https://github.com/georg-wolflein/pathology-foundation-models)
 
 ---
 
 ## Acknowledgements
 
-This README was reorganized around the actual structure of modern computational pathology rather than a generic AI template. The focus is on resources that are useful for:
+This list benefits from the open-source efforts of many groups across **computational pathology**, **spatial biology**, **medical vision-language modeling**, and **digital pathology infrastructure**.
 
-- entering the field,
-- reproducing representative baselines,
-- understanding the shift from MIL to foundation models,
-- and tracking the move toward multimodal and clinically grounded pathology AI.
-
-If you find an important paper, benchmark, or open-source project missing, contributions are welcome.
+Special thanks to the maintainers of:
+- **Mahmood Lab**
+- **PathFoundation / open-pathology**
+- **Tissue Image Analytics**
+- **DIAGNijmegen**
+- **HistAI**
+- **many community-maintained awesome lists and benchmark repositories**
 
 ---
 
 ## Citation
 
-If you use this repository in your work, please consider citing the relevant original papers and linking back to this list.
+If you find this repository helpful, please consider citing it in your own project page or awesome list.
 
 ```bibtex
 @misc{awesome_computational_pathology,
-  title  = {Awesome-Computational-Pathology},
-  author = {Community Contributors},
-  year   = {2026},
-  note   = {A curated list of papers, models, datasets, and resources for computational pathology}
+  title={Awesome Computational Pathology},
+  author={Contributors},
+  year={2026},
+  howpublished={\url{https://github.com/your-repo/awesome-computational-pathology}}
 }
 ```
