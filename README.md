@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](LICENSE.txt)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-**📜 A Curated List of Amazing Works in Computational Pathology, spanning whole-slide learning, pathology foundation models, multimodal pathology, spatial omics, vision-language models, and clinical applications.**  
+**📜 A Curated List of Amazing Works in Computational Pathology, spanning multiple instance learning, pathology foundation models, multimodal pathology, spatial omics, vision-language models, and clinical applications.**  
 *Focused on papers, benchmarks, datasets, and open-source repositories for modern computational pathology.*
 <p align="center">
   <img src="assets/ACPATH-logo.png" alt="Awesome World Models" width="100%" style="border-radius: 15px; box-shadow: 0 4px 24px rgba(0,0,0,.1); margin: 5px 0;">
