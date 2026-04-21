@@ -34,6 +34,7 @@ _Major updates and repository announcements are shown below._
 
 - 🎯 [Aim of the Project](#aim-of-the-project)
 - 📖 [Surveys, Reviews, and Perspectives](#surveys-reviews-and-perspectives)
+- 🖨️ [Digital Slide Scanners and File Formats](#digital-slide-scanners-and-file-formats)
 - 🗂️ [Datasets and Benchmarks](#datasets-and-benchmarks)
 - 🧩 [Multiple Instance Learning](#multiple-instance-learning)
 - 🤖 [Patch-Level Foundation Models](#patch-level-foundation-models)
@@ -46,6 +47,7 @@ _Major updates and repository announcements are shown below._
 - 📊 [Evaluation, Metrics, and Reproducibility](#evaluation-metrics-and-reproducibility)
 - 🔬 [Interpretability, Explainability, and Trustworthiness](#interpretability-explainability-and-trustworthiness)
 - 🚀 [Resources, Toolkits, and Open-Source Projects](#resources-toolkits-and-open-source-projects)
+- 🔭 [Future Trends and Hot Topics](#future-trends-and-hot-topics)
 - 🙏 [Acknowledgements](#acknowledgements)
 - 📝 [Citation](#citation)
 
