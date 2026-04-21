@@ -38,8 +38,10 @@ _Major updates and repository announcements are shown below._
 - 🧩 [Multiple Instance Learning](#multiple-instance-learning)
 - 🤖 [Patch-Level Foundation Models](#patch-level-foundation-models)
 - 🖼️ [Slide-Level Foundation Models and Slide Encoders](#slide-level-foundation-models-and-slide-encoders)
+- 🎨 [Generative Models for Computational Pathology](#generative-models-for-computational-pathology)
 - 🧬 [Computational Pathology with Multi-Omics](#computational-pathology-with-multi-omics)
 - 💬 [Vision-Language Models and Pathology Agents](#vision-language-models-and-pathology-agents)
+- 🧱 [Dense Prediction in Computational Pathology](#dense-prediction-in-computational-pathology)
 - 🏥 [Clinical Tasks and Applications](#clinical-tasks-and-applications)
 - 📊 [Evaluation, Metrics, and Reproducibility](#evaluation-metrics-and-reproducibility)
 - 🔬 [Interpretability, Explainability, and Trustworthiness](#interpretability-explainability-and-trustworthiness)
@@ -191,6 +193,11 @@ This repository aims to:
 
 ---
 
+## Generative Models for Computational Pathology
+
+
+---
+
 ## Vision-Language Models and Pathology Agents
 
 - **PathChat** — multimodal generative AI copilot for human pathology. [![Paper](https://img.shields.io/badge/Paper-Nature-1f77b4.svg)](https://www.nature.com/articles/s41586-024-07618-3) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/DeepReasoning/aihealth)
@@ -206,6 +213,12 @@ This repository aims to:
 - **PathBench** — benchmark for patch- and WSI-level pathology image understanding by LMMs. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/superjamessyx/PathBench)
 - **Patho-R1** — multimodal reasoning-focused pathology assistant. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/wenchuan-zhang/patho-r1)
 - **MLLM4BioMed** — broad tracker for biomedical multimodal LLMs, including pathology VLMs. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/ncbi-nlp/MLLM4BioMed)
+
+---
+
+
+## Dense Prediction in Computational Pathology
+
 
 ---
 
