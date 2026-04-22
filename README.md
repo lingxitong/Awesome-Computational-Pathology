@@ -203,6 +203,7 @@ This repository aims to:
 - **GenBio-PathFM** — pathology foundation model from public data. [![Paper](https://img.shields.io/badge/Paper-bioRxiv-b31b1b.svg)](https://genbio.ai/papers/genbio-pathfm.pdf) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/genbio-ai/genbio-pathfm)
 - **Atlas 2** — clinical pathology foundation model family. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2601.05148) [![Website](https://img.shields.io/badge/Website-Aignostics-blue.svg)](https://www.aignostics.com/products/foundation-models)
 - **GloPath** — entity-centric renal pathology foundation model for glomerular lesion assessment. [![Paper](https://img.shields.io/badge/Paper-Advanced%20Science-1f77b4.svg)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202520580)
+- **CerS-Path** — cervical subspecialty pathology encoder built via self-supervised pretraining on large-scale cervical histopathology patches. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2510.10196)
 ---
 
 ## Slide-Level Foundation Models and Slide Encoders
