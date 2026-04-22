@@ -198,9 +198,6 @@ This repository aims to:
 
 ---
 
-## Vision-Language Models and Pathology Agents
-
-<em>Representative vision-language models, multimodal large language models, whole-slide image assistants, pathology agents, and reasoning-oriented systems for computational pathology.</em>
 
 
 ---
