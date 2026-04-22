@@ -100,7 +100,9 @@ This repository aims to:
 
 ## Datasets and Benchmarks
 <sub><em>Representative datasets and evaluation benchmarks for computational pathology.</em></sub>
+
 *Representative datasets and evaluation benchmarks for computational pathology.*
+---
 - **TCGA** — the most widely used public source for multi-cancer WSIs and linked clinical/molecular data. [![Dataset](https://img.shields.io/badge/Dataset-GDC-orange.svg)](https://portal.gdc.cancer.gov/)
 - **CPTAC** — proteogenomic cohorts with matched histology and omics data. [![Dataset](https://img.shields.io/badge/Dataset-CPTAC-orange.svg)](https://proteomics.cancer.gov/programs/cptac)
 - **CAMELYON16** — lymph node metastasis detection benchmark. [![Dataset](https://img.shields.io/badge/Dataset-CAMELYON16-orange.svg)](https://camelyon16.grand-challenge.org/Data/)
