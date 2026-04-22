@@ -99,7 +99,7 @@ This repository aims to:
 ---
 
 ## Datasets and Benchmarks
-<sub><em>Representative datasets and evaluation benchmarks for computational pathology.</em></sub>
+<em>Representative datasets and evaluation benchmarks for computational pathology.</em>
 
 *Representative datasets and evaluation benchmarks for computational pathology.*
 ---
