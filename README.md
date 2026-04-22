@@ -299,7 +299,7 @@ This repository aims to:
 
 ---
 
-## Evaluation, Metrics, and Reproducibility
+## Pathology Image Registration and Spatial Alignment
 
 - **Patho-Bench** — standardized evaluation for pathology foundation models. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/Patho-Bench)
 - **PathBench** — live benchmark for pathology foundation models and clinical tasks. [![Website](https://img.shields.io/badge/Website-Leaderboard-blue.svg)](https://birkhoffkiki.github.io/PathBench/)
