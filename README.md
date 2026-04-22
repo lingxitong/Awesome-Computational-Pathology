@@ -37,6 +37,7 @@ _Major updates and repository announcements are shown below._
 - 🖨️ [Digital Slide Scanners and File Formats](#digital-slide-scanners-and-file-formats)
 - 🗂️ [Datasets and Benchmarks](#datasets-and-benchmarks)
 - 🧩 [Multiple Instance Learning](#multiple-instance-learning)
+- 🌐 [Federated Learning in Computational Pathology](#federated-learning-in-computational-pathology)
 - 🤖 [Patch-Level Foundation Models](#patch-level-foundation-models)
 - 🖼️ [Slide-Level Foundation Models and Slide Encoders](#slide-level-foundation-models-and-slide-encoders)
 - 🎨 [Generative Models for Computational Pathology](#generative-models-for-computational-pathology)
@@ -148,6 +149,20 @@ This repository aims to:
 - **MIL_BASELINE** — unified implementation hub for many pathology MIL methods. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/lingxitong/MIL_BASELINE)
 - **MIL-Lab / FEATHER** — standardized MIL library with pretrained slide models. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/MIL-Lab)
 - **MIL Tutorial** — hands-on tutorial for pathology MIL pipelines. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/guillaumejaume/mil-tutorial)
+
+---
+## Federated Learning in Computational Pathology
+
+- **CPath-FL Review** — review of pathology-specific federated learning tasks, settings, and open challenges. [![Paper](https://img.shields.io/badge/Paper-CSBJ-b31b1b.svg)](https://www.sciencedirect.com/science/article/pii/S200103702400357X)
+- **FLCP Review** — literature review of computational pathology federated learning methods and practical barriers. [![Paper](https://img.shields.io/badge/Paper-JMI-b31b1b.svg)](https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging/volume-12/issue-06/061412/Federated-learning-in-computational-pathology-a-literature-review/10.1117/1.JMI.12.6.061412.full)
+- **HistoFL** — foundational FL study for weakly supervised WSI classification and survival prediction. [![Paper](https://img.shields.io/badge/Paper-MedIA-b31b1b.svg)](https://www.sciencedirect.com/science/article/pii/S1361841521003431) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/HistoFL)
+- **WSI-FL Tool** — federated WSI segmentation system built around Histo-Cloud and Digital Slide Archive. [![Paper](https://img.shields.io/badge/Paper-JPI-b31b1b.svg)](https://www.sciencedirect.com/science/article/pii/S2153353922006952) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/SarderLab/federated_learning)
+- **FedStain / BottleGAN** — federated stain normalization for reducing cross-site color variation in pathology. [![Paper](https://img.shields.io/badge/Paper-MICCAI%202022-b31b1b.svg)](https://link.springer.com/chapter/10.1007/978-3-031-16434-7_2) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/MECLabTUDA/BottleGAN)
+- **FedMM** — federated multimodal learning for modality heterogeneity in computational pathology. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.15858)
+- **HistoFS** — federated WSI classification via style transfer with RoI preservation under non-IID shifts. [![Paper](https://img.shields.io/badge/Paper-CVPR%202025-b31b1b.svg)](https://openaccess.thecvf.com/content/CVPR2025/html/Raswa_HistoFS_Non-IID_Histopathologic_Whole_Slide_Image_Classification_via_Federated_Style_CVPR_2025_paper.html) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/lalakitchen/HistoFS)
+- **PathFL** — multi-alignment federated learning for pathology image segmentation across heterogeneous centers. [![Paper](https://img.shields.io/badge/Paper-MedIA-b31b1b.svg)](https://www.sciencedirect.com/science/article/pii/S1361841525002178) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/yuanzhang7/PathFL)
+- **RW-CPath-FL** — real-world deployment perspective on multi-site federated learning in clinical pathology. [![Paper](https://img.shields.io/badge/Paper-JPI-b31b1b.svg)](https://www.sciencedirect.com/science/article/pii/S2153353925000501)
+- **MediSwarm / STAMP** — open-source NVFlare-based swarm learning platform with a computational pathology pipeline. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/KatherLab/MediSwarm)
 
 ---
 
