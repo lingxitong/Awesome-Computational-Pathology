@@ -45,7 +45,7 @@ _Major updates and repository announcements are shown below._
 - 💬 [Vision-Language Models and Pathology Agents](#vision-language-models-and-pathology-agents)
 - 🧱 [Dense Prediction in Computational Pathology](#dense-prediction-in-computational-pathology)
 - 🏥 [Clinical Tasks and Applications](#clinical-tasks-and-applications)
-- 📊 [Evaluation, Metrics, and Reproducibility](#evaluation-metrics-and-reproducibility)
+- 🧭 [Pathology Image Registration and Spatial Alignment](#pathology-image-registration-and-spatial-alignment)
 - 🔬 [Interpretability, Explainability, and Trustworthiness](#interpretability-explainability-and-trustworthiness)
 - 🚀 [Resources, Toolkits, and Open-Source Projects](#resources-toolkits-and-open-source-projects)
 - 🔭 [Future Trends and Hot Topics](#future-trends-and-hot-topics)
