@@ -91,7 +91,7 @@ This repository aims to:
 
 ## Digital Slide Scanners and File Formats
 
-- **OpenSlide** — open-source library for reading whole-slide image formats across scanner vendors. [![Paper](https://img.shields.io/badge/Paper-JPI-b31b1b.svg)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3815078/) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/openslide/openslide)
+- **OpenSlide** — open-source library for reading wsi formats across scanner vendors. [![Paper](https://img.shields.io/badge/Paper-JPI-b31b1b.svg)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3815078/) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/openslide/openslide)
 - **opensdpc** — Python library for processing SDPC whole-slide images, extended from OpenSlide. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/WonderLandxD/opensdpc)
 - **Bio-Formats** — widely used library for reading and converting microscopy formats. [![Website](https://img.shields.io/badge/Website-OME-blue.svg)](https://www.openmicroscopy.org/bio-formats/)
 - **DICOM** — official overview of DICOM WSI and pathology imaging standardization. [![Website](https://img.shields.io/badge/Website-NEMA-blue.svg)](https://dicom.nema.org/dicom/dicomwsi/)
