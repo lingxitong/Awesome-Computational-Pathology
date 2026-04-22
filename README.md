@@ -89,6 +89,35 @@ This repository aims to:
 
 ---
 
+## Digital Slide Scanners and File Formats
+
+## Digital Slide Scanners and File Formats
+
+- **Critical Comparison of 31 Commercially Available Digital Slide Systems in Pathology**. [![Paper](https://img.shields.io/badge/Paper-International%20Journal%20of%20Surgical%20Pathology-6A5ACD.svg)](https://journals.sagepub.com/doi/10.1177/1066896906292274)
+- **Digital Imaging in Pathology: The Case for Standardization**. [![Paper](https://img.shields.io/badge/Paper-Journal%20of%20Telemedicine%20and%20Telecare-6A5ACD.svg)](https://journals.sagepub.com/doi/10.1258/1357633053688705)
+- **Review of the Current State of Whole Slide Imaging in Pathology**. [![Paper](https://img.shields.io/badge/Paper-Journal%20of%20Pathology%20Informatics-6A5ACD.svg)](https://www.sciencedirect.com/science/article/pii/S2153353922002127)
+- **Whole Slide Imaging in Pathology: Advantages, Limitations, and Emerging Perspectives**. [![Paper](https://img.shields.io/badge/Paper-Pathology%20and%20Laboratory%20Medicine%20International-6A5ACD.svg)](https://www.dovepress.com/whole-slide-imaging-in-pathology-advantages-limitations-and-emerging-p-peer-reviewed-fulltext-article-PLMI)
+- **Implementation of Whole Slide Imaging for Clinical Purposes: Issues to Consider From the Perspective of Early Adopters**. [![Paper](https://img.shields.io/badge/Paper-Archives%20of%20Pathology%20%26%20Laboratory%20Medicine-1f77b4.svg)](https://aplm.kglmeridian.com/view/journals/arpa/141/7/article-p944.xml)
+- **A Practical Guide to Whole Slide Imaging: A White Paper From the Digital Pathology Association**. [![Paper](https://img.shields.io/badge/Paper-Archives%20of%20Pathology%20%26%20Laboratory%20Medicine-1f77b4.svg)](https://aplm.kglmeridian.com/view/journals/arpa/143/2/article-p222.xml)
+- **Whole Slide Imaging (WSI) in Pathology**. [![Paper](https://img.shields.io/badge/Paper-Journal%20of%20Pathology%20Informatics-6A5ACD.svg)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7522141/)
+- **Whole Slide Images in Artificial Intelligence Applications in Digital Pathology: Challenges and Pitfalls**. [![Paper](https://img.shields.io/badge/Paper-Turkish%20Journal%20of%20Pathology-6A5ACD.svg)](https://turkjpath.org/pdf.php?id=2039)
+- **Technical and Diagnostic Issues in Whole Slide Imaging in Pathology**. [![Paper](https://img.shields.io/badge/Paper-Frontiers%20in%20Oncology-6A5ACD.svg)](https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2022.918580/full)
+- **Digital Slide Scanning at Scale: Comparison of Whole Slide Imaging Devices in a Clinical Setting**. [![Paper](https://img.shields.io/badge/Paper-Journal%20of%20Pathology%20Informatics-6A5ACD.svg)](https://pubmed.ncbi.nlm.nih.gov/40979691/)
+- **Whole Slide Imaging (WSI) Scanner Differences Influence Optical and Computed Properties of Digitized Prostate Cancer Histology**. [![Paper](https://img.shields.io/badge/Paper-Journal%20of%20Pathology%20Informatics-6A5ACD.svg)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10365953/)
+
+- **Standardization in Digital Pathology: Supplement 145 of the DICOM Standards**. [![Paper](https://img.shields.io/badge/Paper-Journal%20of%20Pathology%20Informatics-6A5ACD.svg)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3097525/)
+- **Implementing the DICOM Standard for Digital Pathology**. [![Paper](https://img.shields.io/badge/Paper-Journal%20of%20Pathology%20Informatics-6A5ACD.svg)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6236926/)
+- **DICOM Whole Slide Imaging (WSI)**. [![Website](https://img.shields.io/badge/Website-NEMA-blue.svg)](https://dicom.nema.org/dicom/dicomwsi/)
+
+- **OpenSlide: A Vendor-Neutral Software Foundation for Digital Pathology**. [![Paper](https://img.shields.io/badge/Paper-Journal%20of%20Pathology%20Informatics-6A5ACD.svg)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3815078/) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/openslide/openslide)
+- **Virtual Slide Formats Understood by OpenSlide**. [![Website](https://img.shields.io/badge/Website-OpenSlide-blue.svg)](https://openslide.org/formats/)
+- **opensdpc** — Python library for processing SDPC whole-slide images, extended from OpenSlide. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/WonderLandxD/opensdpc)
+- **Bio-Formats**. [![Website](https://img.shields.io/badge/Website-OME-blue.svg)](https://www.openmicroscopy.org/bio-formats/)
+- **Working with Whole Slide Images**. [![Website](https://img.shields.io/badge/Website-Bio--Formats-blue.svg)](https://bio-formats.readthedocs.io/en/stable/developers/wsi.html)
+- **Bringing Open Data to Whole Slide Imaging**. [![Paper](https://img.shields.io/badge/Paper-Bioinformatics-6A5ACD.svg)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6774793/)
+
+---
+
 ## Datasets and Benchmarks
 
 - **TCGA** — the most widely used public source for multi-cancer WSIs and linked clinical/molecular data. [![Dataset](https://img.shields.io/badge/Dataset-GDC-orange.svg)](https://portal.gdc.cancer.gov/)
