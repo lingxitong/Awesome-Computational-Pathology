@@ -39,8 +39,10 @@ _Major updates and repository announcements are shown below._
 
 - 🎯 [Aim of the Project](#aim-of-the-project)
 - 📖 [Surveys, Reviews, and Perspectives](#surveys-reviews-and-perspectives)
+- 🖨️ [Digital Slide Scanners and File Formats](#digital-slide-scanners-and-file-formats)
 - 🗂️ [Datasets and Benchmarks](#datasets-and-benchmarks)
 - 🧩 [Multiple Instance Learning](#multiple-instance-learning)
+- 🌐 [Federated Learning in Computational Pathology](#federated-learning-in-computational-pathology)
 - 🤖 [Patch-Level Foundation Models](#patch-level-foundation-models)
 - 🖼️ [Slide-Level Foundation Models and Slide Encoders](#slide-level-foundation-models-and-slide-encoders)
 - 🎨 [Generative Models for Computational Pathology](#generative-models-for-computational-pathology)
@@ -48,9 +50,10 @@ _Major updates and repository announcements are shown below._
 - 💬 [Vision-Language Models and Pathology Agents](#vision-language-models-and-pathology-agents)
 - 🧱 [Dense Prediction in Computational Pathology](#dense-prediction-in-computational-pathology)
 - 🏥 [Clinical Tasks and Applications](#clinical-tasks-and-applications)
-- 📊 [Evaluation, Metrics, and Reproducibility](#evaluation-metrics-and-reproducibility)
+- 🧭 [Pathology Image Registration and Spatial Alignment](#pathology-image-registration-and-spatial-alignment)
 - 🔬 [Interpretability, Explainability, and Trustworthiness](#interpretability-explainability-and-trustworthiness)
 - 🚀 [Resources, Toolkits, and Open-Source Projects](#resources-toolkits-and-open-source-projects)
+- 🔭 [Future Trends and Hot Topics](#future-trends-and-hot-topics)
 - 🙏 [Acknowledgements](#acknowledgements)
 - 📝 [Citation](#citation)
 
@@ -73,22 +76,36 @@ This repository aims to:
 
 ## Surveys, Reviews, and Perspectives
 
-- **Computational Pathology: Challenges and Promises for Tissue Analysis**. [![Paper](https://img.shields.io/badge/Paper-Nature%20Medicine-1f77b4.svg)](https://www.nature.com/articles/s41591-019-0462-y)
-- **Computational Pathology: A Survey Review and The Way Forward**. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2304.05482)
-- **A Guide to Artificial Intelligence for Cancer Researchers**. [![Paper](https://img.shields.io/badge/Paper-Nature%20Reviews%20Cancer-8c564b.svg)](https://www.nature.com/articles/s41568-024-00757-5)
-- **A Survey on Computational Pathology Foundation Models**. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.15724)
-- **A Survey of Pathology Foundation Models: Progress and Future Directions**. [![Paper](https://img.shields.io/badge/Paper-IJCAI%202025-6A5ACD.svg)](https://www.ijcai.org/proceedings/2025/1193.pdf)
-- **A Survey on Foundation and Vision-Language Models in Computational Pathology**. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2408.14496)
-- **Content Generation Models in Computational Pathology: A Comprehensive Survey on Methods, Applications, and Challenges**. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.21055) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/yuanzhang7/Awesome-Generative-Models-in-Pathology)
-- **Pathology Feature Extractors and Foundation Models**. [![Website](https://img.shields.io/badge/Website-GitHub-blue.svg)](https://github.com/georg-wolflein/pathology-foundation-models)
-- **Awesome Digital and Computational Pathology**. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/open-pathology/awesome-pathology)
-- **Awesome Computational Pathology Papers**. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/DearCaat/Awesome-Computational-Pathology-Papers)
-- **Guide4PathAI**. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/WonderLandxD/Guide4PathAI)
-- **Awesome Multi-instance Learning for Whole-Slide Images**. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/peterlipan/Awesome-Multi-instance-Learning-for-Whole-Slide-Images)
+- **Computational Pathology: Challenges and Promises for Tissue Analysis**. [![Paper](https://img.shields.io/badge/Paper-Computerized%20Medical%20Imaging%20and%20Graphics-1f77b4.svg)](https://www.sciencedirect.com/science/article/abs/pii/S0895611111000383)
+- **Digital Pathology and Artificial Intelligence**. [![Paper](https://img.shields.io/badge/Paper-The%20Lancet%20Oncology-1f77b4.svg)](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045%2819%2930154-8/abstract)
+- **Artificial Intelligence in Digital Pathology — New Tools for Diagnosis and Precision Oncology**. [![Paper](https://img.shields.io/badge/Paper-Nature%20Reviews%20Clinical%20Oncology-1f77b4.svg)](https://www.nature.com/articles/s41571-019-0252-y)
+- **Computational Pathology Definitions, Best Practices, and Recommendations for Regulatory Guidance: A White Paper from the Digital Pathology Association**. [![Paper](https://img.shields.io/badge/Paper-Journal%20of%20Pathology-1f77b4.svg)](https://pathsocjournals.onlinelibrary.wiley.com/doi/10.1002/path.5331)
+- **Digital Pathology and Computational Image Analysis in Nephropathology**. [![Paper](https://img.shields.io/badge/Paper-Nature%20Reviews%20Nephrology-1f77b4.svg)](https://www.nature.com/articles/s41581-020-0321-6)
+- **Artificial Intelligence and Computational Pathology**. [![Paper](https://img.shields.io/badge/Paper-Laboratory%20Investigation-1f77b4.svg)](https://www.nature.com/articles/s41374-020-00514-0)
+- **Digital Pathology and Artificial Intelligence in Translational Medicine and Clinical Practice**. [![Paper](https://img.shields.io/badge/Paper-Modern%20Pathology-1f77b4.svg)](https://www.nature.com/articles/s41379-021-00919-2)
+- **AI in Computational Pathology of Cancer: Improving Diagnostic Workflows and Clinical Outcomes?**. [![Paper](https://img.shields.io/badge/Paper-Annual%20Review%20of%20Cancer%20Biology-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-cancerbio-061521-092038)
+- **Artificial Intelligence for Digital and Computational Pathology**. [![Paper](https://img.shields.io/badge/Paper-Nature%20Reviews%20Bioengineering-1f77b4.svg)](https://www.nature.com/articles/s44222-023-00096-8)
+- **Computational Pathology in 2030: a Delphi Study Forecasting the Role of AI in Pathology Within the Next Decade**. [![Paper](https://img.shields.io/badge/Paper-EBioMedicine-1f77b4.svg)](https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964%2822%2900609-0/fulltext)
+- **Applications of Digital Pathology in Cancer: A Comprehensive Review**. [![Paper](https://img.shields.io/badge/Paper-Annual%20Review%20of%20Cancer%20Biology-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-cancerbio-062822-010523)
+- **Toward Explainable Artificial Intelligence for Precision Pathology**. [![Paper](https://img.shields.io/badge/Paper-Annual%20Review%20of%20Pathology-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-pathmechdis-051222-113147)
+- **Artificial Intelligence in Digital Pathology: a Systematic Review and Meta-analysis of Diagnostic Test Accuracy**. [![Paper](https://img.shields.io/badge/Paper-npj%20Digital%20Medicine-1f77b4.svg)](https://www.nature.com/articles/s41746-024-01106-8)
+- **Pathology in the Era of Generative AI**. [![Paper](https://img.shields.io/badge/Paper-The%20Lancet%20Digital%20Health-1f77b4.svg)](https://www.thelancet.com/journals/landig/article/PIIS2589-7500%2824%2900157-2/fulltext)
+- **Artificial Intelligence in Pathology: Advancing Large Models for Scalable Applications**. [![Paper](https://img.shields.io/badge/Paper-Annual%20Review%20of%20Biomedical%20Data%20Science-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-biodatasci-103123-095814)
+- **Application of Artificial Intelligence and Digital Tools in Cancer Pathology**. [![Paper](https://img.shields.io/badge/Paper-The%20Lancet%20Digital%20Health-1f77b4.svg)](https://www.thelancet.com/journals/landig/article/PIIS2589-7500%2825%2900115-3/fulltext)
 
 ---
 
+## Digital Slide Scanners and File Formats
+
+- **OpenSlide** — open-source library for reading wsi formats across scanner vendors. [![Paper](https://img.shields.io/badge/Paper-JPI-b31b1b.svg)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3815078/) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/openslide/openslide)
+- **opensdpc** — Python library for processing SDPC whole-slide images, extended from OpenSlide. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/WonderLandxD/opensdpc)
+- **Bio-Formats** — widely used library for reading and converting microscopy formats. [![Website](https://img.shields.io/badge/Website-OME-blue.svg)](https://www.openmicroscopy.org/bio-formats/)
+- **DICOM** — official overview of DICOM WSI and pathology imaging standardization. [![Website](https://img.shields.io/badge/Website-NEMA-blue.svg)](https://dicom.nema.org/dicom/dicomwsi/)
+---
+
 ## Datasets and Benchmarks
+
+<em>Representative datasets and evaluation benchmarks for computational pathology.</em>
 
 - **TCGA** — the most widely used public source for multi-cancer WSIs and linked clinical/molecular data. [![Dataset](https://img.shields.io/badge/Dataset-GDC-orange.svg)](https://portal.gdc.cancer.gov/)
 - **CPTAC** — proteogenomic cohorts with matched histology and omics data. [![Dataset](https://img.shields.io/badge/Dataset-CPTAC-orange.svg)](https://proteomics.cancer.gov/programs/cptac)
@@ -141,31 +158,63 @@ This repository aims to:
 - **MIL Tutorial** — hands-on tutorial for pathology MIL pipelines. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/guillaumejaume/mil-tutorial)
 
 ---
+## Federated Learning in Computational Pathology
+
+- **CPath-FL Review** — review of federated learning in computational pathology. [![Paper](https://img.shields.io/badge/Paper-CSBJ-b31b1b.svg)](https://www.sciencedirect.com/science/article/pii/S200103702400357X)
+- **FLCP Review** — literature review of federated learning for computational pathology. [![Paper](https://img.shields.io/badge/Paper-JMI-b31b1b.svg)](https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging/volume-12/issue-06/061412/Federated-learning-in-computational-pathology-a-literature-review/10.1117/1.JMI.12.6.061412.full)
+- **HistoFL** — federated learning for WSI classification and survival prediction. [![Paper](https://img.shields.io/badge/Paper-MedIA-b31b1b.svg)](https://www.sciencedirect.com/science/article/pii/S1361841521003431) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/HistoFL)
+- **WSI-FL Tool** — federated training tool for WSI segmentation. [![Paper](https://img.shields.io/badge/Paper-JPI-b31b1b.svg)](https://www.sciencedirect.com/science/article/pii/S2153353922006952) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/SarderLab/federated_learning)
+- **FedStain / BottleGAN** — federated stain normalization for pathology. [![Paper](https://img.shields.io/badge/Paper-MICCAI%202022-b31b1b.svg)](https://link.springer.com/chapter/10.1007/978-3-031-16434-7_2) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/MECLabTUDA/BottleGAN)
+- **FedMM** — federated multimodal learning for computational pathology. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.15858)
+- **HistoFS** — federated WSI classification under non-IID shifts. [![Paper](https://img.shields.io/badge/Paper-CVPR%202025-b31b1b.svg)](https://openaccess.thecvf.com/content/CVPR2025/html/Raswa_HistoFS_Non-IID_Histopathologic_Whole_Slide_Image_Classification_via_Federated_Style_CVPR_2025_paper.html) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/lalakitchen/HistoFS)
+- **PathFL** — federated pathology image segmentation across centers. [![Paper](https://img.shields.io/badge/Paper-MedIA-b31b1b.svg)](https://www.sciencedirect.com/science/article/pii/S1361841525002178) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/yuanzhang7/PathFL)
+- **RW-CPath-FL** — real-world federated learning for clinical pathology. [![Paper](https://img.shields.io/badge/Paper-JPI-b31b1b.svg)](https://www.sciencedirect.com/science/article/pii/S2153353925000501)
+- **MediSwarm / STAMP** — open-source federated platform for computational pathology. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/KatherLab/MediSwarm)
+
+---
 
 ## Patch-Level Foundation Models
 
 - **CTransPath** — transformer-based self-supervised pathology encoder. [![Paper](https://img.shields.io/badge/Paper-MedIA-b31b1b.svg)](https://www.sciencedirect.com/science/article/abs/pii/S1361841522002043) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/Xiyue-Wang/TransPath)
-- **PLIP** — pathology language-image pretraining. [![Paper](https://img.shields.io/badge/Paper-Nature%20Medicine-1f77b4.svg)](https://www.nature.com/articles/s41591-023-02504-3) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/PathologyFoundation/plip)
-- **CONCH** — contrastive learning from captions for histopathology. [![Paper](https://img.shields.io/badge/Paper-Nature%20Medicine-1f77b4.svg)](https://www.nature.com/articles/s41591-024-02856-4) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/CONCH)
-- **UNI** — general-purpose pathology foundation model. [![Paper](https://img.shields.io/badge/Paper-Nature%20Medicine-1f77b4.svg)](https://www.nature.com/articles/s41591-024-02857-3) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/UNI)
+- **RetCCL** — contrastive pathology patch representation model. [![Paper](https://img.shields.io/badge/Paper-MedIA-b31b1b.svg)](https://www.sciencedirect.com/science/article/abs/pii/S1361841522002730) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/Xiyue-Wang/RetCCL)
+- **HIPT** — hierarchical transformer for pathology images. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2206.02647) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/HIPT)
+- **Lunit-DINO** — self-supervised ViT for pathology. [![Paper](https://img.shields.io/badge/Paper-CVPR%202023-6A5ACD.svg)](https://arxiv.org/abs/2212.04690) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/lunit-io/benchmark-ssl-pathology)
+- **PLIP** — pathology vision-language pretraining model. [![Paper](https://img.shields.io/badge/Paper-Nature%20Medicine-1f77b4.svg)](https://www.nature.com/articles/s41591-023-02504-3) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/vinid/plip)
+- **PathoDuet** — pathology foundation model for H&E and IHC. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.09894) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/openmedlab/pathoduet)
+- **CONCH** — caption-based pathology foundation model. [![Paper](https://img.shields.io/badge/Paper-Nature%20Medicine-1f77b4.svg)](https://www.nature.com/articles/s41591-024-02856-4) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/MahmoodLab/CONCH)
+- **UNI** — general-purpose pathology foundation model. [![Paper](https://img.shields.io/badge/Paper-Nature%20Medicine-1f77b4.svg)](https://www.nature.com/articles/s41591-024-02857-3) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/MahmoodLab/UNI)
+- **UNI2-h** — second-generation pathology encoder from UNI. [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/MahmoodLab/UNI2-h)
 - **Virchow** — clinical-grade pathology foundation model. [![Paper](https://img.shields.io/badge/Paper-Nature%20Medicine-1f77b4.svg)](https://www.nature.com/articles/s41591-024-03141-0) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/paige-ai/Virchow)
-- **Phikon** — self-supervised histopathology ViT trained at scale. [![Paper](https://img.shields.io/badge/Paper-NeurIPS%202023-6A5ACD.svg)](https://arxiv.org/abs/2309.16864) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/owkin/HistoSSLscaling)
-- **Phikon-v2** — upgraded Owkin pathology foundation model for weak supervision. [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/owkin/phikon-v2)
-- **H-Optimus-0** — large open histology foundation model. [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/bioptimus/H-optimus-0)
-- **H-Optimus-1** — next-generation H&E embedding model from Bioptimus. [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/bioptimus/H-optimus-1)
-- **Hibou** — DINOv2-based pathology vision transformers. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.05074) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/histai/hibou)
-- **Midnight** — competitive pathology FMs trained with far fewer WSIs. [![Paper](https://img.shields.io/badge/Paper-MICCAI%202025-b31b1b.svg)](https://arxiv.org/abs/2504.05186) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/kaiko-ai/midnight)
-- **OpenMidnight** — fully open replication and extension of Midnight. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/MedARC-AI/OpenMidnight)
-- **GPFM** — pathology foundation model implementation with downstream support. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/birkhoffkiki/GPFM)
-- **MUSK** — multimodal transformer with unified masked modeling for pathology. [![Paper](https://img.shields.io/badge/Paper-Nature-1f77b4.svg)](https://www.nature.com/articles/s41586-024-08437-2) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/lilab-stanford/MUSK)
-- **Pathology Feature Extractors and Foundation Models** — ongoing community-maintained list of patch encoders and model cards. [![Website](https://img.shields.io/badge/Website-GitHub-blue.svg)](https://github.com/georg-wolflein/pathology-foundation-models)
-
+- **Virchow2** — mixed-magnification pathology encoder. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2408.00738) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/paige-ai/Virchow2)
+- **Phikon** — large-scale self-supervised pathology ViT. [![Paper](https://img.shields.io/badge/Paper-NeurIPS%202023-6A5ACD.svg)](https://arxiv.org/abs/2309.16864) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/owkin/HistoSSLscaling)
+- **Phikon-v2** — upgraded pathology foundation model. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.09173) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/owkin/phikon-v2)
+- **H-Optimus-0** — open foundation model for histology. [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/bioptimus/H-optimus-0)
+- **H-Optimus-1** — next-generation histology encoder. [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/bioptimus/H-optimus-1)
+- **Hibou** — DINOv2-based pathology vision transformer. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.05074) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/histai/hibou-b)
+- **Midnight** — efficient pathology foundation model. [![Paper](https://img.shields.io/badge/Paper-MICCAI%202025-b31b1b.svg)](https://arxiv.org/abs/2504.05186) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/kaiko-ai/midnight)
+- **OpenMidnight** — open reproduction of Midnight. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/MedARC-AI/OpenMidnight)
+- **Path Foundation** — Google pathology patch encoder. [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/google/path-foundation)
+- **BEPH** — BEiT-based pathology foundation model. [![Paper](https://img.shields.io/badge/Paper-Nature%20Communications-1f77b4.svg)](https://www.nature.com/articles/s41467-025-57587-y) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/Zhcyoung/BEPH)
+- **kaiko Pathology FMs** — large-scale pathology ViT family. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.15217) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/kaiko-ai/towards_large_pathology_fms)
+- **Prov-GigaPath** — pathology tile-level foundation encoder. [![Paper](https://img.shields.io/badge/Paper-Nature-1f77b4.svg)](https://www.nature.com/articles/s41586-024-07441-w) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/prov-gigapath/prov-gigapath)
+- **GPFM** — pathology foundation model toolkit. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/birkhoffkiki/GPFM)
+- **MUSK** — multimodal pathology foundation model. [![Paper](https://img.shields.io/badge/Paper-Nature-1f77b4.svg)](https://www.nature.com/articles/s41586-024-08437-2) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/lilab-stanford/MUSK)
+- **Digepath** — gastrointestinal pathology foundation model. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.21928) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/xtxx/Digepath)
+- **PathOrchestra** — pathology foundation model for clinical tasks. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.24345) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/yanfang-research/PathOrchestra)
+- **PLUTO** — lightweight multi-scale pathology foundation model. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.07905)
+- **PLUTO-4** — next-generation PLUTO model family. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2511.02826)
+- **StainNet** — pathology foundation model for special stains. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2512.10326) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/JWonderLand/StainNet)
+- **KEEP** — knowledge-enhanced pathology vision-language model. [![Paper](https://img.shields.io/badge/Paper-Cancer%20Cell-b31b1b.svg)](https://www.cell.com/cancer-cell/fulltext/S1535-6108(26)00058-9) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/Astaxanthin/KEEP)
+- **GenBio-PathFM** — pathology foundation model from public data. [![Paper](https://img.shields.io/badge/Paper-bioRxiv-b31b1b.svg)](https://genbio.ai/papers/genbio-pathfm.pdf) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/genbio-ai/genbio-pathfm)
+- **Atlas 2** — clinical pathology foundation model family. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2601.05148) [![Website](https://img.shields.io/badge/Website-Aignostics-blue.svg)](https://www.aignostics.com/products/foundation-models)
+- **GloPath** — entity-centric renal pathology foundation model. [![Paper](https://img.shields.io/badge/Paper-Advanced%20Science-1f77b4.svg)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202520580)
+- **CerS-Path** — cervical subspecialty pathology foundation model. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2510.10196)
 ---
 
 ## Slide-Level Foundation Models and Slide Encoders
 
 - **Prov-GigaPath** — whole-slide foundation model trained on real-world pathology data. [![Paper](https://img.shields.io/badge/Paper-Nature-1f77b4.svg)](https://www.nature.com/articles/s41586-024-07441-w) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/prov-gigapath/prov-gigapath)
-- **CHIEF** — clinical histopathology imaging evaluation foundation. [![Paper](https://img.shields.io/badge/Paper-Nature%20Medicine-1f77b4.svg)](https://www.nature.com/articles/s41591-024-03141-0) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/hms-dbmi/CHIEF)
+- **CHIEF** — clinical histopathology imaging evaluation foundation. [![Paper](https://img.shields.io/badge/Paper-Nature-1f77b4.svg)](https://www.nature.com/articles/s41586-024-07894-z) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/hms-dbmi/CHIEF)
 - **TITAN** — multimodal whole-slide foundation model for pathology. [![Paper](https://img.shields.io/badge/Paper-Nature%20Medicine-1f77b4.svg)](https://www.nature.com/articles/s41591-025-03982-3) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/TITAN)
 - **PANTHER** — morphological prototyping for unsupervised slide representation learning. [![Paper](https://img.shields.io/badge/Paper-CVPR%202024-b31b1b.svg)](https://arxiv.org/abs/2405.11643) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/PANTHER)
 - **TANGLE** — transcriptomics-guided slide representation learning. [![Paper](https://img.shields.io/badge/Paper-CVPR%202024-b31b1b.svg)](https://arxiv.org/abs/2405.11618) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/TANGLE)
@@ -175,7 +224,14 @@ This repository aims to:
 - **Democratizing_WSI / GigaSSL** — optimized slide-level representations for TCGA-scale analysis. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/trislaz/Democratizing_WSI)
 - **CPath-Omni** — unified multimodal foundation model spanning patches and WSIs. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.12077) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/PathFoundation/CPath-Omni)
 - **SlideChat** — large vision-language assistant with slide-level reasoning capability. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.11761) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/uni-medical/SlideChat)
-- **TRIDENT Slide Features** — practical extraction stack for multiple slide FMs. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/TRIDENT)
+- **mSTAR** — multimodal knowledge-enhanced whole-slide pathology foundation model. [![Paper](https://img.shields.io/badge/Paper-Nature%20Communications-1f77b4.svg)](https://www.nature.com/articles/s41467-025-66220-x) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/Wangyh/mSTAR)
+- **MADELEINE** — multistain pretraining for slide representation learning in pathology. [![Paper](https://img.shields.io/badge/Paper-ECCV%202024-6A5ACD.svg)](https://link.springer.com/chapter/10.1007/978-3-031-73414-4_2) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/MahmoodLab/madeleine)
+- **MOOZY** — patient-first foundation model for computational pathology. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2603.27048) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/AtlasAnalyticsLab/MOOZY)
+- **EXAONE Path 2.5** — pathology foundation model with multi-omics alignment. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2512.14019) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/LGAI-EXAONE/EXAONE-Path-2.5)
+- **Whole Slide Concepts** — supervised foundation model trained from whole-slide images. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.05742) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/FraunhoferMEVIS/MedicalMultitaskModeling)
+- **PathAlign** — vision-language model for whole-slide images in histopathology. [![Paper](https://img.shields.io/badge/Paper-PMLR%202024-6A5ACD.svg)](https://proceedings.mlr.press/v254/ahmed24a.html)
+- **HistoGPT** — vision-language foundation model for gigapixel whole-slide pathology report generation. [![Paper](https://img.shields.io/badge/Paper-Nature%20Communications-1f77b4.svg)](https://www.nature.com/articles/s41467-025-60014-x) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/marr-peng-lab/histogpt)
+- **CARE** — molecular-guided slide-level foundation model with adaptive region modeling. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2602.21637) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/Zipper-1/CARE)
 
 ---
 
@@ -313,7 +369,7 @@ This repository aims to:
 
 ---
 
-## Evaluation, Metrics, and Reproducibility
+## Pathology Image Registration and Spatial Alignment
 
 - **Patho-Bench** — standardized evaluation for pathology foundation models. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/Patho-Bench)
 - **PathBench** — live benchmark for pathology foundation models and clinical tasks. [![Website](https://img.shields.io/badge/Website-Leaderboard-blue.svg)](https://birkhoffkiki.github.io/PathBench/)
