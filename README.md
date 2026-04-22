@@ -141,9 +141,7 @@ This repository aims to:
 
 ## Patch-Level Foundation Models
 
-## Patch Foundation Models
-
-- **CTransPath** — transformer-based self-supervised pathology encoder. [![Paper](https://img.shields.io/badge/Paper-MedIA-b31b1b.svg)](https://www.sciencedirect.com/science/article/abs/pii/S1361841522002043) [![Code](https://img.shields.io/badge/Code-- **CTransPath** — transformer-based self-supervised pathology encoder. [![Paper](https://img.shields.io/badge/Paper-MedIA-b31b1b.svg)](https://www.sciencedirect.com/science/article/abs/pii/S1361841522002043) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/Xiyue-Wang/TransPath)
+- **CTransPath** — transformer-based self-supervised pathology encoder. [![Paper](https://img.shields.io/badge/Paper-MedIA-b31b1b.svg)](https://www.sciencedirect.com/science/article/abs/pii/S1361841522002043) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/Xiyue-Wang/TransPath)
 - **RetCCL** — contrastive pathology patch representation model. [![Paper](https://img.shields.io/badge/Paper-MedIA-b31b1b.svg)](https://www.sciencedirect.com/science/article/abs/pii/S1361841522002730) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/Xiyue-Wang/RetCCL)
 - **HIPT** — hierarchical transformer for pathology images. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2206.02647) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/HIPT)
 - **Lunit-DINO** — self-supervised ViT for pathology. [![Paper](https://img.shields.io/badge/Paper-CVPR%202023-6A5ACD.svg)](https://arxiv.org/abs/2212.04690) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/lunit-io/benchmark-ssl-pathology)
