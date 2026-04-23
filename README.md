@@ -237,7 +237,7 @@ This repository aims to:
 
 ## Computational Pathology with Multi-Omics
 
-- **HEST-1k** — histology–spatial transcriptomics benchmark. [![Paper](https://img.shields.io/badge/Paper-NeurIPS%202024-b31b1b.svg)](https://arxiv.org/abs/2406.16192) [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-orange.svg)](https://huggingface.co/datasets/MahmoodLab/hest) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/HEST)
+- **HEST-1k** — histology–spatial transcriptomics benchmark. [![Paper](https://img.shields.io/badge/Paper-NeurIPS%202024-b31b1b.svg)](https://arxiv.org/abs/2406.16192) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/HEST)
 - **HE2RNA** — WSI → bulk RNA-seq prediction. [![Paper](https://img.shields.io/badge/Paper-Nature%20Communications-1f77b4.svg)](https://www.nature.com/articles/s41467-020-17678-4) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/owkin/HE2RNA_code)
 - **DeepPATH** — histology-based cancer classification and gene mutation prediction. [![Paper](https://img.shields.io/badge/Paper-Nature%20Medicine-1f77b4.svg)](https://www.nature.com/articles/s41591-018-0177-5) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/ncoudray/DeepPATH)
 - **ST-Net** — histology + ST for spatial gene expression. [![Paper](https://img.shields.io/badge/Paper-Nature%20BME-1f77b4.svg)](https://www.nature.com/articles/s41551-020-0578-x) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/bryanhe/ST-Net)
@@ -275,9 +275,9 @@ This repository aims to:
 - **HypergraphLearning_with_Cross-Modality_Rebalance** — hypergraph multimodal survival. [![Paper](https://img.shields.io/badge/Paper-IJCAI%202025-b31b1b.svg)](https://www.ijcai.org/proceedings/2025/0201.pdf) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/MCPathology/MRePath)
 - **Cancer-Type-Aware_Framework** — missing-modality robust survival. [![Paper](https://img.shields.io/badge/Paper-Briefings%20in%20Bioinformatics-b31b1b.svg)](https://academic.oup.com/bib/article/27/2/bbag124/8537492)
 - **PS3** — pathology reports + histology + pathways for cancer survival prediction. [![Paper](https://img.shields.io/badge/Paper-ICCV%202025-b31b1b.svg)](https://iccv.thecvf.com/virtual/2025/poster/1823) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/manahilr/PS3)
-- **KRONOS** — foundation model for multiplex spatial proteomic images. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/KRONOS)
+- **KRONOS** — foundation model for spatial proteomics. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.03373) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/MahmoodLab/KRONOS)
 - **PathoDuet** — H&E and IHC foundation models for stain pairing and cross-stain transfer. [![Paper](https://img.shields.io/badge/Paper-MedIA-b31b1b.svg)](https://www.sciencedirect.com/science/article/abs/pii/S1361841524002147) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/openmedlab/PathoDuet)
-- **SpatialFusion** — multimodal niche discovery from spatial transcriptomics and histology. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/uhlerlab/spatialfusion)
+- **SpatialFusion** — multimodal niche discovery from ST + histology. [![Paper](https://img.shields.io/badge/Paper-bioRxiv-b31b1b.svg)](https://www.biorxiv.org/content/10.64898/2026.03.16.712056v1) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/uhlerlab/spatialfusion)
 - **InSTaPath** — histology + ST topic learning. [![Paper](https://img.shields.io/badge/Paper-bioRxiv-b31b1b.svg)](https://www.biorxiv.org/content/10.64898/2026.03.16.712067v1) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/xwymary/InSTaPath)
 
 ---
