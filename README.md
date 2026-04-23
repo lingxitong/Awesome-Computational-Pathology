@@ -342,6 +342,25 @@ This repository aims to:
 
 ## Generative Models for Computational Pathology
 
+- **PixCell** — A generative foundation model for digital histopathology images. [![Paper](https://img.shields.io/badge/Paper-arXiv-6A5ACD.svg)](https://arxiv.org/abs/2311.18223) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/cvlab-stonybrook/PixCell)
+
+- **CytoSyn** — A Foundation Diffusion Model for Histopathology. [![Paper](https://img.shields.io/badge/Paper-arXiv-6A5ACD.svg)](https://arxiv.org/abs/2603.18089) [![Code](https://img.shields.io/badge/Code-HuggingFace-green.svg)](https://huggingface.co/Owkin-Bioptimus/CytoSyn)
+
+- **HistDiST** — Histopathological Diffusion-based Stain Transfer. [![Paper](https://img.shields.io/badge/Paper-arXiv-6A5ACD.svg)](https://arxiv.org/abs/2505.06793) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/ErikGro/HistDiST)
+
+- **F2FLDM** — Latent Diffusion Models with Histopathology Pre-Trained Embeddings for Unpaired Frozen Section to FFPE Translation. [![Paper](https://img.shields.io/badge/Paper-WACV%202025-6A5ACD.svg)](https://openaccess.thecvf.com/content/WACV2025/papers/Ho_F2FLDM_Latent_Diffusion_Models_with_Histopathology_Pre-Trained_Embeddings_for_Unpaired_WACV_2025_paper.pdf) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/minhmanho/f2f_ldm)
+
+- **StainFuser** — Controlling Diffusion for Faster Neural Style Transfer in Multi-Gigapixel Histology Images. [![Paper](https://img.shields.io/badge/Paper-arXiv-6A5ACD.svg)](https://arxiv.org/abs/2403.09302) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/R-J96/stainFuser)
+
+- **StainGAN** — Stain Style Transfer for Digital Histological Images. [![Paper](https://img.shields.io/badge/Paper-IEEE-6A5ACD.svg)](https://ieeexplore.ieee.org/document/8573775) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/xtarx/StainGAN)
+
+- **CAGAN** — Colour Adaptive Generative Adversarial Networks for stain normalisation. [![Paper](https://img.shields.io/badge/Paper-MedIA-6A5ACD.svg)](https://doi.org/10.1016/j.media.2021.102204) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/thomascong121/CAGAN_Stain_Norm)
+
+- **Residual CycleGAN** — Residual CycleGAN for robust domain transformation of histopathological images. [![Paper](https://img.shields.io/badge/Paper-MedIA-6A5ACD.svg)](https://doi.org/10.1016/j.media.2021.102108) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/computationalpathologygroup/pathology-cyclegan-stain-transformation)
+
+- **PCGAN** — Pathology-Consistent Constrained GAN for stain transfer. [![Paper](https://img.shields.io/badge/Paper-MICCAI-6A5ACD.svg)](https://arxiv.org/abs/2104.09462) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/Pathology-Consistent-Stain-Transfer/Unpaired-Stain-Transfer-using-Pathology-Consistent-Constrained-Generative-Adversarial-Networks)
+
+- **StainPrompt** — Dual Path Prompted Inversion for multi-domain histopathology virtual staining. [![Paper](https://img.shields.io/badge/Paper-arXiv-6A5ACD.svg)](https://arxiv.org/abs/2412.11106) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/DianaNerualNetwork/StainPromptInversion)
 
 ---
 
@@ -431,6 +450,25 @@ This repository aims to:
 
 ## Dense Prediction in Computational Pathology
 
+- **PFM-DenseBench** — To What Extent Do Token-Level Representations from Pathology Foundation Models Improve Dense Prediction? [![Paper](https://img.shields.io/badge/Paper-arXiv-6A5ACD.svg)](https://arxiv.org/pdf/2602.03887) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/lingxitong/PFM_Segmentation)
+
+- **HoVer-Net** — Simultaneous Segmentation and Classification of Nuclei in Multi-Tissue Histology Images. [![Paper](https://img.shields.io/badge/Paper-arXiv-6A5ACD.svg)](https://arxiv.org/abs/1812.06499) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/vqdang/hover_net)
+
+- **CellViT** — Vision Transformers for Precise Cell Segmentation and Classification. [![Paper](https://img.shields.io/badge/Paper-arXiv-6A5ACD.svg)](https://arxiv.org/abs/2306.15350) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/TIO-IKIM/CellViT)
+
+- **LKCell** — Efficient Cell Nuclei Instance Segmentation with Large Convolution Kernels. [![Paper](https://img.shields.io/badge/Paper-arXiv-6A5ACD.svg)](https://arxiv.org/abs/2407.18054) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/hustvl/LKCell)
+
+- **UniCell** — Universal Cell Nucleus Classification via Prompt Learning. [![Paper](https://img.shields.io/badge/Paper-arXiv-6A5ACD.svg)](https://arxiv.org/abs/2402.12938) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/lhaof/UniCell)
+
+- **CISCA** — a Cell Instance Segmentation and Classification method for histo(patho)logical image Analyses. [![Paper](https://img.shields.io/badge/Paper-arXiv-6A5ACD.svg)](https://arxiv.org/abs/2409.04175) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/Vadori/cytoark)
+
+- **HoVer-NeXt** — A Fast Nuclei Segmentation and Classification Pipeline for Next Generation Histopathology. [![Paper](https://img.shields.io/badge/Paper-OpenReview-6A5ACD.svg)](https://openreview.net/forum?id=3vmB43oqIO) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/digitalpathologybern/hover_next_train)
+
+- **Multi-layer Pseudo-Supervision** — Multi-Layer Pseudo-Supervision for Histopathology Tissue Semantic Segmentation using Patch-Level Classification Labels. [![Paper](https://img.shields.io/badge/Paper-MedIA-6A5ACD.svg)](https://www.sciencedirect.com/science/article/pii/S1361841522001347) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/ChuHan89/WSSS-Tissue)
+
+- **OEEM** — Online Easy Example Mining for Weakly-supervised Gland Segmentation from Histology Images. [![Paper](https://img.shields.io/badge/Paper-MICCAI%202022-6A5ACD.svg)](https://arxiv.org/abs/2206.06665) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/xmed-lab/OEEM)
+
+- **Deep Adversarial Training for Multi-Organ Nuclei Segmentation** — Deep Adversarial Training for Multi-Organ Nuclei Segmentation in Histopathology Images. [![Paper](https://img.shields.io/badge/Paper-arXiv-6A5ACD.svg)](https://arxiv.org/abs/1810.00236) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/NucleiSegmentation)
 
 ---
 
