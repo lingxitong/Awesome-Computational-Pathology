@@ -45,6 +45,7 @@ _Major updates and repository announcements are shown below._
 - 🌐 [Federated Learning in Computational Pathology](#federated-learning-in-computational-pathology)
 - 🤖 [Patch-Level Foundation Models](#patch-level-foundation-models)
 - 🖼️ [Slide-Level Foundation Models and Slide Encoders](#slide-level-foundation-models-and-slide-encoders)
+- 🧫 [Cytopathology and Cell-Level Analysis](#cytopathology-and-cell-level-analysis)
 - 🎨 [Generative Models for Computational Pathology](#generative-models-for-computational-pathology)
 - 🧬 [Computational Pathology with Multi-Omics](#computational-pathology-with-multi-omics)
 - 💬 [Vision-Language Models and Pathology Agents](#vision-language-models-and-pathology-agents)
@@ -284,6 +285,11 @@ This repository aims to:
 - **SlideGraph+** — whole-slide GNN for HER2 prediction from WSIs. [![Paper](https://img.shields.io/badge/Paper-MedIA-b31b1b.svg)](https://www.sciencedirect.com/science/article/pii/S1361841522001189) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/histocartography/SlideGraph)
 
 ---
+
+## Cytopathology and Cell-Level Analysis
+
+---
+
 
 ## Computational Pathology with Multi-Omics
 
