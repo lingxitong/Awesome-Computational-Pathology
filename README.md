@@ -237,6 +237,8 @@ This repository aims to:
 
 ## Computational Pathology with Multi-Omics
 
+<em>Representative multimodal works bridging histology (H&E/WSI) with omics (spatial transcriptomics, proteomics, genomics) for prediction, alignment, and clinical modeling.</em>
+
 - **HEST-1k** — histology–spatial transcriptomics benchmark. [![Paper](https://img.shields.io/badge/Paper-NeurIPS%202024-b31b1b.svg)](https://arxiv.org/abs/2406.16192) [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-orange.svg)](https://huggingface.co/datasets/MahmoodLab/hest) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/HEST)
 - **HE2RNA** — bulk RNA-seq prediction from WSIs. [![Paper](https://img.shields.io/badge/Paper-Nature%20Communications-1f77b4.svg)](https://www.nature.com/articles/s41467-020-17678-4) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/owkin/HE2RNA_code)
 - **DeepPATH** — histology-based cancer classification and gene mutation prediction. [![Paper](https://img.shields.io/badge/Paper-Nature%20Medicine-1f77b4.svg)](https://www.nature.com/articles/s41591-018-0177-5) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/ncoudray/DeepPATH)
