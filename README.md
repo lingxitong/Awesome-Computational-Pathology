@@ -174,7 +174,7 @@ This repository aims to:
 - **ILRA-MIL** — low-rank MIL for WSI classification. [![Paper](https://img.shields.io/badge/Paper-ICLR%202023-6A5ACD.svg)](https://openreview.net/forum?id=8hH4Q3f8c2) [![Code](https://img.shields.io/badge/Code-MIL__BASELINE-green.svg)](https://github.com/lingxitong/MIL_BASELINE)
 - **WiKG** — whole-slide image as a knowledge graph. [![Paper](https://img.shields.io/badge/Paper-CVPR%202024-b31b1b.svg)](https://arxiv.org/abs/2403.07719) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/WonderLandxD/WiKG)
 - **CA-MIL** — context-aware MIL for WSI classification. [![Paper](https://img.shields.io/badge/Paper-ICLR%202024-6A5ACD.svg)](https://openreview.net/forum?id=rzBskAEmoc) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/olgarithmics/ICLR_CAMIL)
-- **AC-MIL / ACMIL** — attention-challenging MIL. [![Paper](https://img.shields.io/badge/Paper-ECCV%202024-b31b1b.svg)](https://arxiv.org/abs/2403.05351) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/dazhangyu123/ACMIL)
+- **AC-MIL** — attention-challenging MIL. [![Paper](https://img.shields.io/badge/Paper-ECCV%202024-b31b1b.svg)](https://arxiv.org/abs/2403.05351) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/dazhangyu123/ACMIL)
 - **LongMIL** — long-contextual MIL for WSI analysis. [![Paper](https://img.shields.io/badge/Paper-NeurIPS%202024-6A5ACD.svg)](https://arxiv.org/abs/2410.14195) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/invoker-LL/Long-MIL)
 - **RRT-MIL** — feature re-embedding toward foundation model-level performance. [![Paper](https://img.shields.io/badge/Paper-CVPR%202024-b31b1b.svg)](https://openaccess.thecvf.com/content/CVPR2024/html/Tang_Feature_Re-Embedding_Towards_Foundation_Model-Level_Performance_in_Computational_Pathology_CVPR_2024_paper.html) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/DearCaat/RRT-MIL)
 - **RetMIL** — retentive MIL for long histopathology sequences. [![Paper](https://img.shields.io/badge/Paper-MICCAI%202024-b31b1b.svg)](https://papers.miccai.org/miccai-2024/657-Paper1723.html) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/Hongbo-Chu/RetMIL)
@@ -197,7 +197,7 @@ This repository aims to:
 - **S4MIL** — structured state space sequence models for pathology MIL. [![Paper](https://img.shields.io/badge/Paper-MIDL%202023-b31b1b.svg)](https://proceedings.mlr.press/v227/fillioux24a.html) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/MICS-Lab/s4mil)
 - **GTP** — graph-transformer fusing WSI graphs and ViTs for classification. [![Paper](https://img.shields.io/badge/Paper-IEEE%20TMI%202022-1f77b4.svg)](https://ieeexplore.ieee.org/document/9779215) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/vkola-lab/tmi2022)
 - **MIL_BASELINE** — unified implementation hub for many pathology MIL methods. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/lingxitong/MIL_BASELINE)
-- **MIL-Lab / FEATHER** — standardized MIL library with pretrained slide models. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/MIL-Lab)
+- **MIL-Lab** — standardized MIL library with pretrained slide models. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/MIL-Lab)
 - **MIL Tutorial** — hands-on tutorial for pathology MIL pipelines. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/guillaumejaume/mil-tutorial)
 
 ---
@@ -252,12 +252,6 @@ This repository aims to:
 - **Atlas 2** — clinical pathology foundation model family. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2601.05148) [![Website](https://img.shields.io/badge/Website-Aignostics-blue.svg)](https://www.aignostics.com/products/foundation-models)
 - **GloPath** — entity-centric renal pathology foundation model. [![Paper](https://img.shields.io/badge/Paper-Advanced%20Science-1f77b4.svg)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202520580)
 - **CerS-Path** — cervical subspecialty pathology foundation model. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2510.10196)
-- **RetCCL** — clustering-guided contrastive learning for whole-slide image retrieval. [![Paper](https://img.shields.io/badge/Paper-MedIA-b31b1b.svg)](https://www.sciencedirect.com/science/article/pii/S1361841522002572) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/Xiyue-Wang/RetCCL)
-- **CS-CO** — cross-stain and cross-organ self-supervised learning for pathology. [![Paper](https://img.shields.io/badge/Paper-CVPR%202022-b31b1b.svg)](https://openaccess.thecvf.com/content/CVPR2022/html/Yang_Cross-Stain_and_Cross-Organ_Self-Supervised_Learning_for_Computational_Pathology_CVPR_2022_paper.html)
-- **BiomedCLIP** — biomedical vision-language foundation model from 15M image-text pairs. [![Paper](https://img.shields.io/badge/Paper-Nature%20Methods-1f77b4.svg)](https://www.nature.com/articles/s41592-024-02206-1) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/microsoft/BiomedCLIP)
-- **HistoSSL** — self-supervised learning for histological image analysis at scale. [![Paper](https://img.shields.io/badge/Paper-Nature%20Communications-1f77b4.svg)](https://www.nature.com/articles/s41467-023-40004-9) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/owkin/HistoSSLscaling)
-- **Quilt-1M** — million-scale pathology image-text pairs for vision-language pretraining. [![Paper](https://img.shields.io/badge/Paper-NeurIPS%202023-6A5ACD.svg)](https://proceedings.neurips.cc/paper_files/paper/2023/hash/775ec578876fa6812c062644964b9870-Abstract-Datasets_and_Benchmarks.html) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/wisdomikezogwo/quilt1m)
-- **REMEDIS** — robust medical imaging via large-scale self-supervised pretraining. [![Paper](https://img.shields.io/badge/Paper-Nature%20BME-1f77b4.svg)](https://www.nature.com/articles/s41551-023-01049-7) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/google-research/medical-ai-research-foundations)
 
 ---
 
@@ -282,7 +276,6 @@ This repository aims to:
 - **PathAlign** — vision-language model for whole-slide images in histopathology. [![Paper](https://img.shields.io/badge/Paper-PMLR%202024-6A5ACD.svg)](https://proceedings.mlr.press/v254/ahmed24a.html)
 - **HistoGPT** — vision-language foundation model for gigapixel whole-slide pathology report generation. [![Paper](https://img.shields.io/badge/Paper-Nature%20Communications-1f77b4.svg)](https://www.nature.com/articles/s41467-025-60014-x) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/marr-peng-lab/histogpt)
 - **CARE** — molecular-guided slide-level foundation model with adaptive region modeling. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2602.21637) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/Zipper-1/CARE)
-- **SlideGraph+** — whole-slide GNN for HER2 prediction from WSIs. [![Paper](https://img.shields.io/badge/Paper-MedIA-b31b1b.svg)](https://www.sciencedirect.com/science/article/pii/S1361841522001189) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/histocartography/SlideGraph)
 
 ---
 
