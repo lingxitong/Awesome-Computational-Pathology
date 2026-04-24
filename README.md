@@ -45,7 +45,7 @@ _Major updates and repository announcements are shown below._
 - 🌐 [Federated Learning in Computational Pathology](#federated-learning-in-computational-pathology)
 - 🤖 [Patch-Level Foundation Models](#patch-level-foundation-models)
 - 🖼️ [Slide-Level Foundation Models and Slide Encoders](#slide-level-foundation-models-and-slide-encoders)
-- 🧫 [Cytopathology and Cell-Level Analysis](#cytopathology-and-cell-level-analysis)
+- 🧫 [Cytology and Cervical Cytology in Pathology AI](#Cytology and Cervical Cytology in Pathology AI)
 - 🎨 [Generative Models for Computational Pathology](#generative-models-for-computational-pathology)
 - 🧬 [Computational Pathology with Multi-Omics](#computational-pathology-with-multi-omics)
 - 💬 [Vision-Language Models and Pathology Agents](#vision-language-models-and-pathology-agents)
@@ -284,7 +284,6 @@ This repository aims to:
 - **CARE** — molecular-guided slide-level foundation model with adaptive region modeling. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2602.21637) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/Zipper-1/CARE)
 
 ---
-
 ## Cytology and Cervical Cytology in Pathology AI
 
 - **Deep Learning for Computational Cytology: A Survey** — survey of deep learning tasks, datasets, pipelines, and open problems in computational cytology. [![Paper](https://img.shields.io/badge/Paper-MedIA-b31b1b.svg)](https://www.sciencedirect.com/science/article/abs/pii/S136184152200319X)
