@@ -45,7 +45,7 @@ _Major updates and repository announcements are shown below._
 - 🌐 [Federated Learning in Computational Pathology](#federated-learning-in-computational-pathology)
 - 🤖 [Patch-Level Foundation Models](#patch-level-foundation-models)
 - 🖼️ [Slide-Level Foundation Models and Slide Encoders](#slide-level-foundation-models-and-slide-encoders)
-- 🧫 [Cytology and Cervical Cytology in Pathology AI](#Cytology and Cervical Cytology in Pathology AI)
+- 🧫 [Cytology and Cervical Cytology in Pathology AI](#cytology-and-cervical-cytology-in-pathology-ai)
 - 🎨 [Generative Models for Computational Pathology](#generative-models-for-computational-pathology)
 - 🧬 [Computational Pathology with Multi-Omics](#computational-pathology-with-multi-omics)
 - 💬 [Vision-Language Models and Pathology Agents](#vision-language-models-and-pathology-agents)
