@@ -655,6 +655,8 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
   </tr>
 </table>
 
+We also gratefully acknowledge Minxi Ouyang, Xiaoxiao Li, Shiting Ruan, Weiming Chen, Jiatong Ye, Chang Qin and Bo Yang for their outstanding contributions that greatly advanced this project.
+
 ### Supporting Groups
 
 <p align="center">
