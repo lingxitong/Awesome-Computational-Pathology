@@ -620,7 +620,7 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
 <table>
   <tr>
     <td align="center" width="160">
-      <img src="assets/people/lingxitong.png" width="120" height="120" style="object-fit: cover; object-position: center;"><br>
+      <img src="assets/people/lingxitong.png" width="120" height="150" style="object-fit: cover; object-position: center;"><br>
       <div style="line-height: 1.2; font-size: 13px;">
         <b>Xitong Ling</b><br>
         PhD Student<br>
