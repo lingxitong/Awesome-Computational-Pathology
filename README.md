@@ -628,7 +628,7 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
       </div>
     </td>
     <td align="center" width="160">
-      <img src="assets/people/person2.jpg" width="120" height="120" style="object-fit: cover; object-position: center;"><br>
+      <img src="assets/people/heyonghong.png" width="120" height="168" style="object-fit: cover; object-position: center;"><br>
       <div style="line-height: 1.2; font-size: 13px;">
         <b>Yonghong He</b><br>
         Professor<br>
@@ -636,7 +636,7 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
       </div>
     </td>
     <td align="center" width="160">
-      <img src="assets/people/person3.jpg" width="120" height="120" style="object-fit: cover; object-position: center;"><br>
+      <img src="assets/people/guantian.png" width="120" height="168" style="object-fit: cover; object-position: center;"><br>
       <div style="line-height: 1.2; font-size: 13px;">
         <b>Tian Guan</b><br>
         Professor<br>
@@ -644,7 +644,7 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
       </div>
     </td>
     <td align="center" width="160">
-      <img src="assets/people/person4.jpg" width="120" height="120" style="object-fit: cover; object-position: center;"><br>
+      <img src="assets/people/zhulianghui.png" width="120" height="168" style="object-fit: cover; object-position: center;"><br>
       <div style="line-height: 1.2; font-size: 13px;">
         <b>Lianghui Zhu</b><br>
         Research Engineer<br>
@@ -652,7 +652,7 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
       </div>
     </td>
     <td align="center" width="160">
-      <img src="assets/people/person5.jpg" width="120" height="120" style="object-fit: cover; object-position: center;"><br>
+      <img src="assets/people/huangqiang.png" width="120" height="168" style="object-fit: cover; object-position: center;"><br>
       <div style="line-height: 1.2; font-size: 13px;">
         <b>Qiang Huang</b><br>
         General Manager<br>
