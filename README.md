@@ -76,23 +76,22 @@ This repository aims to:
 
 ## Surveys, Reviews, and Perspectives
 
-- **Computational Pathology: Challenges and Promises for Tissue Analysis**. [![Paper](https://img.shields.io/badge/Paper-Computerized%20Medical%20Imaging%20and%20Graphics-1f77b4.svg)](https://www.sciencedirect.com/science/article/abs/pii/S0895611111000383)
-- **Digital Pathology and Artificial Intelligence**. [![Paper](https://img.shields.io/badge/Paper-The%20Lancet%20Oncology-1f77b4.svg)](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045%2819%2930154-8/abstract)
-- **Artificial Intelligence in Digital Pathology — New Tools for Diagnosis and Precision Oncology**. [![Paper](https://img.shields.io/badge/Paper-Nature%20Reviews%20Clinical%20Oncology-1f77b4.svg)](https://www.nature.com/articles/s41571-019-0252-y)
-- **Computational Pathology Definitions, Best Practices, and Recommendations for Regulatory Guidance: A White Paper from the Digital Pathology Association**. [![Paper](https://img.shields.io/badge/Paper-Journal%20of%20Pathology-1f77b4.svg)](https://pathsocjournals.onlinelibrary.wiley.com/doi/10.1002/path.5331)
-- **Digital Pathology and Computational Image Analysis in Nephropathology**. [![Paper](https://img.shields.io/badge/Paper-Nature%20Reviews%20Nephrology-1f77b4.svg)](https://www.nature.com/articles/s41581-020-0321-6)
-- **Artificial Intelligence and Computational Pathology**. [![Paper](https://img.shields.io/badge/Paper-Laboratory%20Investigation-1f77b4.svg)](https://www.nature.com/articles/s41374-020-00514-0)
-- **Digital Pathology and Artificial Intelligence in Translational Medicine and Clinical Practice**. [![Paper](https://img.shields.io/badge/Paper-Modern%20Pathology-1f77b4.svg)](https://www.nature.com/articles/s41379-021-00919-2)
-- **AI in Computational Pathology of Cancer: Improving Diagnostic Workflows and Clinical Outcomes?**. [![Paper](https://img.shields.io/badge/Paper-Annual%20Review%20of%20Cancer%20Biology-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-cancerbio-061521-092038)
-- **Artificial Intelligence for Digital and Computational Pathology**. [![Paper](https://img.shields.io/badge/Paper-Nature%20Reviews%20Bioengineering-1f77b4.svg)](https://www.nature.com/articles/s44222-023-00096-8)
-- **Computational Pathology in 2030: A Delphi Study Forecasting the Role of AI in Pathology Within the Next Decade**. [![Paper](https://img.shields.io/badge/Paper-EBioMedicine-1f77b4.svg)](https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964%2822%2900609-0/fulltext)
-- **Applications of Digital Pathology in Cancer: A Comprehensive Review**. [![Paper](https://img.shields.io/badge/Paper-Annual%20Review%20of%20Cancer%20Biology-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-cancerbio-062822-010523)
-- **Toward Explainable Artificial Intelligence for Precision Pathology**. [![Paper](https://img.shields.io/badge/Paper-Annual%20Review%20of%20Pathology-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-pathmechdis-051222-113147)
-- **Artificial Intelligence in Digital Pathology: A Systematic Review and Meta-analysis of Diagnostic Test Accuracy**. [![Paper](https://img.shields.io/badge/Paper-npj%20Digital%20Medicine-1f77b4.svg)](https://www.nature.com/articles/s41746-024-01106-8)
-- **Pathology in the Era of Generative AI**. [![Paper](https://img.shields.io/badge/Paper-The%20Lancet%20Digital%20Health-1f77b4.svg)](https://www.thelancet.com/journals/landig/article/PIIS2589-7500%2824%2900157-2/fulltext)
-- **Artificial Intelligence in Pathology: Advancing Large Models for Scalable Applications**. [![Paper](https://img.shields.io/badge/Paper-Annual%20Review%20of%20Biomedical%20Data%20Science-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-biodatasci-103123-095814)
-- **Application of Artificial Intelligence and Digital Tools in Cancer Pathology**. [![Paper](https://img.shields.io/badge/Paper-The%20Lancet%20Digital%20Health-1f77b4.svg)](https://www.thelancet.com/journals/landig/article/PIIS2589-7500%2825%2900115-3/fulltext)
-
+- **Computational Pathology: Challenges and Promises**. [![Paper](https://img.shields.io/badge/Paper-CMIG-1f77b4.svg)](https://www.sciencedirect.com/science/article/abs/pii/S0895611111000383)
+- **Digital Pathology and Artificial Intelligence**. [![Paper](https://img.shields.io/badge/Paper-Lancet%20Oncology-1f77b4.svg)](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045%2819%2930154-8/abstract)
+- **AI in Digital Pathology for Precision Oncology**. [![Paper](https://img.shields.io/badge/Paper-Nat%20Rev%20Clin%20Oncol-1f77b4.svg)](https://www.nature.com/articles/s41571-019-0252-y)
+- **Computational Pathology White Paper**. [![Paper](https://img.shields.io/badge/Paper-J%20Pathol-1f77b4.svg)](https://pathsocjournals.onlinelibrary.wiley.com/doi/10.1002/path.5331)
+- **Digital Pathology in Nephropathology**. [![Paper](https://img.shields.io/badge/Paper-Nat%20Rev%20Nephrol-1f77b4.svg)](https://www.nature.com/articles/s41581-020-0321-6)
+- **Artificial Intelligence and Computational Pathology**. [![Paper](https://img.shields.io/badge/Paper-Lab%20Invest-1f77b4.svg)](https://www.nature.com/articles/s41374-020-00514-0)
+- **Digital Pathology in Translational Medicine**. [![Paper](https://img.shields.io/badge/Paper-Mod%20Pathol-1f77b4.svg)](https://www.nature.com/articles/s41379-021-00919-2)
+- **AI in Computational Pathology of Cancer**. [![Paper](https://img.shields.io/badge/Paper-Ann%20Rev%20Cancer%20Biol-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-cancerbio-061521-092038)
+- **AI for Digital and Computational Pathology**. [![Paper](https://img.shields.io/badge/Paper-Nat%20Rev%20Bioeng-1f77b4.svg)](https://www.nature.com/articles/s44222-023-00096-8)
+- **Computational Pathology in 2030**. [![Paper](https://img.shields.io/badge/Paper-EBioMedicine-1f77b4.svg)](https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964%2822%2900609-0/fulltext)
+- **Applications of Digital Pathology in Cancer**. [![Paper](https://img.shields.io/badge/Paper-Ann%20Rev%20Cancer%20Biol-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-cancerbio-062822-010523)
+- **Explainable AI for Precision Pathology**. [![Paper](https://img.shields.io/badge/Paper-Ann%20Rev%20Pathol-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-pathmechdis-051222-113147)
+- **AI in Digital Pathology: Diagnostic Meta-analysis**. [![Paper](https://img.shields.io/badge/Paper-npj%20Digital%20Medicine-1f77b4.svg)](https://www.nature.com/articles/s41746-024-01106-8)
+- **Pathology in the Era of Generative AI**. [![Paper](https://img.shields.io/badge/Paper-Lancet%20Digital%20Health-1f77b4.svg)](https://www.thelancet.com/journals/landig/article/PIIS2589-7500%2824%2900157-2/fulltext)
+- **Large Models for Scalable Pathology AI**. [![Paper](https://img.shields.io/badge/Paper-Ann%20Rev%20Biomed%20Data%20Sci-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-biodatasci-103123-095814)
+- **AI and Digital Tools in Cancer Pathology**. [![Paper](https://img.shields.io/badge/Paper-Lancet%20Digital%20Health-1f77b4.svg)](https://www.thelancet.com/journals/landig/article/PIIS2589-7500%2825%2900115-3/fulltext)
 ---
 
 ## Digital Slide Scanners and File Formats
