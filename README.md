@@ -613,7 +613,7 @@ Special thanks to the supporting teams from **Sqray Technology** and **Tsinghua 
 ### Supporting Groups
 
 <p align="center">
-  <img src="assets/logos/tsinghua.png" width="160"/>
+  <img src="assets/logos/tsinghua.png" width="120"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="assets/logos/sqray.png" width="160"/>
 </p>
