@@ -619,35 +619,45 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
 
 <table>
   <tr>
-    <td align="center">
+    <td align="center" width="160">
       <img src="assets/people/lingxitong.png" width="120" height="120" style="object-fit: cover; object-position: center;"><br>
-      <sub><b>Xitong Ling</b></sub><br>
-      <sub>PhD Student</sub><br>
-      <sub>Tsinghua University</sub>
+      <div style="line-height: 1.2; font-size: 13px;">
+        <b>Xitong Ling</b><br>
+        PhD Student<br>
+        Tsinghua University
+      </div>
     </td>
-    <td align="center">
-      <img src="assets/people/heyonghong.png" width="120" height="120" style="object-fit: cover; object-position: center;"><br>
-      <sub><b>Yonghong He</b></sub><br>
-      <sub>Professor</sub><br>
-      <sub>Tsinghua University</sub>
+    <td align="center" width="160">
+      <img src="assets/people/person2.jpg" width="120" height="120" style="object-fit: cover; object-position: center;"><br>
+      <div style="line-height: 1.2; font-size: 13px;">
+        <b>Yonghong He</b><br>
+        Professor<br>
+        Tsinghua University
+      </div>
     </td>
-    <td align="center">
-      <img src="assets/people/guantian.jpg" width="120" height="120" style="object-fit: cover; object-position: center;"><br>
-      <sub><b>Tian Guan</b></sub><br>
-      <sub>Professor</sub><br>
-      <sub>Tsinghua University</sub>
+    <td align="center" width="160">
+      <img src="assets/people/person3.jpg" width="120" height="120" style="object-fit: cover; object-position: center;"><br>
+      <div style="line-height: 1.2; font-size: 13px;">
+        <b>Tian Guan</b><br>
+        Professor<br>
+        Tsinghua University
+      </div>
     </td>
-    <td align="center">
-      <img src="assets/people/zhulianghui.jpg" width="120" height="120" style="object-fit: cover; object-position: center;"><br>
-      <sub><b>Lianghui Zhu</b></sub><br>
-      <sub>Research Engineer</sub><br>
-      <sub>Techsqray</sub>
+    <td align="center" width="160">
+      <img src="assets/people/person4.jpg" width="120" height="120" style="object-fit: cover; object-position: center;"><br>
+      <div style="line-height: 1.2; font-size: 13px;">
+        <b>Lianghui Zhu</b><br>
+        Research Engineer<br>
+        Techsqray
+      </div>
     </td>
-    <td align="center">
-      <img src="assets/people/huangqiang.jpg" width="120" height="120" style="object-fit: cover; object-position: center;"><br>
-      <sub><b>Qiang Huang</b></sub><br>
-      <sub>General Manager</sub><br>
-      <sub>Techsqray</sub>
+    <td align="center" width="160">
+      <img src="assets/people/person5.jpg" width="120" height="120" style="object-fit: cover; object-position: center;"><br>
+      <div style="line-height: 1.2; font-size: 13px;">
+        <b>Qiang Huang</b><br>
+        General Manager<br>
+        Techsqray
+      </div>
     </td>
   </tr>
 </table>
