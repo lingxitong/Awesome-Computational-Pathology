@@ -76,30 +76,30 @@ This repository aims to:
 
 ## Surveys, Reviews, and Perspectives
 
-- **Computational Pathology: Challenges and Promises**. [![Paper](https://img.shields.io/badge/Paper-CMIG-1f77b4.svg)](https://www.sciencedirect.com/science/article/abs/pii/S0895611111000383)
-- **Digital Pathology and Artificial Intelligence**. [![Paper](https://img.shields.io/badge/Paper-Lancet%20Oncology-1f77b4.svg)](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045%2819%2930154-8/abstract)
-- **AI in Digital Pathology for Precision Oncology**. [![Paper](https://img.shields.io/badge/Paper-Nat%20Rev%20Clin%20Oncol-1f77b4.svg)](https://www.nature.com/articles/s41571-019-0252-y)
-- **Computational Pathology White Paper**. [![Paper](https://img.shields.io/badge/Paper-J%20Pathol-1f77b4.svg)](https://pathsocjournals.onlinelibrary.wiley.com/doi/10.1002/path.5331)
-- **Digital Pathology in Nephropathology**. [![Paper](https://img.shields.io/badge/Paper-Nat%20Rev%20Nephrol-1f77b4.svg)](https://www.nature.com/articles/s41581-020-0321-6)
-- **Artificial Intelligence and Computational Pathology**. [![Paper](https://img.shields.io/badge/Paper-Lab%20Invest-1f77b4.svg)](https://www.nature.com/articles/s41374-020-00514-0)
-- **Digital Pathology in Translational Medicine**. [![Paper](https://img.shields.io/badge/Paper-Mod%20Pathol-1f77b4.svg)](https://www.nature.com/articles/s41379-021-00919-2)
-- **AI in Computational Pathology of Cancer**. [![Paper](https://img.shields.io/badge/Paper-Ann%20Rev%20Cancer%20Biol-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-cancerbio-061521-092038)
-- **AI for Digital and Computational Pathology**. [![Paper](https://img.shields.io/badge/Paper-Nat%20Rev%20Bioeng-1f77b4.svg)](https://www.nature.com/articles/s44222-023-00096-8)
-- **Computational Pathology in 2030**. [![Paper](https://img.shields.io/badge/Paper-EBioMedicine-1f77b4.svg)](https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964%2822%2900609-0/fulltext)
-- **Applications of Digital Pathology in Cancer**. [![Paper](https://img.shields.io/badge/Paper-Ann%20Rev%20Cancer%20Biol-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-cancerbio-062822-010523)
-- **Explainable AI for Precision Pathology**. [![Paper](https://img.shields.io/badge/Paper-Ann%20Rev%20Pathol-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-pathmechdis-051222-113147)
-- **AI in Digital Pathology: Diagnostic Meta-analysis**. [![Paper](https://img.shields.io/badge/Paper-npj%20Digital%20Medicine-1f77b4.svg)](https://www.nature.com/articles/s41746-024-01106-8)
-- **Pathology in the Era of Generative AI**. [![Paper](https://img.shields.io/badge/Paper-Lancet%20Digital%20Health-1f77b4.svg)](https://www.thelancet.com/journals/landig/article/PIIS2589-7500%2824%2900157-2/fulltext)
-- **Large Models for Scalable Pathology AI**. [![Paper](https://img.shields.io/badge/Paper-Ann%20Rev%20Biomed%20Data%20Sci-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-biodatasci-103123-095814)
-- **AI and Digital Tools in Cancer Pathology**. [![Paper](https://img.shields.io/badge/Paper-Lancet%20Digital%20Health-1f77b4.svg)](https://www.thelancet.com/journals/landig/article/PIIS2589-7500%2825%2900115-3/fulltext)
+- **Computational Pathology: Challenges and Promises**. [![Paper](https://img.shields.io/badge/Paper-CMIG%202011-1f77b4.svg)](https://www.sciencedirect.com/science/article/abs/pii/S0895611111000383)
+- **Digital Pathology and Artificial Intelligence**. [![Paper](https://img.shields.io/badge/Paper-Lancet%20Oncol%202019-1f77b4.svg)](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045%2819%2930154-8/abstract)
+- **AI in Digital Pathology for Precision Oncology**. [![Paper](https://img.shields.io/badge/Paper-Nat%20Rev%20Clin%20Oncol%202019-1f77b4.svg)](https://www.nature.com/articles/s41571-019-0252-y)
+- **Computational Pathology White Paper**. [![Paper](https://img.shields.io/badge/Paper-J%20Pathol%202019-1f77b4.svg)](https://pathsocjournals.onlinelibrary.wiley.com/doi/10.1002/path.5331)
+- **Digital Pathology in Nephropathology**. [![Paper](https://img.shields.io/badge/Paper-Nat%20Rev%20Nephrol%202020-1f77b4.svg)](https://www.nature.com/articles/s41581-020-0321-6)
+- **Artificial Intelligence and Computational Pathology**. [![Paper](https://img.shields.io/badge/Paper-Lab%20Invest%202020-1f77b4.svg)](https://www.nature.com/articles/s41374-020-00514-0)
+- **Digital Pathology in Translational Medicine**. [![Paper](https://img.shields.io/badge/Paper-Mod%20Pathol%202021-1f77b4.svg)](https://www.nature.com/articles/s41379-021-00919-2)
+- **AI in Computational Pathology of Cancer**. [![Paper](https://img.shields.io/badge/Paper-Ann%20Rev%20Cancer%20Biol%202022-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-cancerbio-061521-092038)
+- **Computational Pathology in 2030**. [![Paper](https://img.shields.io/badge/Paper-EBioMedicine%202022-1f77b4.svg)](https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964%2822%2900609-0/fulltext)
+- **AI for Digital and Computational Pathology**. [![Paper](https://img.shields.io/badge/Paper-Nat%20Rev%20Bioeng%202023-1f77b4.svg)](https://www.nature.com/articles/s44222-023-00096-8)
+- **Applications of Digital Pathology in Cancer**. [![Paper](https://img.shields.io/badge/Paper-Ann%20Rev%20Cancer%20Biol%202023-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-cancerbio-062822-010523)
+- **Explainable AI for Precision Pathology**. [![Paper](https://img.shields.io/badge/Paper-Ann%20Rev%20Pathol%202024-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-pathmechdis-051222-113147)
+- **AI in Digital Pathology: Diagnostic Meta-analysis**. [![Paper](https://img.shields.io/badge/Paper-npj%20Digit%20Med%202024-1f77b4.svg)](https://www.nature.com/articles/s41746-024-01106-8)
+- **Pathology in the Era of Generative AI**. [![Paper](https://img.shields.io/badge/Paper-Lancet%20Digit%20Health%202024-1f77b4.svg)](https://www.thelancet.com/journals/landig/article/PIIS2589-7500%2824%2900157-2/fulltext)
+- **Large Models for Scalable Pathology AI**. [![Paper](https://img.shields.io/badge/Paper-Ann%20Rev%20Biomed%20Data%20Sci%202025-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-biodatasci-103123-095814)
+- **AI and Digital Tools in Cancer Pathology**. [![Paper](https://img.shields.io/badge/Paper-Lancet%20Digit%20Health%202025-1f77b4.svg)](https://www.thelancet.com/journals/landig/article/PIIS2589-7500%2825%2900115-3/fulltext)
 ---
 
 ## Digital Slide Scanners and File Formats
 
-- **OpenSlide** — open-source library for reading wsi formats across scanner vendors. [![Paper](https://img.shields.io/badge/Paper-JPI-b31b1b.svg)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3815078/) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/openslide/openslide)
-- **opensdpc** — Python library for processing SDPC whole-slide images, extended from OpenSlide. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/WonderLandxD/opensdpc)
-- **Bio-Formats** — widely used library for reading and converting microscopy formats. [![Website](https://img.shields.io/badge/Website-OME-blue.svg)](https://www.openmicroscopy.org/bio-formats/)
-- **DICOM** — official overview of DICOM WSI and pathology imaging standardization. [![Website](https://img.shields.io/badge/Website-NEMA-blue.svg)](https://dicom.nema.org/dicom/dicomwsi/)
+- **OpenSlide** — open-source library for reading WSI formats across scanner vendors. [![Paper](https://img.shields.io/badge/Paper-JPI%202013-1f77b4.svg)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3815078/) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/openslide/openslide)
+- **opensdpc** — Python library for processing SDPC whole-slide images. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/WonderLandxD/opensdpc)
+- **Bio-Formats** — library for reading and converting microscopy formats. [![Paper](https://img.shields.io/badge/Paper-Nat%20Methods%202010-1f77b4.svg)](https://www.nature.com/articles/nmeth.1426) [![Website](https://img.shields.io/badge/Website-OME-ffb6c1.svg)](https://www.openmicroscopy.org/bio-formats/)
+- **DICOM WSI** — standard for digital pathology image interoperability. [![Paper](https://img.shields.io/badge/Paper-JDI%202018-1f77b4.svg)](https://link.springer.com/article/10.1007/s10278-017-0034-3) [![Website](https://img.shields.io/badge/Website-NEMA-ffb6c1.svg)](https://dicom.nema.org/dicom/dicomwsi/)
 ---
 
 ## Datasets and Benchmarks
