@@ -620,7 +620,7 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
 <table>
   <tr>
     <td align="center">
-      <img src="assets/people/lingxitong.png" width="90" style="border-radius:50%"><br>
+      <img src="assets/people/lingxitong.png" width="90" style="border-radius:80%"><br>
       <sub><b>Xitong Ling</b></sub><br>
       <sub>PhD Student</sub><br>
       <sub>Tsinghua University</sub>
