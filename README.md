@@ -306,7 +306,7 @@ This repository aims to:
 - **Detection-Free Cervical WSI Screening** — detection-free weakly supervised pipeline [![Paper](https://img.shields.io/badge/Paper-MICCAI-b31b1b.svg)](https://dl.acm.org/doi/10.1007/978-3-031-43987-2_24)
 - **AICCS** — AI cervical cytology screening system [![Paper](https://img.shields.io/badge/Paper-Nature%20Communications-1f77b4.svg)](https://www.nature.com/articles/s41467-024-48705-3)
 - **LBC-DL** — LBC model for cervical precancer/cancer detection [![Paper](https://img.shields.io/badge/Paper-Nature%20Communications-1f77b4.svg)](https://www.nature.com/articles/s41467-025-58883-3)
-- **Compact-Microscope Cytology AI** — AI-assisted cervical cytology for low-resource settings [![Paper](https://img.shields.io/badge/Paper-Nature%20Communications-1f77b4.svg)](https://www.nature.com/articles/s41467-025-62589-x)
+- **DualCytoNet** — AI-assisted cervical cytology for low-resource settings [![Paper](https://img.shields.io/badge/Paper-Nature%20Communications-1f77b4.svg)](https://www.nature.com/articles/s41467-025-62589-x)
 - **Cervical TCT Dataset** — large ThinPrep cytologic test dataset [![Paper](https://img.shields.io/badge/Paper-Scientific%20Data-1f77b4.svg)](https://www.nature.com/articles/s41597-025-04374-5)
 - **ThinPrep Pap Dataset** — cross-validated ThinPrep Pap dataset [![Paper](https://img.shields.io/badge/Paper-Scientific%20Data-1f77b4.svg)](https://www.nature.com/articles/s41597-024-04328-3)
 - **UniCAS** — foundation model for cervical cytology screening [![Paper](https://img.shields.io/badge/Paper-Cell%20Reports%20Medicine-1f77b4.svg)](https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791%2825%2900643-3)
