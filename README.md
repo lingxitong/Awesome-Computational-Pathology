@@ -604,10 +604,8 @@ This repository aims to:
 
 ## 🙏 Acknowledgements
 
-This repository is built upon the open-source efforts of many researchers and groups across **computational pathology**, **spatial biology**, **medical vision-language modeling**, and **digital pathology infrastructure**. We sincerely thank the authors, maintainers, and contributors of the papers, datasets, benchmarks, and toolkits collected in this project.
-
+This repository is built upon the open-source efforts of many researchers and groups across. We sincerely thank the authors, maintainers, and contributors of the papers, datasets, benchmarks, and toolkits collected in this project.
 We also thank the **[Awesome World Models](https://github.com/world-models/awesome-world-models)** repository for providing an excellent README organization template and design inspiration.
-
 Special thanks to the supporting teams from **[Sqray Technology](https://www.sqray.com/)** and **[Tsinghua University](https://www.tsinghua.edu.cn/en/)** for their continuous support, discussions, and contributions.
 ### Supporting Groups
 
