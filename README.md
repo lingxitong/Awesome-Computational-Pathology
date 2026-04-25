@@ -620,31 +620,31 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
 <table>
   <tr>
     <td align="center">
-      <img src="assets/people/lingxitong.png" width="90" style="border-radius:80%"><br>
+      <img src="assets/people/lingxitong.png" width="120" height="120" style="object-fit: cover; object-position: center;"><br>
       <sub><b>Xitong Ling</b></sub><br>
       <sub>PhD Student</sub><br>
       <sub>Tsinghua University</sub>
     </td>
     <td align="center">
-      <img src="assets/people/person2.jpg" width="90" style="border-radius:50%"><br>
+      <img src="assets/people/heyonghong.png" width="120" height="120" style="object-fit: cover; object-position: center;"><br>
       <sub><b>Yonghong He</b></sub><br>
       <sub>Professor</sub><br>
       <sub>Tsinghua University</sub>
     </td>
     <td align="center">
-      <img src="assets/people/person3.jpg" width="90" style="border-radius:50%"><br>
+      <img src="assets/people/guantian.jpg" width="120" height="120" style="object-fit: cover; object-position: center;"><br>
       <sub><b>Tian Guan</b></sub><br>
       <sub>Professor</sub><br>
       <sub>Tsinghua University</sub>
     </td>
     <td align="center">
-      <img src="assets/people/person4.jpg" width="90" style="border-radius:50%"><br>
+      <img src="assets/people/zhulianghui.jpg" width="120" height="120" style="object-fit: cover; object-position: center;"><br>
       <sub><b>Lianghui Zhu</b></sub><br>
       <sub>Research Engineer</sub><br>
       <sub>Techsqray</sub>
     </td>
     <td align="center">
-      <img src="assets/people/person5.jpg" width="90" style="border-radius:50%"><br>
+      <img src="assets/people/huangqiang.jpg" width="120" height="120" style="object-fit: cover; object-position: center;"><br>
       <sub><b>Qiang Huang</b></sub><br>
       <sub>General Manager</sub><br>
       <sub>Techsqray</sub>
