@@ -279,7 +279,7 @@ This repository aims to:
 - **EXAONE Path 2.5** — pathology foundation model with multi-omics alignment. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2512.14019) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/LGAI-EXAONE/EXAONE-Path-2.5)
 - **WSI-Concepts** — supervised foundation model trained from whole-slide images. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.05742) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/FraunhoferMEVIS/MedicalMultitaskModeling)
 - **PathAlign** — vision-language model for whole-slide images in histopathology. [![Paper](https://img.shields.io/badge/Paper-PMLR%202024-6A5ACD.svg)](https://proceedings.mlr.press/v254/ahmed24a.html)
-- **HistoGPT** — multimodal foundation model for WSI report generation. [![Paper](https://img.shields.io/badge/Paper-Nature%20Communications-1f77b4.svg)](https://www.nature.com/articles/s41467-025-60014-x) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/marr-peng-lab/histogpt)
+- **HistoGPT** — slide foundation model for WSI report generation. [![Paper](https://img.shields.io/badge/Paper-Nature%20Communications-1f77b4.svg)](https://www.nature.com/articles/s41467-025-60014-x) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/marr-peng-lab/histogpt)
 - **CARE** — molecular-guided slide-level foundation model. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2602.21637) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/Zipper-1/CARE)
 
 ---
