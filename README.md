@@ -602,18 +602,48 @@ This repository aims to:
 
 ---
 
-## Acknowledgements
+## 🙏 Acknowledgements
 
-This list benefits from the open-source efforts of many groups across **computational pathology**, **spatial biology**, **medical vision-language modeling**, and **digital pathology infrastructure**.
+This repository is built upon the open-source efforts of many researchers and groups across **computational pathology**, **spatial biology**, **medical vision-language modeling**, and **digital pathology infrastructure**. We sincerely thank the authors, maintainers, and contributors of the papers, datasets, benchmarks, and toolkits collected in this project.
 
-Special thanks to the maintainers of:
+We also thank the **Awesome World Models** repository for providing an excellent README organization template and design inspiration.
 
-- **Mahmood Lab**
-- **PathFoundation / open-pathology**
-- **Tissue Image Analytics**
-- **DIAGNijmegen**
-- **HistAI**
-- **many community-maintained awesome lists and benchmark repositories**
+Special thanks to the supporting teams from **Shengqi Technology** and **Tsinghua University** for their continuous support, discussions, and contributions.
+
+### Supporting Groups
+
+<p align="center">
+  <img src="assets/logos/tsinghua.png" width="160"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/logos/shengqi.png" width="160"/>
+</p>
+
+### Contributors and Supporters
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/people/person1.jpg" width="90" style="border-radius:50%"><br>
+      <sub><b>Name 1</b></sub><br>
+      <sub>Tsinghua University</sub>
+    </td>
+    <td align="center">
+      <img src="assets/people/person2.jpg" width="90" style="border-radius:50%"><br>
+      <sub><b>Name 2</b></sub><br>
+      <sub>Tsinghua University</sub>
+    </td>
+    <td align="center">
+      <img src="assets/people/person3.jpg" width="90" style="border-radius:50%"><br>
+      <sub><b>Name 3</b></sub><br>
+      <sub>Shengqi Technology</sub>
+    </td>
+    <td align="center">
+      <img src="assets/people/person4.jpg" width="90" style="border-radius:50%"><br>
+      <sub><b>Name 4</b></sub><br>
+      <sub>Shengqi Technology</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
