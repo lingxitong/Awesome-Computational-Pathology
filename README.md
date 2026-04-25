@@ -607,13 +607,6 @@ This repository aims to:
 This repository is built upon the open-source efforts of many researchers and groups across. We sincerely thank the authors, maintainers, and contributors of the papers, datasets, benchmarks, and toolkits collected in this project.
 We also thank the **[Awesome World Models](https://github.com/world-models/awesome-world-models)** repository for providing an excellent README organization template and design inspiration.
 Special thanks to the supporting teams from **[Tsinghua University](https://www.tsinghua.edu.cn/en/)** and **[Techsqray](https://www.sqray.com/)** for their continuous support, discussions, and contributions.
-### Supporting Groups
-
-<p align="center">
-  <img src="assets/logos/tsinghua.png" width="120"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/logos/sqray.png" width="160"/>
-</p>
 
 ### Core Contributors
 
@@ -661,6 +654,14 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
     </td>
   </tr>
 </table>
+
+### Supporting Groups
+
+<p align="center">
+  <img src="assets/logos/tsinghua.png" width="120"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/logos/sqray.png" width="160"/>
+</p>
 
 ---
 
