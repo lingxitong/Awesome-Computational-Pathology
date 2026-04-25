@@ -617,7 +617,7 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
       <div style="line-height: 1.2; font-size: 13px;">
         <b>Xitong Ling</b><br>
         PhD Student<br>
-        Tsinghua University
+        Tsinghua 
       </div>
     </td>
     <td align="center" width="160">
@@ -625,7 +625,7 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
       <div style="line-height: 1.2; font-size: 13px;">
         <b>Yonghong He</b><br>
         Professor<br>
-        Tsinghua University
+        Tsinghua 
       </div>
     </td>
     <td align="center" width="160">
@@ -633,7 +633,7 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
       <div style="line-height: 1.2; font-size: 13px;">
         <b>Tian Guan</b><br>
         Professor<br>
-        Tsinghua University
+        Tsinghua 
       </div>
     </td>
     <td align="center" width="160">
