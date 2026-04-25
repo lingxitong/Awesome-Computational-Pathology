@@ -615,7 +615,7 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
   <img src="assets/logos/sqray.png" width="160"/>
 </p>
 
-### Contributors and Supporters
+### Core Contributors
 
 <table>
   <tr>
