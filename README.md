@@ -648,7 +648,7 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
       <img src="assets/people/huangqiang.png" width="120" height="168" style="object-fit: cover; object-position: center;"><br>
       <div style="line-height: 1.2; font-size: 13px;">
         <b>Qiang Huang</b><br>
-        General Manager<br>
+        Research Engineer<br>
         Techsqray
       </div>
     </td>
