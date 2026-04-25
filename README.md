@@ -52,7 +52,6 @@ _Major updates and repository announcements are shown below._
 - 🧱 [Dense Prediction in Computational Pathology](#dense-prediction-in-computational-pathology)
 - 🏥 [Clinical Tasks and Applications](#clinical-tasks-and-applications)
 - 🧭 [Pathology Image Registration and Spatial Alignment](#pathology-image-registration-and-spatial-alignment)
-- 🔬 [Interpretability, Explainability, and Trustworthiness](#interpretability-explainability-and-trustworthiness)
 - 🚀 [Resources, Toolkits, and Open-Source Projects](#resources-toolkits-and-open-source-projects)
 - 🔭 [Future Trends and Hot Topics](#future-trends-and-hot-topics)
 - 🙏 [Acknowledgements](#acknowledgements)
@@ -559,20 +558,6 @@ This repository aims to:
 - **STalign** — alignment for spatial transcriptomics and tissue sections. [![Paper](https://img.shields.io/badge/Paper-Nature%20Communications-red)](https://www.nature.com/articles/s41467-023-43915-7) [![Code](https://img.shields.io/badge/Code-gray)](https://github.com/JEFworks-Lab/STalign)
 - **GridNet** — registration of high-resolution histology images for spatial transcriptomics. [![Code](https://img.shields.io/badge/Code-gray)](https://github.com/flatironinstitute/st_gridnet)
 - **TIAToolbox WSI Registration** — practical toolkit support for wsi registration. [![Website](https://img.shields.io/badge/Website-blue)](https://tia-toolbox.readthedocs.io/en/latest/_notebooks/jnb/10-wsi-registration.html) [![Code](https://img.shields.io/badge/Code-gray)](https://github.com/TissueImageAnalytics/tiatoolbox)
----
-
-## Interpretability, Explainability, and Trustworthiness
-
-- **CLAM Heatmaps** — attention-based slide-level interpretability in weak supervision. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/CLAM)
-- **VLSA** — vision-language survival analysis with interpretable text-guided reasoning. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.04450) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/liupei101/VLSA)
-- **HistoGPT** — report generation with word/phrase-to-region visualization. [![Paper](https://img.shields.io/badge/Paper-Nature%20Communications-1f77b4.svg)](https://www.nature.com/articles/s41467-025-60014-x) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/marrlab/HistoGPT)
-- **HistoXGAN** — reconstructive explainability for histology representations. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/fmhoward/HistoXGAN)
-- **HoVer-Net** — explicit nuclei instances and categories for cell-level interpretation. [![Paper](https://img.shields.io/badge/Paper-MedIA-b31b1b.svg)](https://www.sciencedirect.com/science/article/pii/S1361841519301045) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/vqdang/hover_net)
-- **CellViT** — interpretable cell-centric outputs for pathology analysis. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/TIO-IKIM/CellViT)
-- **HistoQC** — whole-slide quality control and artifact detection. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/choosehappy/HistoQC)
-- **GrandQC** — large-scale pathology quality control framework. [![Paper](https://img.shields.io/badge/Paper-Nature%20Communications-1f77b4.svg)](https://www.nature.com/articles/s41467-024-54769-y) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/cpath-ukk/grandqc)
-- **FrOoDo** — framework for out-of-distribution artifact detection in pathology. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/MECLabTUDA/FrOoDo)
-- **Histopath-C** — robustness and corruption stress test for pathology models. [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2601.12493) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/Mehrdad-Noori/Histopath-C)
 
 ---
 
@@ -595,10 +580,7 @@ This repository aims to:
 - **MIL-Lab** — standardized MIL codebase with FEATHER checkpoints. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/MIL-Lab)
 - **PFM_Segmentation** — segmentation framework built around pathology foundation models. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/lingxitong/PFM_Segmentation)
 - **PrismToolBox** — toolbox for patch extraction, embeddings, and QuPath interoperability. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/gustaveroussy/prismtoolbox)
-- **Awesome Digital and Computational Pathology**. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/open-pathology/awesome-pathology)
-- **Awesome Computational Pathology Papers**. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/DearCaat/Awesome-Computational-Pathology-Papers)
-- **Pathology Feature Extractors and Foundation Models**. [![Website](https://img.shields.io/badge/Website-GitHub-blue.svg)](https://github.com/georg-wolflein/pathology-foundation-models)
-
+- 
 ---
 
 ## 🙏 Acknowledgements
