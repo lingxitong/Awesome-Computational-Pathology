@@ -606,7 +606,7 @@ This repository aims to:
 
 This repository is built upon the open-source efforts of many researchers and groups across. We sincerely thank the authors, maintainers, and contributors of the papers, datasets, benchmarks, and toolkits collected in this project.
 We also thank the **[Awesome World Models](https://github.com/world-models/awesome-world-models)** repository for providing an excellent README organization template and design inspiration.
-Special thanks to the supporting teams from **[Tsinghua University](https://www.tsinghua.edu.cn/en/)** and **[Sqray Technology](https://www.sqray.com/)** for their continuous support, discussions, and contributions.
+Special thanks to the supporting teams from **[Tsinghua University](https://www.tsinghua.edu.cn/en/)** and **[Techsqray](https://www.sqray.com/)** for their continuous support, discussions, and contributions.
 ### Supporting Groups
 
 <p align="center">
@@ -620,7 +620,7 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
 <table>
   <tr>
     <td align="center">
-      <img src="assets/people/person1.jpg" width="90" style="border-radius:50%"><br>
+      <img src="assets/people/lingxitong.png" width="90" style="border-radius:50%"><br>
       <sub><b>Xitong Ling</b></sub><br>
       <sub>PhD Student</sub><br>
       <sub>Tsinghua University</sub>
@@ -634,20 +634,20 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
     <td align="center">
       <img src="assets/people/person3.jpg" width="90" style="border-radius:50%"><br>
       <sub><b>Tian Guan</b></sub><br>
-      <sub>Manager</sub><br>
-      <sub>Shengqi Technology</sub>
+      <sub>Professor</sub><br>
+      <sub>Tsinghua University</sub>
     </td>
     <td align="center">
       <img src="assets/people/person4.jpg" width="90" style="border-radius:50%"><br>
       <sub><b>Lianghui Zhu</b></sub><br>
       <sub>Research Engineer</sub><br>
-      <sub>Shengqi Technology</sub>
+      <sub>Techsqray</sub>
     </td>
     <td align="center">
       <img src="assets/people/person5.jpg" width="90" style="border-radius:50%"><br>
       <sub><b>Qiang Huang</b></sub><br>
-      <sub>Research Engineer</sub><br>
-      <sub>Shengqi Technology</sub>
+      <sub>General Manager</sub><br>
+      <sub>Techsqray</sub>
     </td>
   </tr>
 </table>
