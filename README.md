@@ -621,22 +621,32 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
   <tr>
     <td align="center">
       <img src="assets/people/person1.jpg" width="90" style="border-radius:50%"><br>
-      <sub><b>Name 1</b></sub><br>
+      <sub><b>Xitong Ling</b></sub><br>
+      <sub>PhD Student</sub><br>
       <sub>Tsinghua University</sub>
     </td>
     <td align="center">
       <img src="assets/people/person2.jpg" width="90" style="border-radius:50%"><br>
-      <sub><b>Name 2</b></sub><br>
+      <sub><b>Yonghong He</b></sub><br>
+      <sub>Professor</sub><br>
       <sub>Tsinghua University</sub>
     </td>
     <td align="center">
       <img src="assets/people/person3.jpg" width="90" style="border-radius:50%"><br>
-      <sub><b>Name 3</b></sub><br>
+      <sub><b>Tian Guan</b></sub><br>
+      <sub>Manager</sub><br>
       <sub>Shengqi Technology</sub>
     </td>
     <td align="center">
       <img src="assets/people/person4.jpg" width="90" style="border-radius:50%"><br>
-      <sub><b>Name 4</b></sub><br>
+      <sub><b>Lianghui Zhu</b></sub><br>
+      <sub>Research Engineer</sub><br>
+      <sub>Shengqi Technology</sub>
+    </td>
+    <td align="center">
+      <img src="assets/people/person5.jpg" width="90" style="border-radius:50%"><br>
+      <sub><b>Qiang Huang</b></sub><br>
+      <sub>Research Engineer</sub><br>
       <sub>Shengqi Technology</sub>
     </td>
   </tr>
