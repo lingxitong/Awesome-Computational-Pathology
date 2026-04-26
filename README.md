@@ -27,8 +27,6 @@ _Major updates and repository announcements are shown below._
 
 🚧 **[Ongoing] Repository Refocus** — This list is being rebuilt around **AI4DigitalPathology**, with the original awesome-list visual style preserved.
 
-🗂️ **[Ongoing] Curated by Topic** — Papers are organized by **datasets, MIL, patch-level FMs, slide-level FMs, multi-omics, pathology VLMs, and clinical applications**.
-
 💡 **[Ongoing] Contributions Welcome** — If you would like to add missing papers, repos, or benchmarks, feel free to open a PR.
 
 📌 **[Ongoing] Repository Support** — If this list helps your research, consider sharing the repository and citing it in your own awesome lists.
