@@ -660,7 +660,7 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
       <img src="assets/people/ruanshiting.png" width="120" height="168" style="object-fit: cover; object-position: center;"><br>
       <div style="line-height: 1.2; font-size: 13px;">
         <b>Shiting Ruan</b><br>
-        Master Studen<br>
+        Master Student<br>
         Tsinghua
       </div>
     </td>
@@ -668,7 +668,7 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
       <img src="assets/people/yejiatong.png" width="120" height="168" style="object-fit: cover; object-position: center;"><br>
       <div style="line-height: 1.2; font-size: 13px;">
         <b>Jiatong Ye</b><br>
-        Master Studen<br>
+        Master Student<br>
         Tsinghua
       </div>
     </td>
@@ -676,7 +676,7 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
       <img src="assets/people/yangbo.png" width="120" height="168" style="object-fit: cover; object-position: center;"><br>
       <div style="line-height: 1.2; font-size: 13px;">
         <b>Yang Bo</b><br>
-        Master Studen<br>
+        Master Student<br>
         Tsinghua
       </div>
     </td>
