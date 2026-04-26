@@ -738,11 +738,8 @@ If you find this repository helpful, please consider citing it in your own proje
 
 ## ⭐ Star History
 
-
-<a href="https://www.star-history.com/?repos=lingxitong%2FAwesome-AI4DigitalPathology&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=lingxitong/Awesome-AI4DigitalPathology&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=lingxitong/Awesome-AI4DigitalPathology&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=lingxitong/Awesome-AI4DigitalPathology&type=date&legend=top-left" />
- </picture>
-</a>
+<p align="center">
+  <a href="https://star-history.com/#lingxitong/Awesome-AI4DigitalPathology&Date" target="_blank">
+    <img width="500" src="https://api.star-history.com/svg?repos=lingxitong/Awesome-AI4DigitalPathology&type=Date" alt="Star History Chart">
+  </a>
+</p>
