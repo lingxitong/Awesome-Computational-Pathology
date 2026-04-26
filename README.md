@@ -734,6 +734,6 @@ If you find this repository helpful, please consider citing it in your own proje
   title={Awesome Computational Pathology},
   author={Contributors},
   year={2026},
-  howpublished={\url{https://github.com/your-repo/awesome-computational-pathology}}
+  howpublished={\url{https://github.com/lingxitong/Awesome-AI4DigitalPathology}}
 }
 ```
