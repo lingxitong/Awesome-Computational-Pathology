@@ -8,7 +8,7 @@
 [![License](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](LICENSE.txt)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-**📜 A Curated List of Awesome Works in Computational Pathology, Aiming to Serve as a One-stop Resource for Researchers, Practitioners, and Enthusiasts Interested in Computational Pathology.**  
+**📜 A Curated List of Awesome Works in AI4DigitalPathology, Aiming to Serve as a One-stop Resource for Researchers, Practitioners, and Enthusiasts Interested in AI4DigitalPathology.**  
 *Focused on papers, benchmarks, datasets, and open-source repositories for modern digital pathology.*
 
 <p align="center">
