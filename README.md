@@ -1,4 +1,4 @@
-# Awesome-Computational-Pathology
+# Awesome-AI4Digital-Pathology
 
 <div align="center">
 
