@@ -503,7 +503,7 @@ This repository aims to:
 
 - **Breast LN Metastasis** — detects breast lymph-node metastases in WSIs. [![Paper](https://img.shields.io/badge/Paper-JAMA%202017-1f77b4.svg)](https://jamanetwork.com/journals/jama/fullarticle/2665774)
 - **Breast Invasion Detection** — detects invasive breast tumor regions. [![Paper](https://img.shields.io/badge/Paper-Sci%20Rep%202017-1f77b4.svg)](https://www.nature.com/articles/srep46450)
-- **NSCLC Mutation Prediction** — predicts lung subtype and driver mutations, including EGFR. [![Paper](https://img.shields.io/badge/Paper-Nat%20Med%202018-1f77b4.svg)](https://www.nature.com/articles/s41591-018-0177-5) [![GitHub](https://img.shields.io/badge/GitHub-green.svg)](https://github.com/ncoudray/DeepPATH)
+- **NSCLC Mutation Prediction** — predicts lung subtype and driver mutations. [![Paper](https://img.shields.io/badge/Paper-Nat%20Med%202018-1f77b4.svg)](https://www.nature.com/articles/s41591-018-0177-5) [![GitHub](https://img.shields.io/badge/GitHub-green.svg)](https://github.com/ncoudray/DeepPATH)
 - **MSI from H&E** — predicts MSI from gastrointestinal H&E slides. [![Paper](https://img.shields.io/badge/Paper-Nat%20Med%202019-1f77b4.svg)](https://www.nature.com/articles/s41591-019-0462-y)
 - **AI Prostate Grading** — performs specialist-level Gleason grading. [![Paper](https://img.shields.io/badge/Paper-Lancet%20Oncol%202020-1f77b4.svg)](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(19)30738-7/fulltext)
 - **Prostate AI Validation** — validates AI for prostate diagnosis and Gleason grading. [![Paper](https://img.shields.io/badge/Paper-Lancet%20Digit%20Health%202020-1f77b4.svg)](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30159-X/fulltext)
