@@ -52,7 +52,7 @@ _Major updates and repository announcements are shown below._
 - 🧭 [Pathology Image Registration and Spatial Alignment](#pathology-image-registration-and-spatial-alignment)
 - 🚀 [Resources, Toolkits, and Open-Source Projects](#resources-toolkits-and-open-source-projects)
 - 🔭 [Future Trends and Hot Topics](#future-trends-and-hot-topics)
-- 🙏 [Acknowledgements](#acknowledgements)
+- 🙏 [Acknowledgements](#🙏-acknowledgements)
 - 📝 [Citation](#citation)
 
 ---
