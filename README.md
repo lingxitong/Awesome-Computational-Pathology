@@ -737,3 +737,7 @@ If you find this repository helpful, please consider citing it in your own proje
   howpublished={\url{https://github.com/lingxitong/Awesome-AI4DigitalPathology}}
 }
 ```
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=lingxitong/Awesome-AI4DigitalPathology&type=date&legend=top-left)](https://www.star-history.com/#lingxitong/Awesome-AI4DigitalPathology&type=date&legend=top-left)
