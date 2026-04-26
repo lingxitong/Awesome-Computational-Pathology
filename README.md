@@ -52,7 +52,7 @@ _Major updates and repository announcements are shown below._
 - 🧭 [Pathology Image Registration and Spatial Alignment](#pathology-image-registration-and-spatial-alignment)
 - 🚀 [Resources, Toolkits, and Open-Source Projects](#resources-toolkits-and-open-source-projects)
 - 🔭 [Future Trends and Hot Topics](#future-trends-and-hot-topics)
-- 🙏 [Acknowledgements](#🙏acknowledgements)
+- 🙏 [Acknowledgements](#acknowledgements)
 - 📝 [Citation](#citation)
 
 ---
@@ -615,7 +615,7 @@ This repository aims to:
 
 **🔬 Cell-level and Spatial Intelligence**  Models will shift from slide-level labels toward cell states, tissue microenvironment, spatial organization, and biologically interpretable disease mechanisms.
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 This repository is built upon the open-source efforts of many researchers and groups across. We sincerely thank the authors, maintainers, and contributors of the papers, datasets, benchmarks, and toolkits collected in this project.
 We also thank the **[Awesome World Models](https://github.com/knightnemo/Awesome-World-Models)** repository for providing an excellent README organization template and design inspiration.
