@@ -713,7 +713,7 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
   </tr>
 </table>
 
-We also gratefully acknowledge Weiming Chen, Chang Qin, Jiawen Li and Yizhi Wang for their outstanding contributions that greatly advanced this project.
+We also gratefully acknowledge Weiming Chen, Chang Qin, Jiawen Li ,Yizhi Wang and Mingxi Fu for their outstanding contributions that greatly advanced this project.
 
 ### Supporting Groups
 
