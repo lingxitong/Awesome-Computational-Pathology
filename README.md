@@ -602,7 +602,7 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
       <div style="line-height: 1.2; font-size: 13px;">
         <b>Xitong Ling</b><br>
         PhD Student<br>
-        Tsinghua 
+        Tsinghua
       </div>
     </td>
     <td align="center" width="160">
@@ -610,7 +610,7 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
       <div style="line-height: 1.2; font-size: 13px;">
         <b>Yonghong He</b><br>
         Professor<br>
-        Tsinghua 
+        Tsinghua
       </div>
     </td>
     <td align="center" width="160">
@@ -618,7 +618,7 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
       <div style="line-height: 1.2; font-size: 13px;">
         <b>Tian Guan</b><br>
         Professor<br>
-        Tsinghua 
+        Tsinghua
       </div>
     </td>
     <td align="center" width="160">
@@ -638,9 +638,52 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
       </div>
     </td>
   </tr>
+
+  <tr>
+    <td align="center" width="160">
+      <img src="assets/people/minxiouyang.png" width="120" height="168" style="object-fit: cover; object-position: center;"><br>
+      <div style="line-height: 1.2; font-size: 13px;">
+        <b>Minxi Ouyang</b><br>
+        Contributor<br>
+        Tsinghua
+      </div>
+    </td>
+    <td align="center" width="160">
+      <img src="assets/people/xiaoxiaoli.png" width="120" height="168" style="object-fit: cover; object-position: center;"><br>
+      <div style="line-height: 1.2; font-size: 13px;">
+        <b>Xiaoxiao Li</b><br>
+        Contributor<br>
+        Tsinghua
+      </div>
+    </td>
+    <td align="center" width="160">
+      <img src="assets/people/shitingruan.png" width="120" height="168" style="object-fit: cover; object-position: center;"><br>
+      <div style="line-height: 1.2; font-size: 13px;">
+        <b>Shiting Ruan</b><br>
+        Contributor<br>
+        Tsinghua
+      </div>
+    </td>
+    <td align="center" width="160">
+      <img src="assets/people/yejiatong.png" width="120" height="168" style="object-fit: cover; object-position: center;"><br>
+      <div style="line-height: 1.2; font-size: 13px;">
+        <b>Weiming Chen</b><br>
+        Contributor<br>
+        Tsinghua
+      </div>
+    </td>
+    <td align="center" width="160">
+      <img src="assets/people/yangbo.png" width="120" height="168" style="object-fit: cover; object-position: center;"><br>
+      <div style="line-height: 1.2; font-size: 13px;">
+        <b>Jiatong Ye</b><br>
+        Contributor<br>
+        Tsinghua
+      </div>
+    </td>
+  </tr>
 </table>
 
-We also gratefully acknowledge Minxi Ouyang, Xiaoxiao Li, Shiting Ruan, Weiming Chen, Jiatong Ye, Chang Qin, Bo Yang and Jiawen Li for their outstanding contributions that greatly advanced this project.
+We also gratefully acknowledge Chang Qin, Bo Yang and Jiawen Li for their outstanding contributions that greatly advanced this project.
 
 ### Supporting Groups
 
