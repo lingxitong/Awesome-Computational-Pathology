@@ -231,7 +231,7 @@ This repository aims to:
 - **RW-CPath-FL** — real-world federated learning for clinical pathology. [![Paper](https://img.shields.io/badge/Paper-JPI%202025-1f77b4.svg)](https://www.sciencedirect.com/science/article/pii/S2153353925000501)
 - **FedPathHarmony** — federated harmonization for multi-center pathology data. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/collaborativebioinformatics/FedPathHarmony)
 - **FedWSIDD** — federated WSI classification via dataset distillation. [![Paper](https://img.shields.io/badge/Paper-MICCAI%202025-d62728.svg)](https://papers.miccai.org/miccai-2025/0331-Paper1647.html)
-- **Fed-cSCC** — federated model for cutaneous squamous cell carcinoma progression prediction. [![Paper](https://img.shields.io/badge/Paper-npj%20Precis%20Oncol%202025-1f77b4.svg)](https://www.nature.com/articles/s41698-025-00997-4)
+- **Fed-cSCC** — federated model for cSCC progression prediction. [![Paper](https://img.shields.io/badge/Paper-npj%20Precis%20Oncol%202025-1f77b4.svg)](https://www.nature.com/articles/s41698-025-00997-4)
 - **FedDMIL** — federated deep MIL for histopathology WSI classification. [![Paper](https://img.shields.io/badge/Paper-BSPC%202026-1f77b4.svg)](https://www.sciencedirect.com/science/article/abs/pii/S1746809425015708)
 
 ---
