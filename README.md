@@ -581,6 +581,18 @@ This repository aims to:
 - **MIL_BASELINE** — unified pathology MIL library. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/lingxitong/MIL_BASELINE)
 ---
 
+## 🔥 Future Trends and Hot Topics
+
+**🤖 Agentic & Multimodal Pathology**  Pathology agents will move beyond single-image prediction toward WSI navigation, multimodal reasoning, report generation, tool use, and interactive diagnostic assistance.
+
+**🏥 Clinical Translation & Deployment**  Future systems will focus on external validation, workflow integration, uncertainty estimation, regulatory readiness, and real-world robustness across hospitals and scanners.
+
+**🧬 Multi-omics & High-level Clinical Tasks**  Pathology AI will increasingly target molecular subtyping, treatment response prediction, recurrence risk, survival stratification, and pathology-genomics integration.
+
+**🧠 General-purpose Pathology Foundation Models**  Unified pathology backbones will integrate patch, cell, tissue, slide, language, and clinical knowledge to support diverse downstream tasks with minimal adaptation.
+
+**🔬 Cell-level and Spatial Intelligence**  Models will shift from slide-level labels toward cell states, tissue microenvironment, spatial organization, and biologically interpretable disease mechanisms.
+
 ## 🙏 Acknowledgements
 
 This repository is built upon the open-source efforts of many researchers and groups across. We sincerely thank the authors, maintainers, and contributors of the papers, datasets, benchmarks, and toolkits collected in this project.
