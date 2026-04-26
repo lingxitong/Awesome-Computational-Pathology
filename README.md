@@ -214,7 +214,7 @@ This repository aims to:
 
 - **HistoFL** — federated learning for WSI classification and survival prediction. [![Paper](https://img.shields.io/badge/Paper-MedIA%202021-1f77b4.svg)](https://www.sciencedirect.com/science/article/pii/S1361841521003431) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/HistoFL)
 - **FedStain** — federated stain normalization for pathology. [![Paper](https://img.shields.io/badge/Paper-MICCAI%202022-d62728.svg)](https://link.springer.com/chapter/10.1007/978-3-031-16434-7_2) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/MECLabTUDA/BottleGAN)
-- **FLamby** — cross-silo federated learning benchmark suite with histopathology data. [![Paper](https://img.shields.io/badge/Paper-NeurIPS%202022-d62728.svg)](https://proceedings.neurips.cc/paper_files/paper/2022/hash/5e637100c63800cc078ad0da3d1697e9-Abstract-Datasets_and_Benchmarks.html) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/owkin/FLamby)
+- **FLamby** — cross-silo federated learning benchmark. [![Paper](https://img.shields.io/badge/Paper-NeurIPS%202022-d62728.svg)](https://proceedings.neurips.cc/paper_files/paper/2022/hash/5e637100c63800cc078ad0da3d1697e9-Abstract-Datasets_and_Benchmarks.html) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/owkin/FLamby)
 - **FedCamelyon16** — federated Camelyon16 benchmark in FLamby. [![Dataset](https://img.shields.io/badge/Dataset-FLamby-orange.svg)](https://github.com/owkin/FLamby/tree/main/flamby/datasets/fed_camelyon16)
 - **WSI-FL Tool** — federated training tool for WSI segmentation. [![Paper](https://img.shields.io/badge/Paper-JPI%202023-1f77b4.svg)](https://www.sciencedirect.com/science/article/pii/S2153353922006952) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/SarderLab/federated_learning)
 - **FedMM** — federated multimodal learning for computational pathology. [![Paper](https://img.shields.io/badge/Paper-arXiv%202024-6A5ACD.svg)](https://arxiv.org/abs/2402.15858)
@@ -225,7 +225,7 @@ This repository aims to:
 - **RW-CPath-FL** — real-world federated learning for clinical pathology. [![Paper](https://img.shields.io/badge/Paper-JPI%202025-1f77b4.svg)](https://www.sciencedirect.com/science/article/pii/S2153353925000501)
 - **FedPathHarmony** — federated harmonization for multi-center pathology data. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/collaborativebioinformatics/FedPathHarmony)
 - **FedWSIDD** — federated WSI classification via dataset distillation. [![Paper](https://img.shields.io/badge/Paper-MICCAI%202025-d62728.svg)](https://papers.miccai.org/miccai-2025/0331-Paper1647.html)
-- **Fed-cSCC** — explainable federated model for cutaneous squamous cell carcinoma prognosis. [![Paper](https://img.shields.io/badge/Paper-npj%20Precis%20Oncol%202025-1f77b4.svg)](https://www.nature.com/articles/s41698-025-00997-4)
+- **Fed-cSCC** — federated model for cutaneous squamous cell carcinoma prognosis. [![Paper](https://img.shields.io/badge/Paper-npj%20Precis%20Oncol%202025-1f77b4.svg)](https://www.nature.com/articles/s41698-025-00997-4)
 - **FedDMIL** — federated deep MIL for histopathology WSI classification. [![Paper](https://img.shields.io/badge/Paper-BSPC%202026-1f77b4.svg)](https://www.sciencedirect.com/science/article/abs/pii/S1746809425015708)
 
 ---
