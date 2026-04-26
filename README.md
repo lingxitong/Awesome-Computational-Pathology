@@ -1,4 +1,4 @@
-# Awesome-AI4Digital-Pathology
+# Awesome-AI4DigitalPathology
 
 <div align="center">
 
@@ -25,7 +25,7 @@
 
 _Major updates and repository announcements are shown below._
 
-🚧 **[Ongoing] Repository Refocus** — This list is being rebuilt around **computational pathology**, with the original awesome-list visual style preserved.
+🚧 **[Ongoing] Repository Refocus** — This list is being rebuilt around **AI4DigitalPathology**, with the original awesome-list visual style preserved.
 
 🗂️ **[Ongoing] Curated by Topic** — Papers are organized by **datasets, MIL, patch-level FMs, slide-level FMs, multi-omics, pathology VLMs, and clinical applications**.
 
