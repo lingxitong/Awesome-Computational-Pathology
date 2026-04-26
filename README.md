@@ -603,7 +603,7 @@ This repository aims to:
 - **MIL_BASELINE** — unified pathology MIL library. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/lingxitong/MIL_BASELINE)
 ---
 
-## 🔥 Future Trends and Hot Topics
+## Future Trends and Hot Topics
 
 **🤖 Agentic & Multimodal Pathology**  Pathology agents will move beyond single-image prediction toward WSI navigation, multimodal reasoning, report generation, tool use, and interactive diagnostic assistance.
 
