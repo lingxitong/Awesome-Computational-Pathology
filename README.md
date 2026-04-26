@@ -74,6 +74,8 @@ This repository aims to:
 
 ## Surveys, Reviews, and Perspectives
 
+<em>Surveys, reviews, and perspectives that summarize the evolution, challenges, and future directions of computational pathology.</em>
+
 - **Computational Pathology: Challenges and Promises**. [![Paper](https://img.shields.io/badge/Paper-CMIG%202011-1f77b4.svg)](https://www.sciencedirect.com/science/article/abs/pii/S0895611111000383)
 - **Digital Pathology and Artificial Intelligence**. [![Paper](https://img.shields.io/badge/Paper-Lancet%20Oncol%202019-1f77b4.svg)](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045%2819%2930154-8/abstract)
 - **AI in Digital Pathology for Precision Oncology**. [![Paper](https://img.shields.io/badge/Paper-Nat%20Rev%20Clin%20Oncol%202019-1f77b4.svg)](https://www.nature.com/articles/s41571-019-0252-y)
@@ -93,6 +95,8 @@ This repository aims to:
 ---
 
 ## Digital Slide Scanners and File Formats
+
+<em>Digital slide scanners, image formats, and technical standards that support whole-slide imaging acquisition, storage, and interoperability.</em>
 
 - **OpenSlide** — open-source library for reading WSI formats across scanner vendors. [![Paper](https://img.shields.io/badge/Paper-JPI%202013-1f77b4.svg)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3815078/) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/openslide/openslide)
 - **opensdpc** — Python library for processing SDPC whole-slide images. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/WonderLandxD/opensdpc)
@@ -161,6 +165,8 @@ This repository aims to:
 
 ## Multiple Instance Learning
 
+<em>Multiple instance learning methods for weakly supervised whole-slide image analysis.</em>
+
 - **ABMIL** — attention-based deep multiple instance learning. [![Paper](https://img.shields.io/badge/Paper-arXiv%202018-6A5ACD.svg)](https://arxiv.org/abs/1802.04712) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/AMLab-Amsterdam/AttentionDeepMIL)
 - **Clinical-grade WSI** — large-scale weakly supervised WSI classification. [![Paper](https://img.shields.io/badge/Paper-Nat%20Med%202019-1f77b4.svg)](https://www.nature.com/articles/s41591-019-0508-1)
 - **CAMEL** — weakly supervised WSI segmentation via class activation maps. [![Paper](https://img.shields.io/badge/Paper-ICCV%202019-d62728.svg)](https://openaccess.thecvf.com/content_ICCV_2019/html/Li_Camel_A_Weakly_Supervised_Learning_Framework_for_Histopathology_Image_Segmentation_ICCV_2019_paper.html)
@@ -210,6 +216,8 @@ This repository aims to:
 ---
 ## Federated Learning in Computational Pathology
 
+<em>Federated learning methods and privacy-preserving frameworks for collaborative computational pathology.</em>
+
 - **HistoFL** — federated learning for WSI classification and survival prediction. [![Paper](https://img.shields.io/badge/Paper-MedIA%202021-1f77b4.svg)](https://www.sciencedirect.com/science/article/pii/S1361841521003431) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/HistoFL)
 - **FedStain** — federated stain normalization for pathology. [![Paper](https://img.shields.io/badge/Paper-MICCAI%202022-d62728.svg)](https://link.springer.com/chapter/10.1007/978-3-031-16434-7_2) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/MECLabTUDA/BottleGAN)
 - **FLamby** — cross-silo federated learning benchmark. [![Paper](https://img.shields.io/badge/Paper-NeurIPS%202022-d62728.svg)](https://proceedings.neurips.cc/paper_files/paper/2022/hash/5e637100c63800cc078ad0da3d1697e9-Abstract-Datasets_and_Benchmarks.html) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/owkin/FLamby)
@@ -229,6 +237,8 @@ This repository aims to:
 ---
 
 ## Patch-Level Foundation Models
+
+<em>Patch-level foundation models and visual encoders for histopathology representation learning.</em>
 
 - **CTransPath** — transformer-based self-supervised pathology encoder. [![Paper](https://img.shields.io/badge/Paper-MedIA%202022-1f77b4.svg)](https://www.sciencedirect.com/science/article/abs/pii/S1361841522002043) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/jamesdolezal/CTransPath)
 - **HIPT** — hierarchical transformer for pathology images. [![Paper](https://img.shields.io/badge/Paper-arXiv%202022-6A5ACD.svg)](https://arxiv.org/abs/2206.02647) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/HIPT)
@@ -270,6 +280,8 @@ This repository aims to:
 
 ## Slide-Level Foundation Models and Slide Encoders
 
+<em>Slide-level foundation models and whole-slide encoders for gigapixel pathology image understanding.</em>
+
 - **Prov-GigaPath** — first whole-slide foundation model. [![Paper](https://img.shields.io/badge/Paper-Nature%202024-1f77b4.svg)](https://www.nature.com/articles/s41586-024-07441-w) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/prov-gigapath/prov-gigapath)
 - **CHIEF** — clinical histopathology imaging evaluation foundation. [![Paper](https://img.shields.io/badge/Paper-Nature%202024-1f77b4.svg)](https://www.nature.com/articles/s41586-024-07894-z) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/hms-dbmi/CHIEF)
 - **PANTHER** — morphological prototyping for slide foundation model. [![Paper](https://img.shields.io/badge/Paper-CVPR%202024-d62728.svg)](https://arxiv.org/abs/2405.11643) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/PANTHER)
@@ -291,6 +303,8 @@ This repository aims to:
 - **CARE** — molecular-guided slide-level foundation model. [![Paper](https://img.shields.io/badge/Paper-arXiv%202026-6A5ACD.svg)](https://arxiv.org/abs/2602.21637) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/Zipper-1/CARE)
 ---
 ## Cytology and Cervical Cytology in Pathology AI
+
+<em>Cytology and cervical cytology studies for cell-level screening, diagnosis, and pathology AI applications.</em>
 
 - **CellProfiler** — open-source cell image analysis platform. [![Paper](https://img.shields.io/badge/Paper-Nat%20Methods%202012-1f77b4.svg)](https://www.nature.com/articles/nmeth.2083) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/CellProfiler/CellProfiler)
 - **SIPaKMeD** — Pap smear dataset for cervical cell classification. [![Paper](https://img.shields.io/badge/Paper-ICIP%202018-d62728.svg)](https://www.cse.uoi.gr/~cnikou/Publications/C072%20-%20Plissiti%20-%20icip%202018%20-%20Athens.pdf) [![Dataset](https://img.shields.io/badge/Dataset-Kaggle-orange.svg)](https://www.kaggle.com/datasets/marinaeplissiti/sipakmed)
@@ -323,7 +337,7 @@ This repository aims to:
 
 ## Computational Pathology with Multi-Omics
 
-<em>Representative multimodal works bridging histology (H&E/WSI) with omics (spatial transcriptomics, proteomics, genomics) for prediction, alignment, and clinical modeling.</em>
+<em>Computational pathology studies integrating histology with genomics, transcriptomics, proteomics, and other omics data.</em>
 
 
 - **DeepPATH** — histology-based cancer gene mutation prediction. [![Paper](https://img.shields.io/badge/Paper-Nat%20Med%202018-1f77b4.svg)](https://www.nature.com/articles/s41591-018-0177-5) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/ncoudray/DeepPATH)
@@ -370,6 +384,8 @@ This repository aims to:
 
 ## Generative Models for Computational Pathology
 
+<em>Generative models for stain normalization, virtual staining, image synthesis, and data augmentation in computational pathology.</em>
+
 - **StainGAN** — GAN-based stain transfer for histopathology. [![Paper](https://img.shields.io/badge/Paper-IEEE%202018-d62728.svg)](https://ieeexplore.ieee.org/document/8573775) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/xtarx/StainGAN)
 - **Virtual Re-staining** — GAN-based virtual re-staining for WSIs. [![Paper](https://img.shields.io/badge/Paper-arXiv%202019-6A5ACD.svg)](https://arxiv.org/abs/1901.04059) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/Zhaoyang-XU/Virtual-Staining)
 - **PCGAN** — pathology-consistent GAN for unpaired stain transfer. [![Paper](https://img.shields.io/badge/Paper-MICCAI%202021-d62728.svg)](https://arxiv.org/abs/2104.09462) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/Pathology-Consistent-Stain-Transfer/Unpaired-Stain-Transfer-using-Pathology-Consistent-Constrained-Generative-Adversarial-Networks)
@@ -406,7 +422,7 @@ This repository aims to:
 
 ## Vision-Language Models and Pathology Agents
 
-<em>Representative vision-language models, multimodal large language models, whole-slide image assistants, pathology agents, and reasoning-oriented systems for computational pathology.</em>
+<em>Vision-language models, multimodal large models, and pathology agents for report generation, reasoning, and interactive diagnosis.</em>
 
 - **PathVQA** — pathology VQA benchmark. [![Paper](https://img.shields.io/badge/Paper-CVPRW%202020-d62728.svg)](https://arxiv.org/abs/2003.10286)
 - **TraP-VQA** — transformer-based pathology VQA. [![Paper](https://img.shields.io/badge/Paper-IEEE%20JBHI%202022-1f77b4.svg)](https://ieeexplore.ieee.org/document/9733299)
@@ -489,6 +505,8 @@ This repository aims to:
 
 ## Dense Prediction in Computational Pathology
 
+<em>Dense prediction methods for segmentation, detection, localization, and pixel-level pathology image analysis.</em>
+
 - **NucleiSegmentation** — adversarial multi-organ nuclei segmentation. [![Paper](https://img.shields.io/badge/Paper-arXiv%202018-6A5ACD.svg)](https://arxiv.org/abs/1810.00236) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/mahmoodlab/NucleiSegmentation)
 - **HoVer-Net** — nuclei instance segmentation and classification. [![Paper](https://img.shields.io/badge/Paper-MedIA%202019-1f77b4.svg)](https://www.sciencedirect.com/science/article/pii/S1361841519301045) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/vqdang/hover_net)
 - **PointNu-Net** — keypoint-assisted nuclei segmentation. [![Paper](https://img.shields.io/badge/Paper-arXiv%202021-6A5ACD.svg)](https://arxiv.org/abs/2111.01557) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/Kaiseem/PointNu-Net)
@@ -511,6 +529,8 @@ This repository aims to:
 ---
 
 ## Clinical Tasks and Applications
+
+<em>Clinical task-driven computational pathology studies for diagnosis, prognosis, biomarker prediction, treatment response, and real-world applications.</em>
 
 - **Breast LN Metastasis** — detects breast lymph-node metastases in WSIs. [![Paper](https://img.shields.io/badge/Paper-JAMA%202017-1f77b4.svg)](https://jamanetwork.com/journals/jama/fullarticle/2665774)
 - **Breast Invasion Detection** — detects invasive breast tumor regions. [![Paper](https://img.shields.io/badge/Paper-Sci%20Rep%202017-1f77b4.svg)](https://www.nature.com/articles/srep46450)
@@ -541,6 +561,8 @@ This repository aims to:
 
 ## Pathology Image Registration and Spatial Alignment
 
+<em>Pathology image registration and spatial alignment methods for serial sections, multi-stain slides, and spatial omics integration.</em>
+
 - **HistoReg** — registration framework for variably stained histology slices. [![Paper](https://img.shields.io/badge/Paper-arXiv%202019-6A5ACD.svg)](https://arxiv.org/abs/1904.11929) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/CBICA/HistoReg)
 - **ANHIR** — benchmark for automatic non-rigid histology registration. [![Paper](https://img.shields.io/badge/Paper-TMI%202020-1f77b4.svg)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7584382/) [![Dataset](https://img.shields.io/badge/Dataset-Grand%20Challenge-orange.svg)](https://anhir.grand-challenge.org/)
 - **PathFlow-MixMatch** — segment matching framework for WSI registration. [![Paper](https://img.shields.io/badge/Paper-bioRxiv%202020-6A5ACD.svg)](https://www.biorxiv.org/content/10.1101/2020.03.22.002402.full)
@@ -561,6 +583,8 @@ This repository aims to:
 ---
 
 ## Resources, Toolkits, and Open-Source Projects
+
+<em>Open-source resources, toolkits, and software platforms for computational pathology research and deployment.</em>
 
 - **OpenSlide** — standard library for reading wsi. [![Paper](https://img.shields.io/badge/Paper-J%20Pathol%20Inform%202013-1f77b4.svg)](https://pubmed.ncbi.nlm.nih.gov/24244884/) [![Website](https://img.shields.io/badge/Website-OpenSlide-ffb6c1.svg)](https://openslide.org/) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/openslide/openslide)
 - **QuPath** — open-source platform for digital pathology analysis. [![Paper](https://img.shields.io/badge/Paper-Sci%20Rep%202017-1f77b4.svg)](https://www.nature.com/articles/s41598-017-17204-5) [![Website](https://img.shields.io/badge/Website-QuPath-ffb6c1.svg)](https://qupath.github.io/)
