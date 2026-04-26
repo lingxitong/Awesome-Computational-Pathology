@@ -90,7 +90,7 @@ This repository aims to:
 - **Explainable AI for Precision Pathology**. [![Paper](https://img.shields.io/badge/Paper-Ann%20Rev%20Pathol%202024-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-pathmechdis-051222-113147)
 - **AI in Digital Pathology: Diagnostic Meta-analysis**. [![Paper](https://img.shields.io/badge/Paper-npj%20Digit%20Med%202024-1f77b4.svg)](https://www.nature.com/articles/s41746-024-01106-8)
 - **Pathology in the Era of Generative AI**. [![Paper](https://img.shields.io/badge/Paper-Lancet%20Digit%20Health%202024-1f77b4.svg)](https://www.thelancet.com/journals/landig/article/PIIS2589-7500%2824%2900157-2/fulltext)
-- **Artificial Intelligence in Pathology: Advancing Large Models for Scalable Applications**. [![Paper](https://img.shields.io/badge/Paper-Ann%20Rev%20Biomed%20Data%20Sci%202025-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-biodatasci-103123-095814)
+- **Artificial Intelligence in Pathology**. [![Paper](https://img.shields.io/badge/Paper-Ann%20Rev%20Biomed%20Data%20Sci%202025-1f77b4.svg)](https://www.annualreviews.org/content/journals/10.1146/annurev-biodatasci-103123-095814)
 - **AI and Digital Tools in Cancer Pathology**. [![Paper](https://img.shields.io/badge/Paper-Lancet%20Digit%20Health%202025-1f77b4.svg)](https://www.thelancet.com/journals/landig/article/PIIS2589-7500%2825%2900115-3/fulltext)
 ---
 
