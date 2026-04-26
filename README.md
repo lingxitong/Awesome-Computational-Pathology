@@ -618,7 +618,7 @@ This repository aims to:
 ## 🙏 Acknowledgements
 
 This repository is built upon the open-source efforts of many researchers and groups across. We sincerely thank the authors, maintainers, and contributors of the papers, datasets, benchmarks, and toolkits collected in this project.
-We also thank the **[Awesome World Models](https://github.com/world-models/awesome-world-models)** repository for providing an excellent README organization template and design inspiration.
+We also thank the **[Awesome World Models](https://github.com/knightnemo/Awesome-World-Models)** repository for providing an excellent README organization template and design inspiration.
 Special thanks to the supporting teams from **[Tsinghua University](https://www.tsinghua.edu.cn/en/)** and **[Techsqray](https://www.sqray.com/)** for their continuous support, discussions, and contributions.
 
 ### Core Contributors
