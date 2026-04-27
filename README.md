@@ -619,7 +619,7 @@ This repository aims to:
 
 This repository is built upon the open-source efforts of many researchers and groups across. We sincerely thank the authors, maintainers, and contributors of the papers, datasets, benchmarks, and toolkits collected in this project.
 We also thank the **[Awesome World Models](https://github.com/knightnemo/Awesome-World-Models)** repository for providing an excellent README organization template and design inspiration.
-Special thanks to the supporting teams from **[Tsinghua University](https://www.tsinghua.edu.cn/en/)** and **[Techsqray](https://www.sqray.com/)** for their continuous support, discussions, and contributions.
+Special thanks to the supporting teams from **[Tsinghua University](https://www.tsinghua.edu.cn/en/)** for their continuous support, discussions, and contributions.
 
 ### Core Contributors
 
@@ -653,16 +653,16 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
       <img src="assets/people/zhulianghui.png" width="120" height="168" style="object-fit: cover; object-position: center;"><br>
       <div style="line-height: 1.2; font-size: 13px;">
         <b>Lianghui Zhu</b><br>
-        Research Engineer<br>
-        Techsqray
+        Postdoc<br>
+        Tsinghua
       </div>
     </td>
     <td align="center" width="160">
       <img src="assets/people/huangqiang.png" width="120" height="168" style="object-fit: cover; object-position: center;"><br>
       <div style="line-height: 1.2; font-size: 13px;">
         <b>Qiang Huang</b><br>
-        Research Engineer<br>
-        Techsqray
+        PHD Candidate<br>
+        Tsinghua
       </div>
     </td>
   </tr>
@@ -716,9 +716,7 @@ We also gratefully acknowledge Weiming Chen, Chang Qin, Jiawen Li ,Yizhi Wang an
 ### Supporting Groups
 
 <p align="center">
-  <img src="assets/logos/tsinghua.png" width="120"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/logos/sqray.png" width="160"/>
+  <img src="assets/logos/tsinghua.png" width="190"/>
 </p>
 
 ---
