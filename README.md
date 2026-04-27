@@ -728,8 +728,8 @@ We also gratefully acknowledge Weiming Chen, Chang Qin, Jiawen Li ,Yizhi Wang an
 If you find this repository helpful, please consider citing it in your own project page or awesome list.
 
 ```bibtex
-@misc{awesome_computational_pathology,
-  title={Awesome Computational Pathology},
+@misc{awesome_ai4digitalpathology,
+  title={Awesome AI4DigitalPathology},
   author={Contributors},
   year={2026},
   howpublished={\url{https://github.com/lingxitong/Awesome-AI4DigitalPathology}}
