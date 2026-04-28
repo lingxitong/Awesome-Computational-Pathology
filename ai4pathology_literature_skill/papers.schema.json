@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI4DigitalPathology Literature Record",
+  "type": "object",
+  "required": ["id", "title", "short_name", "year", "venue", "category", "type", "contribution", "paper_url", "updated_at"],
+  "properties": {
+    "id": {"type": "string"},
+    "title": {"type": "string"},
+    "short_name": {"type": "string"},
+    "year": {"type": ["integer", "string"]},
+    "venue": {"type": "string"},
+    "category": {"type": "string"},
+    "type": {"type": "string", "enum": ["paper", "dataset", "benchmark", "code", "model", "survey", "toolkit", "website", "unknown"]},
+    "task": {"type": "array", "items": {"type": "string"}},
+    "method_family": {"type": "array", "items": {"type": "string"}},
+    "disease_or_organ": {"type": "array", "items": {"type": "string"}},
+    "modality": {"type": "array", "items": {"type": "string"}},
+    "contribution": {"type": "string"},
+    "limitation": {"type": "string"},
+    "paper_url": {"type": "string"},
+    "code_url": {"type": "string"},
+    "dataset_url": {"type": "string"},
+    "model_url": {"type": "string"},
+    "bibtex": {"type": "string"},
+    "tags": {"type": "array", "items": {"type": "string"}},
+    "updated_at": {"type": "string"}
+  }
+}
