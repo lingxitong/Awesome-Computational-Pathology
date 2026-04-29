@@ -380,6 +380,7 @@ This repository aims to:
 - **STimage** — ST gene and cell prediction from H&E. [![Paper](https://img.shields.io/badge/Paper-Nat%20Commun%202026-1f77b4.svg)](https://doi.org/10.1038/s41467-026-68487-0) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/BiomedicalMachineLearning/STimage)
 - **SpatialFusion** — multimodal niche discovery from ST and histology. [![Paper](https://img.shields.io/badge/Paper-bioRxiv%202026-6A5ACD.svg)](https://www.biorxiv.org/content/10.64898/2026.03.16.712056v1) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/uhlerlab/spatialfusion)
 - **InSTaPath** — histology and ST topic learning. [![Paper](https://img.shields.io/badge/Paper-bioRxiv%202026-6A5ACD.svg)](https://www.biorxiv.org/content/10.64898/2026.03.16.712067v1) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/xwymary/InSTaPath)
+- **HistoAtlas** - a pan-cancer morphology atlas linking histomics to molecular programs and clinical outcomes. [![Paper](https://arxiv.org/abs/2603.16587)] [![Website](https://histoatlas.com/)] 
 ---
 
 ## Generative Models for Computational Pathology
