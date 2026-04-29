@@ -1,0 +1,39 @@
+name: Update AI4DigitalPathology Papers
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 2 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  update-papers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install feedparser python-dateutil
+
+      - name: Update papers database
+        run: python scripts/update_papers.py --days 14 --max-results 30 --output data/papers.jsonl
+
+      - name: Commit and push changes
+        run: |
+          if git diff --quiet -- data/papers.jsonl; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "ai4pathology-bot"
+          git config user.email "ai4pathology-bot@users.noreply.github.com"
+          git add data/papers.jsonl
+          git commit -m "chore: update AI4DigitalPathology papers"
+          git push
