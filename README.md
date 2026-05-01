@@ -302,36 +302,49 @@ This repository aims to:
 - **Democratizing_WSI / GigaSSL** — optimized slide-level representations for TCGA-scale analysis. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/trislaz/Democratizing_WSI)
 - **MOOZY** — patient-first foundation model for computational pathology. [![Paper](https://img.shields.io/badge/Paper-arXiv%202026-6A5ACD.svg)](https://arxiv.org/abs/2603.27048) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/AtlasAnalyticsLab/MOOZY)
 - **CARE** — molecular-guided slide-level foundation model. [![Paper](https://img.shields.io/badge/Paper-arXiv%202026-6A5ACD.svg)](https://arxiv.org/abs/2602.21637) [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/Zipper-1/CARE)
+
 ---
+
 ## Cytology and Cervical Cytology in Pathology AI
 
 <em>Cytology and cervical cytology studies for cell-level screening, diagnosis, and pathology AI applications.</em>
 
-- **CellProfiler** — open-source cell image analysis platform. [![Paper](https://img.shields.io/badge/Paper-Nat%20Methods%202012-1f77b4.svg)](https://www.nature.com/articles/nmeth.2083) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/CellProfiler/CellProfiler)
+- **Computational Cytology Survey**. [![Paper](https://img.shields.io/badge/Paper-MedIA%202023-1f77b4.svg)](https://www.sciencedirect.com/science/article/pii/S136184152200319X)
+- **Cervical Cytology Deep Learning Review**. [![Paper](https://img.shields.io/badge/Paper-Neurocomputing%202024-1f77b4.svg)](https://www.sciencedirect.com/science/article/pii/S0925231224014012)
 - **DeepPap** — deep learning for cervical cytology cell classification. [![Paper](https://img.shields.io/badge/Paper-JBHI%202017-1f77b4.svg)](https://pubmed.ncbi.nlm.nih.gov/28541229/)
+- **Multi-Task Feature Fusion** — feature-fusion model for cervical cell classification. [![Paper](https://img.shields.io/badge/Paper-JBHI%202022-1f77b4.svg)](https://pubmed.ncbi.nlm.nih.gov/35671309/)
+- **TDCC-Net** — task decomposing and cell comparing for cervical lesion cell detection. [![Paper](https://img.shields.io/badge/Paper-TMI%202022-1f77b4.svg)](https://ieeexplore.ieee.org/document/9744114)
+- **Comparison Detector** — comparison-based detector for cervical cells. [![Paper](https://img.shields.io/badge/Paper-Neurocomputing%202021-1f77b4.svg)](https://www.sciencedirect.com/science/article/abs/pii/S092523122100014X) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/kuku-sichuan/ComparisonDetector)
+- **Robust Cervical Detection** — local-scale consistency distillation for cell detection. [![Paper](https://img.shields.io/badge/Paper-MICCAI%202023-d62728.svg)](https://conferences.miccai.org/2023/papers/552-Paper2082.html) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/feimanman/Cervical-Abnormal-Cell-Detection)
+- **CellGAN** — conditional cervical cell synthesis for data augmentation. [![Paper](https://img.shields.io/badge/Paper-MICCAI%202023-d62728.svg)](https://doi.org/10.1007/978-3-031-43987-2_47) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/ZhenrongShen/CellGAN)
 - **SIPaKMeD** — Pap smear dataset for cervical cell classification. [![Paper](https://img.shields.io/badge/Paper-ICIP%202018-d62728.svg)](https://www.cse.uoi.gr/~cnikou/Publications/C072%20-%20Plissiti%20-%20icip%202018%20-%20Athens.pdf) [![Dataset](https://img.shields.io/badge/Dataset-Kaggle-orange.svg)](https://www.kaggle.com/datasets/marinaeplissiti/sipakmed)
+- **HiCervix** — hierarchical dataset and benchmark for cervical cytology classification. [![Paper](https://img.shields.io/badge/Paper-TMI%202024-1f77b4.svg)](https://pubmed.ncbi.nlm.nih.gov/38923481/) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/Scu-sen/HiCervix)
+- **BMT** — cross-validated ThinPrep Pap dataset. [![Paper](https://img.shields.io/badge/Paper-Sci%20Data%202024-1f77b4.svg)](https://www.nature.com/articles/s41597-024-04328-3)
+- **HMCHH-TCT-CellDet** — large ThinPrep cytologic test dataset. [![Paper](https://img.shields.io/badge/Paper-Sci%20Data%202025-1f77b4.svg)](https://www.nature.com/articles/s41597-025-04374-5) [![Dataset](https://img.shields.io/badge/Dataset-Figshare-orange.svg)](https://springernature.figshare.com/articles/dataset/A_large_annotated_cervical_cytology_images_dataset_for_AI_models_to_aid_cervical_cancer_screening/27901206)
+- **AIATBS** — AI-assisted TBS classification for cervical smears. [![Paper](https://img.shields.io/badge/Paper-Nat%20Commun%202021-1f77b4.svg)](https://www.nature.com/articles/s41467-021-23913-3)
+- **Cervical WSI Screening** — WSI analysis for cervical cancer screening. [![Paper](https://img.shields.io/badge/Paper-Nat%20Commun%202021-1f77b4.svg)](https://www.nature.com/articles/s41467-021-25296-x) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/ShenghuaCheng/Aided-Diagnosis-System-for-Cervical-Cancer-Screening)
+- **Detection-Free Pipeline** — detection-free cervical WSI screening. [![Paper](https://img.shields.io/badge/Paper-MICCAI%202023-d62728.svg)](https://dl.acm.org/doi/10.1007/978-3-031-43987-2_24) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/thebestannie/Detection-free-MICCAI2023)
+- **LESS** — label-efficient multi-scale learning for cytology WSIs. [![Paper](https://img.shields.io/badge/Paper-MedIA%202024-1f77b4.svg)](https://www.sciencedirect.com/science/article/pii/S1361841524000343) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/ubc-tea/LESS-WSI)
+- **STRIDE** — large-scale AI-assisted cervical cytology screening. [![Paper](https://img.shields.io/badge/Paper-arXiv%202024-6A5ACD.svg)](https://arxiv.org/abs/2407.19512)
+- **AICCS** — AI system for cervical cytology screening. [![Paper](https://img.shields.io/badge/Paper-Nat%20Commun%202024-1f77b4.svg)](https://www.nature.com/articles/s41467-024-48705-3) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/cellsvision/AICCS)
+- **Patch-to-Sample Reasoning** — patch-to-sample reasoning for cervical WSI screening. [![Paper](https://img.shields.io/badge/Paper-TAI%202024-1f77b4.svg)](https://www.computer.org/csdl/journal/ai/2024/06/10285382/1Rd2FdKWJHO)
+- **Smart-CCS** — cervical screening with pretraining and test-time adaptation. [![Paper](https://img.shields.io/badge/Paper-arXiv%202025-6A5ACD.svg)](https://arxiv.org/abs/2502.09662) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/hjiangaz/Smart-CCS)
+- **DualCytoNet** — AI-assisted cervical cytology for low-resource settings. [![Paper](https://img.shields.io/badge/Paper-Nat%20Commun%202025-1f77b4.svg)](https://www.nature.com/articles/s41467-025-62589-x)
+- **LBC-DL** — LBC model for cervical precancer and cancer detection. [![Paper](https://img.shields.io/badge/Paper-Nat%20Commun%202025-1f77b4.svg)](https://www.nature.com/articles/s41467-025-58883-3) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/LuZWCHA/LBC_WSI_Classification)
+- **UniCAS** — foundation model for cervical cytology screening. [![Paper](https://img.shields.io/badge/Paper-Cell%20Rep%20Med%202025-1f77b4.svg)](https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791%2825%2900643-3) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/peter-fei/UniCAS)
+- **CellProfiler** — open-source cell image analysis platform. [![Paper](https://img.shields.io/badge/Paper-Nat%20Methods%202012-1f77b4.svg)](https://www.nature.com/articles/nmeth.2083) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/CellProfiler/CellProfiler)
 - **HoVer-Net** — nuclear instance segmentation and classification. [![Paper](https://img.shields.io/badge/Paper-MedIA%202019-1f77b4.svg)](https://www.sciencedirect.com/science/article/pii/S1361841519301045) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/vqdang/hover_net)
 - **MoNuSeg** — multi-organ nucleus segmentation benchmark. [![Paper](https://img.shields.io/badge/Paper-TMI%202019-1f77b4.svg)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10439521/) [![Dataset](https://img.shields.io/badge/Dataset-Grand%20Challenge-orange.svg)](https://monuseg.grand-challenge.org/)
 - **Cellpose** — generalist cellular segmentation model. [![Paper](https://img.shields.io/badge/Paper-Nat%20Methods%202021-1f77b4.svg)](https://www.nature.com/articles/s41592-020-01018-x) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/MouseLand/cellpose)
-- **AIATBS** — AI-assisted TBS classification for cervical smears. [![Paper](https://img.shields.io/badge/Paper-Nat%20Commun%202021-1f77b4.svg)](https://www.nature.com/articles/s41467-021-23913-3)
-- **Cervical WSI Screening** — WSI cervical cytopathology screening. [![Paper](https://img.shields.io/badge/Paper-Nat%20Commun%202021-1f77b4.svg)](https://www.nature.com/articles/s41467-021-25296-x)
 - **Mesmer** — whole-cell and nuclear segmentation for multiplexed images. [![Paper](https://img.shields.io/badge/Paper-Nat%20Biotechnol%202021-1f77b4.svg)](https://www.nature.com/articles/s41587-021-01094-0) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/vanvalenlab/deepcell-tf)
 - **Lizard** — large-scale colonic nuclei dataset. [![Paper](https://img.shields.io/badge/Paper-ICCV%20Workshop%202021-d62728.svg)](https://arxiv.org/abs/2108.11195) [![Dataset](https://img.shields.io/badge/Dataset-Warwick-orange.svg)](https://warwick.ac.uk/fac/cross_fac/tia/data/lizard/)
 - **MoNuSAC** — multi-organ nuclei segmentation and classification challenge. [![Paper](https://img.shields.io/badge/Paper-TMI%202021-1f77b4.svg)](https://ieeexplore.ieee.org/document/9446924) [![Dataset](https://img.shields.io/badge/Dataset-Grand%20Challenge-orange.svg)](https://monusac-2020.grand-challenge.org/)
 - **PanNuke** — pan-cancer nuclei dataset. [![Paper](https://img.shields.io/badge/Paper-ECCV%20Workshop%202021-d62728.svg)](https://arxiv.org/abs/2003.10778) [![Dataset](https://img.shields.io/badge/Dataset-Website-orange.svg)](https://jgamper.github.io/PanNukeDataset/)
-- **Task-Decomposed Cell Detection** — task-decomposed cell detection for cervical lesions. [![Paper](https://img.shields.io/badge/Paper-TMI%202022-1f77b4.svg)](https://ieeexplore.ieee.org/document/9754224)
-- **NuCLS** — crowdsourced nuclei dataset for classification and segmentation. [![Paper](https://img.shields.io/badge/Paper-GigaScience%202022-1f77b4.svg)](https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giac037/6586817) [![Dataset](https://img.shields.io/badge/Dataset-Website-orange.svg)](https://sites.google.com/view/nucls/home)
+- **NuCLS** — crowdsourced nuclei classification and segmentation dataset. [![Paper](https://img.shields.io/badge/Paper-GigaScience%202022-1f77b4.svg)](https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giac037/6586817) [![Dataset](https://img.shields.io/badge/Dataset-Website-orange.svg)](https://sites.google.com/view/nucls/home)
 - **CoNIC** — colon nuclei segmentation and classification challenge. [![Paper](https://img.shields.io/badge/Paper-MedIA%202023-1f77b4.svg)](https://www.sciencedirect.com/science/article/pii/S1361841523003079) [![Dataset](https://img.shields.io/badge/Dataset-Grand%20Challenge-orange.svg)](https://conic-challenge.grand-challenge.org/)
-- **Detection-Free Cervical WSI Screening** — detection-free weakly supervised pipeline. [![Paper](https://img.shields.io/badge/Paper-MICCAI%202023-d62728.svg)](https://dl.acm.org/doi/10.1007/978-3-031-43987-2_24)
-- **AICCS** — AI cervical cytology screening system. [![Paper](https://img.shields.io/badge/Paper-Nat%20Commun%202024-1f77b4.svg)](https://www.nature.com/articles/s41467-024-48705-3)
 - **CellViT** — ViT for nuclei instance segmentation in pathology. [![Paper](https://img.shields.io/badge/Paper-MedIA%202024-1f77b4.svg)](https://www.sciencedirect.com/science/article/pii/S1361841524000689) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/TIO-IKIM/CellViT)
-- **Patch-to-Sample Reasoning** — patch-to-sample reasoning for cervical WSI. [![Paper](https://img.shields.io/badge/Paper-TAI%202024-1f77b4.svg)](https://www.computer.org/csdl/journal/ai/2024/06/10285382/1Rd2FdKWJHO)
-- **ThinPrep Pap Dataset** — cross-validated ThinPrep Pap dataset. [![Paper](https://img.shields.io/badge/Paper-Sci%20Data%202024-1f77b4.svg)](https://www.nature.com/articles/s41597-024-04328-3)
 - **CellViT++** — WSI-scale cell segmentation and classification framework. [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/TIO-IKIM/CellViT-plus-plus)
-- **Cervical TCT Dataset** — large ThinPrep cytologic test dataset. [![Paper](https://img.shields.io/badge/Paper-Sci%20Data%202025-1f77b4.svg)](https://www.nature.com/articles/s41597-025-04374-5)
-- **DualCytoNet** — AI-assisted cervical cytology for low-resource settings. [![Paper](https://img.shields.io/badge/Paper-Nat%20Commun%202025-1f77b4.svg)](https://www.nature.com/articles/s41467-025-62589-x)
-- **LBC-DL** — LBC model for cervical precancer and cancer detection. [![Paper](https://img.shields.io/badge/Paper-Nat%20Commun%202025-1f77b4.svg)](https://www.nature.com/articles/s41467-025-58883-3)
-- **UniCAS** — foundation model for cervical cytology screening. [![Paper](https://img.shields.io/badge/Paper-Cell%20Rep%20Med%202025-1f77b4.svg)](https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791%2825%2900643-3)
+
 ---
 
 
@@ -707,7 +720,7 @@ Special thanks to the supporting teams from **[Tsinghua University](https://www.
     <td align="center" width="160">
       <img src="assets/people/yangbo.png" width="120" height="168" style="object-fit: cover; object-position: center;"><br>
       <div style="line-height: 1.2; font-size: 13px;">
-        <b>Yang Bo</b><br>
+        <b>Bo Yang</b><br>
         Master Student<br>
         Tsinghua
       </div>
